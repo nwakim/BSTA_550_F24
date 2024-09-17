@@ -11,36 +11,13 @@ website:
     foreground: "#fff"
     collapse-below: sm
     right:
+      - schedule.qmd
       - href: syllabus.qmd
         text: Syllabus
-      - schedule1.qmd
-      - href: class_slides.qmd
-        text: Slides
+      - href: instructors.qmd
       - href: homeworks.qmd
         text: Homework
-  sidebar:
-    style: "docked"
-    search: true
-    collapse-level: 4
-    contents:
-      - href: index.qmd
-        text: Home
-      - section: "Course Info"
-        contents:
-          - href: instructors.qmd
-            text: Instructors
-          - href: syllabus.qmd
-            text: Syllabus
-          - schedule1.qmd
-      - section: "Course Materials"
-        contents:
-          - class_slides.qmd
-          - href: homeworks.qmd
-            text: Homework
-          - contents: weeks
-            href: schedule.qmd
-            text: Weekly Pages
-          
+
 execute:
   freeze: auto
 

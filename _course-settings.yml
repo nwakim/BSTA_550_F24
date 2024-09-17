@@ -110,22 +110,4 @@ auto-publish:
   notes-1-release: "Friday, 17:00" # for Tu/Weds notes
   notes-2-release: "Friday, 17:00" # for Thu/Fri notes
 
-instructors:
-  - name: Andrew Bray
-    email: "andrewbray@berkeley.edu"
-    quartopub-name: andrew
-  - name: Iain Carmichael
-    email: "iain@berkeley.edu"
-    quartopub-name: iainc
-  - name: Silas Gifford
-    email: "silascs@berkeley.edu"
-    quartopub-name: silas
-  - name: Jeremy Sanchez
-    email: "jeremysanchez@berkeley.edu"
-    quartopub-name: sanchez
-  - name: Shobhana Stoyanov
-    email: "shobhana@berkeley.edu"
-    quartopub-name: shobhana
-    
-semester: "Fall, 2023"
 
