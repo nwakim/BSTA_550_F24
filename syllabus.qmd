@@ -1,7 +1,6 @@
 ---
 title: "BSTA 550 Syllabus"
-date: "09/12/2023"
-date-modified: "09/12/2023"
+date-modified: "today"
 categories: [""]
 format: 
   html:
