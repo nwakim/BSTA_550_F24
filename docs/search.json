@@ -248,8 +248,8 @@
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#learning-objectives",
     "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#learning-objectives",
     "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
-    "section": "",
-    "text": "Define basic terms related to events such as events, outcomes, and sample space.\nUse proper set notation for events\nCharacterize possible outcomes, when something random occurs\nDescribe events into which outcomes can be grouped\nDefine important terms and rules within set theory such as unions, intersections, complements, mutually exclusive, and De Morgan’s Laws"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDefine basic terms related to events such as events, outcomes, and sample space.\nUse proper set notation for events\nCharacterize possible outcomes, when something random occurs\nDescribe events into which outcomes can be grouped\nDefine important terms and rules within set theory such as unions, intersections, complements, mutually exclusive, and De Morgan’s Laws"
   },
   {
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#coin-toss-example-1-coin-13",
@@ -340,7 +340,7 @@
     "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#remarks-on-de-morgans-laws",
     "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
     "section": "Remarks on De Morgan’s Laws",
-    "text": "Remarks on De Morgan’s Laws\n\nThese laws also hold for infinite collections of events.\n \nDraw Venn diagrams to convince yourself that these are true!\n \nThese laws are very useful when calculating probabilities.\n\nThis is because calculating the probability of the intersection of events is often much easier than the union of events.\nThis is not obvious right now, but we will see in the coming chapters why."
+    "text": "Remarks on De Morgan’s Laws\n\nThese laws also hold for infinite collections of events.\n \nDraw Venn diagrams to convince yourself that these are true!\n \nThese laws are very useful when calculating probabilities.\n\nThis is because calculating the probability of the intersection of events is often much easier than the union of events.\nThis is not obvious right now, but we will see in the coming chapters why.\n\n\n\n\nChapter 1 Slides"
   },
   {
     "objectID": "lessons/25_Joint_densities/25_Joint_densities.html",
