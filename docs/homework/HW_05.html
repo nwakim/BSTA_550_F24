@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-09-28">
-<meta name="description" content="Due: Thursday September 28, 2023">
+<meta name="dcterms.date" content="2023-11-09">
+<meta name="description" content="Due: Thursday November 9, 2023 at 11pm">
 
-<title>Introduction to Probability - Homework 0</title>
+<title>Introduction to Probability - Homework 5</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -62,6 +96,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -117,35 +153,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a>
-  <ul class="collapse">
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
-  </ul></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a>
-  <ul class="collapse">
-  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
-  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
-  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
-  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
-  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
-  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
-  </ul></li>
+  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
+  <li><a href="#non-textbook-problems-ntb" id="toc-non-textbook-problems-ntb" class="nav-link" data-scroll-target="#non-textbook-problems-ntb">Non-textbook problems (NTB)</a></li>
+  <li><a href="#some-select-answers" id="toc-some-select-answers" class="nav-link" data-scroll-target="#some-select-answers">Some select answers</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="HW0.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="HW_05.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Homework 0</h1>
+<h1 class="title">Homework 5</h1>
 <p class="subtitle lead">BSTA 550</p>
 </div>
 
 <div>
   <div class="description">
-    Due: Thursday September 28, 2023
+    Due: Thursday November 9, 2023 at 11pm
   </div>
 </div>
 
@@ -156,14 +181,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 28, 2023</p>
+      <p class="date">November 9, 2023</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 14, 2023</p>
+      <p class="date-modified">November 6, 2023</p>
     </div>
   </div>
     
@@ -172,74 +197,183 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Midterm Survey
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>With this homework, you need to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=V3lz4rj6fk2U9pvWr59xWFMopmPUjRtDiHLswhgacNhUN1NBV1BQQTE2WElPM0RMVkFKNjRRNkhPTS4u">complete the midterm survey</a>. This will help me evaluate how well I am teaching.</p>
+<p>There are 13 total questions. Only one question is required, so if you do not feel strongly or do not have suggestions, don’t feel like you need to answer. I want to hear your opinion! I want to make meaningful changes in the classroom that will help you!&nbsp;</p>
+<p><strong>Don’t forget that this is 2% of your grade. This survey is also due November 9th at 11pm.</strong></p>
+</div>
+</div>
 <section id="directions" class="level2">
 <h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<p><strong>This homework does not need to be turned in on Sakai.</strong></p>
-<section id="purpose" class="level3">
-<h3 class="anchored" data-anchor-id="purpose">Purpose</h3>
-<p>This homework is meant to introduce yourself to me and your peers. In the first class, we will all briefly introduce ourselves, but we don’t have enough time in-depth introductions. Thus, I’d like you to share some information with the class over Slack.</p>
+<p><a href="https://sakai.ohsu.edu/portal/site/BSTA-550-1-12619-F23/tool/085b18e7-8118-4a51-ace5-0255aa46136e">Please turn in this homework on Sakai.</a> Please submit your homework in pdf format. You can type your work on your computer or submit a photo of your written work or any other method that can be turned into a pdf. Please let me know if you greatly prefer to submit a physical copy. We can work out another way for you to turn in homework.</p>
+<p><strong>Try to complete all of the problems listed below at some point this quarter! You may want to save some of them for studying later!</strong> Only turn in the ones listed in the “Turn In” column. Please submit problems in the order they are listed.</p>
+<p>The more work you include that shows your thought process, the more I can give you feedback.</p>
+<div class="center">
+<table class="table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Chapter</th>
+<th style="text-align: center;">Turn In</th>
+<th style="text-align: center;">Extra Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">NTB # 1-2</td>
+<td style="text-align: center;"># 1, 2, 7, 11, 12, 15, 19, 25, 27, NTB # 4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13 (review)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"># 3, 4, 5, 6, 8, 9, 10, 17, 25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"># 3, 7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">NTB # 3</td>
+<td style="text-align: center;"># 1, 5, 11, 18, 23, NTB # 5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">TB # 7</td>
+<td style="text-align: center;"># 3a-g, 8, 11, 21</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">TB # 9</td>
+<td style="text-align: center;"># 3a-g, 6, 11, 12a-c, NTB # 6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">TB # 20</td>
+<td style="text-align: center;"># 1, 24, 26, 27</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">TB # 6</td>
+<td style="text-align: center;"># 1, 18, 19</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"># 2, 3, 4</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="grading" class="level3">
-<h3 class="anchored" data-anchor-id="grading">Grading</h3>
-<p>Grading will be done as a check/no check for turning in your work. If you are stressed about time, please give yourself an extension.</p>
-</section>
-</section>
-<section id="questions" class="level2">
-<h2 class="anchored" data-anchor-id="questions">Questions</h2>
-<section id="question-1" class="level3">
-<h3 class="anchored" data-anchor-id="question-1">Question 1</h3>
-<p>Please upload a picture of yourself <a href="https://join.slack.com/t/bsta550/shared_invite/zt-2qtfo9s8j-j6ozEaYdT7yy1KuHoT9Mhw">to Slack</a>. Please follow the below steps to add a picture of yourself in Slack:</p>
+<section id="non-textbook-problems-ntb" class="level2">
+<h2 class="anchored" data-anchor-id="non-textbook-problems-ntb">Non-textbook problems (NTB)</h2>
 <ol type="1">
-<li>Go to the top right corner in Slack and click your profile picture.</li>
-<li>Click “Profile.”</li>
-<li>In the picture of the clip art person, click “Upload Photo” in top right corner.</li>
-<li>Upload a picture file of yourself.</li>
+<li><p>Prove that for a r.v. <span class="math inline">\(X\)</span> and constants <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>, that <span class="math display">\[\mathrm{Var}[aX+b]=a^2\mathrm{Var}[X].\]</span></p></li>
+<li><p>Let <span class="math inline">\(\bar{X}\)</span> be the random variable for the sample mean, <span class="math inline">\(\bar{X}=\frac{\sum_{i=1}^nX_i}{n}\)</span>, where the <span class="math inline">\(X_i\)</span> are i.i.d. random variables with common mean <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span>.</p>
+<ol type="a">
+<li><p>Find <span class="math inline">\(\mathbb{E}[\bar{X}]\)</span>.</p></li>
+<li><p>Find <span class="math inline">\(Var[\bar{X}]\)</span>.</p></li>
+</ol></li>
+<li><p>Let <span class="math inline">\(X_i\sim\)</span> Binomial(<span class="math inline">\(n_i,p\)</span>) be independent r.v.’s for <span class="math inline">\(i=1,\ldots,m\)</span>.</p>
+<ol type="a">
+<li><p>What does the r.v. <span class="math inline">\(X=\sum_{i=1}^mX_i\)</span> count, and what is the distribution of <span class="math inline">\(X\)</span>? Make sure to specify the parameters of <span class="math inline">\(X\)</span>’s distribution.</p></li>
+<li><p>Find <span class="math inline">\(\mathbb{E}[X]\)</span>. <em>Make sure to show your work for (b) and (c). However, you may use without proof what you know about the mean and variance of each</em> <span class="math inline">\(X_i\)</span>.</p></li>
+<li><p>Find <span class="math inline">\(Var[X]\)</span>.</p>
+<hr>
+<h4 id="extra-problems" class="anchored">Extra Problems</h4></li>
+</ol></li>
+<li><p>Let <span class="math inline">\(\hat{p}\)</span> be the random variable for the sample proportion, <span class="math inline">\(\hat{p}=\frac{X}{n}\)</span>, where <span class="math inline">\(X\)</span> is the number of successes in a random sample of size <span class="math inline">\(n\)</span>. Assume the probability of success is <span class="math inline">\(p\)</span>.</p>
+<ol type="a">
+<li><p>Find <span class="math inline">\(\mathbb{E}[\hat{p}]\)</span>.</p></li>
+<li><p>Find <span class="math inline">\(Var[\hat{p}]\)</span>.</p></li>
+</ol></li>
+<li><p>Read the Washington Post article <em>The amazing woman who can smell Parkinson’s disease - before symptoms appear</em> (<a href="http://www.washingtonpost.com/news/morning-mix/wp/2015/10/23/scottish-woman-detects-a-musky-smell-that-could-radically-improve-how-parkinsons-disease-is-diagnosed/" class="uri">http://www.washingtonpost.com/news/morning-mix/wp/2015/10/23/scottish-woman-detects-a-musky-smell-that-could-radically-improve-how-parkinsons-disease-is-diagnosed/</a>)</p>
+<p>Assuming Joy Milne does not have the ability to detect Parkinson’s disease via smell, answer the following questions:</p>
+<ol type="a">
+<li><p>What is the probability of her correctly detecting Parkinson’s by smelling one t-shirt?</p></li>
+<li><p>What is the probability of her correctly detecting Parkinson’s in 12 out of 12 t-shirts?</p></li>
+</ol></li>
+<li><p>Let <span class="math inline">\(X_i\sim\)</span> Negative Binomial(<span class="math inline">\(r_i,p\)</span>) be independent r.v.’s for <span class="math inline">\(i=1,\ldots,m\)</span>.</p>
+<ol type="a">
+<li><p>What does the r.v. <span class="math inline">\(X=\sum_{i=1}^mX_i\)</span> count, and what is the distribution of <span class="math inline">\(X\)</span>? Make sure to specify the parameters of <span class="math inline">\(X\)</span>’s distribution.</p></li>
+<li><p>Find <span class="math inline">\(\mathbb{E}[X]\)</span>. <em>Make sure to show your work for (b) and (c). However, you may use without proof what you know about the mean and variance of each</em> <span class="math inline">\(X_i\)</span>.</p></li>
+<li><p>Find <span class="math inline">\(Var[X]\)</span>.</p></li>
+</ol></li>
 </ol>
 </section>
-<section id="question-2" class="level3">
-<h3 class="anchored" data-anchor-id="question-2">Question 2</h3>
-<p>Provide a pronunciation of your name: Please follow the below steps to add an audio and written pronunciation of your name in Slack:</p>
-<ol type="1">
-<li>Go to the top right corner in Slack and click your profile picture.</li>
-<li>Click “Profile.”</li>
-<li>To the right of your name, click “Edit.”</li>
-<li>Under “Name Recording,” click “Record Audio Clip.”</li>
-<li>Please say your name once at a normal pace then once slowly. Please listen to my audio for an example.</li>
-<li>You may also edit the written pronunciation of your name. This is optional! I realize that doing this is may require a lot of time researching phonetics.</li>
-</ol>
-</section>
-<section id="question-3" class="level3">
-<h3 class="anchored" data-anchor-id="question-3">Question 3</h3>
-<p>Please complete the <a href="https://whenisgood.net/53kgg2b">following whenisgood poll</a> so that we can schedule office hours. Please use a unique identifier (does not have to be your name), so that I can make sure each student can attend at least one office hour.</p>
-</section>
-<section id="question-4" class="level3">
-<h3 class="anchored" data-anchor-id="question-4">Question 4</h3>
-<p>Completion of this question is optional. If you are comfortable sharing your pronouns, please edit your name in Slack to include them. For example, I have changed my name to be “Nicky Wakim (she/her)”. If you prefer to not share your pronouns, then I will refer to you using they/them pronouns.</p>
-</section>
-<section id="question-5" class="level3">
-<h3 class="anchored" data-anchor-id="question-5">Question 5</h3>
-<p>Please post an introduction in the <code>#random</code> channel on Slack. You <strong><em>do not need</em></strong> to include all of the below items, but your introduction <strong><em>may</em></strong> include information like:</p>
+<section id="some-select-answers" class="level2">
+<h2 class="anchored" data-anchor-id="some-select-answers">Some select answers</h2>
+<p>Selected answers (or hints) not provided at the end the book:</p>
 <ul>
-<li>Preferred name</li>
-<li>Pronouns</li>
-<li>Are you new to Portland?</li>
-<li>Career interests</li>
-<li>Hobbies</li>
-<li>Family, children, and/or fur babies</li>
-<li>Favorite/recent adventures, restaurants, TV shows, books, podcasts, games, etc.</li>
-<li>Willingness to join a study group</li>
-<li>Anticipated Fall trip/activity</li>
-<li>Any resolutions/vibes/outlooks that you are thinking about as we start the new academic year/quarter</li>
+<li><p>Chapter 12</p>
+<ul>
+<li><p># 2:&nbsp;&nbsp;64.8</p></li>
+<li><p># 12:&nbsp;&nbsp;1,096,357</p></li>
+</ul></li>
+<li><p>Chapter 13</p>
+<ul>
+<li><p># 4:&nbsp;&nbsp;(a) 260/9 &nbsp;&nbsp;&nbsp;&nbsp;(b) 2.833 &nbsp;&nbsp;&nbsp;&nbsp;(c) <span class="math inline">\(2.679\times 10^{-5}\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(d) Same idea as (c) Replace 10’s with 100. &nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+<li><p># 6:&nbsp;&nbsp;(a) <span class="math inline">\(p_X(x)=\binom{4}{x}.3^x .7^{4-x}\)</span>, for <span class="math inline">\(x=0,1,\ldots,4\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(d) 0.3483 &nbsp;&nbsp;&nbsp;&nbsp;(e) 0.9163 &nbsp;&nbsp;&nbsp;&nbsp;(f) 0.0233 &nbsp;&nbsp;&nbsp;&nbsp;(g) 1</p></li>
+<li><p># 8:&nbsp;&nbsp;(a) T &nbsp;&nbsp;&nbsp;&nbsp;(b) F &nbsp;&nbsp;&nbsp;&nbsp;(c) F &nbsp;&nbsp;&nbsp;&nbsp;(d) F &nbsp;&nbsp;&nbsp;&nbsp;(e) T &nbsp;&nbsp;&nbsp;&nbsp;(f) T&nbsp;&nbsp;&nbsp;&nbsp;(g) T</p></li>
+<li><p># 10:&nbsp;&nbsp;(a) T &nbsp;&nbsp;&nbsp;&nbsp;(b) T&nbsp;&nbsp;&nbsp;&nbsp;(c) F &nbsp;&nbsp;&nbsp;&nbsp;(d) T&nbsp;&nbsp;&nbsp;&nbsp;(e) T &nbsp;&nbsp;&nbsp;&nbsp;(f) F&nbsp;&nbsp;&nbsp;&nbsp;(g) T &nbsp;&nbsp;&nbsp;&nbsp;(h) T (nonnegative instead of positive) &nbsp;&nbsp;&nbsp;&nbsp;(i) F</p></li>
+</ul></li>
+<li><p>Chapter 15</p>
+<ul>
+<li># 18&nbsp;&nbsp;(a) Bin(21,0.65) &nbsp;&nbsp;&nbsp;&nbsp;(b) 4.78 &nbsp;&nbsp;&nbsp;&nbsp;</li>
+</ul></li>
+<li><p>Chapter 16</p>
+<ul>
+<li># 8&nbsp;&nbsp;(a) 14.28 &nbsp;&nbsp;&nbsp;&nbsp; (b) code below &nbsp;&nbsp;&nbsp;&nbsp;(c) <span class="math inline">\(1.03\times 10^{-6}\)</span>&nbsp;&nbsp;&nbsp;&nbsp;(d) 10 questions: 91.43 minutes&nbsp;&nbsp;&nbsp;&nbsp;</li>
 </ul>
-<p>Please feel free to get creative with what you share! You don’t need to adhere to this list!</p>
-</section>
-<section id="question-6" class="level3">
-<h3 class="anchored" data-anchor-id="question-6">Question 6</h3>
-<p>Completion of this question is only necessary if you have accommodations. If you have any learning accommodations, please email me about your needs. I should receive a direct email from the Office of Student Access, but it is important that we discuss how accommodations will translate to our class. If you plan to seek accomodations, but do not have the formal document yet, please let me know!</p>
-<p>I highly suggest that you make an appointment with a learning specialist through <a href="https://sakai.ohsu.edu/portal/site/Student_Support">Student Academic Support Services</a>! If you often need more time on a test, struggle to focus in class, or noticed a difference between your learning style and typical styles offered in school, <strong>talk to academic support services and see if you qualify for accommodations!</strong> Most professors should be working towards an inclusive classroom, but this is the best way to insure you get the learning environment you need!</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">-</span><span class="fu">pgeom</span>(<span class="at">q =</span> <span class="dv">18</span>, <span class="at">prob =</span> <span class="fl">0.07</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.2518698</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">## OR</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">pgeom</span>(<span class="at">q =</span> <span class="dv">18</span>, <span class="at">prob =</span> <span class="fl">0.07</span>, <span class="at">lower.tail =</span> F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.2518698</code></pre>
+</div>
+</div></li>
+<li><p>Chapter 17</p>
+<ul>
+<li><p># 6 &nbsp;&nbsp;(a) 400, 87.18 &nbsp;&nbsp;&nbsp;&nbsp;(b) No &nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+<li><p># 12 &nbsp;&nbsp;(c) 0.8000</p></li>
+</ul></li>
+<li><p>Chapter 18</p>
+<ul>
+<li><p># 24&nbsp;&nbsp;(c) 0.8571</p></li>
+<li><p># 26&nbsp;&nbsp;162,754.8</p></li>
+</ul></li>
+<li><p>Chapter 19</p>
+<ul>
+<li><p># 6:&nbsp;&nbsp;(c) 15.625 &nbsp;&nbsp;&nbsp;&nbsp;(d) 0.0486 &nbsp;&nbsp;&nbsp;&nbsp;(f) 0.0488</p></li>
+<li><p># 18: &nbsp;&nbsp;100</p></li>
+</ul></li>
+<li><p>Chapter 20</p>
+<ul>
+<li># 2:&nbsp;&nbsp;(a) 0.0001 &nbsp;&nbsp;&nbsp;&nbsp;(b) Discrete since <span class="math inline">\(X\)</span> has a finite number of possible values. Uniform since each outcome is equally likely. &nbsp;&nbsp;&nbsp;&nbsp;(c) <span class="math inline">\(X\)</span> = randomly selected 4-digit ID#; <span class="math inline">\(X=0000,0001,\ldots,9999\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(d) 5000.5 &nbsp;&nbsp;&nbsp;&nbsp;(e) 8,333,333.25</li>
+</ul></li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

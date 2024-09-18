@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-09-28">
+<meta name="description" content="Due: Thursday September 28, 2023">
 
-<title>Introduction to Probability - Instructor: Nicole (Nicky) Wakim, PhD</title>
+<title>Introduction to Probability - Homework 0</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-sm navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/bsta_550_hex_3.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/bsta_550_hex_3.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Introduction to Probability</span>
     </a>
   </div>
@@ -84,19 +86,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html" rel="" target="">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html" rel="" target="">
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./instructors.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../instructors.html" rel="" target="">
  <span class="menu-text">Instructor</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./homeworks.html" rel="" target="">
+    <a class="nav-link" href="../homeworks.html" rel="" target="">
  <span class="menu-text">Homework</span></a>
   </li>  
 </ul>
@@ -115,60 +117,129 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#office-hours" id="toc-office-hours" class="nav-link active" data-scroll-target="#office-hours">Office Hours</a></li>
+  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a>
+  <ul class="collapse">
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  </ul></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a>
+  <ul class="collapse">
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
+  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="HW_00.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Instructor: Nicole (Nicky) Wakim, PhD</h1>
+<h1 class="title">Homework 0</h1>
+<p class="subtitle lead">BSTA 550</p>
 </div>
 
+<div>
+  <div class="description">
+    Due: Thursday September 28, 2023
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 28, 2023</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">September 14, 2023</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<div class="columns">
-<div class="column" style="width:68%;">
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<p><strong>This homework does not need to be turned in on Sakai.</strong></p>
+<section id="purpose" class="level3">
+<h3 class="anchored" data-anchor-id="purpose">Purpose</h3>
+<p>This homework is meant to introduce yourself to me and your peers. In the first class, we will all briefly introduce ourselves, but we don’t have enough time in-depth introductions. Thus, I’d like you to share some information with the class over Slack.</p>
+</section>
+<section id="grading" class="level3">
+<h3 class="anchored" data-anchor-id="grading">Grading</h3>
+<p>Grading will be done as a check/no check for turning in your work. If you are stressed about time, please give yourself an extension.</p>
+</section>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<section id="question-1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1">Question 1</h3>
+<p>Please upload a picture of yourself <a href="https://join.slack.com/t/bsta550/shared_invite/zt-2qtfo9s8j-j6ozEaYdT7yy1KuHoT9Mhw">to Slack</a>. Please follow the below steps to add a picture of yourself in Slack:</p>
+<ol type="1">
+<li>Go to the top right corner in Slack and click your profile picture.</li>
+<li>Click “Profile.”</li>
+<li>In the picture of the clip art person, click “Upload Photo” in top right corner.</li>
+<li>Upload a picture file of yourself.</li>
+</ol>
+</section>
+<section id="question-2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2">Question 2</h3>
+<p>Provide a pronunciation of your name: Please follow the below steps to add an audio and written pronunciation of your name in Slack:</p>
+<ol type="1">
+<li>Go to the top right corner in Slack and click your profile picture.</li>
+<li>Click “Profile.”</li>
+<li>To the right of your name, click “Edit.”</li>
+<li>Under “Name Recording,” click “Record Audio Clip.”</li>
+<li>Please say your name once at a normal pace then once slowly. Please listen to my audio for an example.</li>
+<li>You may also edit the written pronunciation of your name. This is optional! I realize that doing this is may require a lot of time researching phonetics.</li>
+</ol>
+</section>
+<section id="question-3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3">Question 3</h3>
+<p>Please complete the <a href="https://whenisgood.net/53kgg2b">following whenisgood poll</a> so that we can schedule office hours. Please use a unique identifier (does not have to be your name), so that I can make sure each student can attend at least one office hour.</p>
+</section>
+<section id="question-4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4">Question 4</h3>
+<p>Completion of this question is optional. If you are comfortable sharing your pronouns, please edit your name in Slack to include them. For example, I have changed my name to be “Nicky Wakim (she/her)”. If you prefer to not share your pronouns, then I will refer to you using they/them pronouns.</p>
+</section>
+<section id="question-5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5">Question 5</h3>
+<p>Please post an introduction in the <code>#random</code> channel on Slack. You <strong><em>do not need</em></strong> to include all of the below items, but your introduction <strong><em>may</em></strong> include information like:</p>
 <ul>
-<li><p><strong>Email:</strong> <a href="mailto:wakim@ohsu.edu">wakim@ohsu.edu</a></p></li>
-<li><p><strong>Office:</strong> VPT 622A</p></li>
+<li>Preferred name</li>
+<li>Pronouns</li>
+<li>Are you new to Portland?</li>
+<li>Career interests</li>
+<li>Hobbies</li>
+<li>Family, children, and/or fur babies</li>
+<li>Favorite/recent adventures, restaurants, TV shows, books, podcasts, games, etc.</li>
+<li>Willingness to join a study group</li>
+<li>Anticipated Fall trip/activity</li>
+<li>Any resolutions/vibes/outlooks that you are thinking about as we start the new academic year/quarter</li>
 </ul>
-<p><strong>Pronouns:</strong> she/her/hers</p>
-<p><em>You are welcome to address me as Nicky (pronounced “nik-EE”), Dr.&nbsp;Wakim (pronounced “wah-KEEM”), Dr.&nbsp;W, Dr.&nbsp;Nicky, Professor, Professor Wakim, or any combination of the prior.</em></p>
-<p><strong>Best method to contact:</strong> Office hours or Slack for general course questions or E-mail/Calendly appointments for private communication.</p>
-</div><div class="column" style="width:2%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="images/N_Wakim.jpg" class="img-fluid figure-img" width="256"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Brief professor statement:</strong> As a professor, my main goal is to instill a growth mindset into my students. Growth mindset means we are NOT stuck in our abilities or knowledge, and that we all can and will grow! This course aims to be as transparent as possible. I want you to understand my motivation for assessments, questions, and lessons. I also want those assessments to be clear, so please ask for clarification whenever needed.</p>
-<section id="office-hours" class="level3">
-<h3 class="anchored" data-anchor-id="office-hours">Office Hours</h3>
-<p><a href="https://ohsu.webex.com/meet/wakim">Link to Webex!!</a></p>
-<p>TBD</p>
-<p>Known exceptions:</p>
-<ul>
-<li>Cancelled:</li>
-</ul>
+<p>Please feel free to get creative with what you share! You don’t need to adhere to this list!</p>
+</section>
+<section id="question-6" class="level3">
+<h3 class="anchored" data-anchor-id="question-6">Question 6</h3>
+<p>Completion of this question is only necessary if you have accommodations. If you have any learning accommodations, please email me about your needs. I should receive a direct email from the Office of Student Access, but it is important that we discuss how accommodations will translate to our class. If you plan to seek accomodations, but do not have the formal document yet, please let me know!</p>
+<p>I highly suggest that you make an appointment with a learning specialist through <a href="https://sakai.ohsu.edu/portal/site/Student_Support">Student Academic Support Services</a>! If you often need more time on a test, struggle to focus in class, or noticed a difference between your learning style and typical styles offered in school, <strong>talk to academic support services and see if you qualify for accommodations!</strong> Most professors should be working towards an inclusive classroom, but this is the best way to insure you get the learning environment you need!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -403,6 +474,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

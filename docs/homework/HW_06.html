@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-11-16">
+<meta name="description" content="Due: Thursday November 16, 2023 at 11pm">
 
-<title>Introduction to Probability - Instructor: Nicole (Nicky) Wakim, PhD</title>
+<title>Introduction to Probability - Homework 6</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,6 +62,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -70,10 +74,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-sm navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/bsta_550_hex_3.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/bsta_550_hex_3.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Introduction to Probability</span>
     </a>
   </div>
@@ -84,19 +88,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html" rel="" target="">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html" rel="" target="">
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./instructors.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../instructors.html" rel="" target="">
  <span class="menu-text">Instructor</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./homeworks.html" rel="" target="">
+    <a class="nav-link" href="../homeworks.html" rel="" target="">
  <span class="menu-text">Homework</span></a>
   </li>  
 </ul>
@@ -115,57 +119,160 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#office-hours" id="toc-office-hours" class="nav-link active" data-scroll-target="#office-hours">Office Hours</a></li>
+  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
+  <li><a href="#non-textbook-problems-ntb" id="toc-non-textbook-problems-ntb" class="nav-link" data-scroll-target="#non-textbook-problems-ntb">Non-textbook problems (NTB)</a></li>
+  <li><a href="#some-select-answers" id="toc-some-select-answers" class="nav-link" data-scroll-target="#some-select-answers">Some select answers</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="HW_06.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Instructor: Nicole (Nicky) Wakim, PhD</h1>
+<h1 class="title">Homework 6</h1>
+<p class="subtitle lead">BSTA 550</p>
 </div>
 
+<div>
+  <div class="description">
+    Due: Thursday November 16, 2023 at 11pm
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 16, 2023</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">November 6, 2023</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<div class="columns">
-<div class="column" style="width:68%;">
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+HW 6 Due Date
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can turn in the homework any time through Sunday, November 19th.</p>
+</div>
+</div>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<p><a href="https://sakai.ohsu.edu/portal/site/BSTA-550-1-12619-F23/tool/085b18e7-8118-4a51-ace5-0255aa46136e">Please turn in this homework on Sakai.</a> Please submit your homework in pdf format. You can type your work on your computer or submit a photo of your written work or any other method that can be turned into a pdf. Please let me know if you greatly prefer to submit a physical copy. We can work out another way for you to turn in homework.</p>
+<p><strong>Try to complete all of the problems listed below at some point this quarter! You may want to save some of them for studying later!</strong> Only turn in the ones listed in the “Turn In” column. Please submit problems in the order they are listed.</p>
+<p>The more work you include that shows your thought process, the more I can give you feedback.</p>
+<div class="center">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Chapter</th>
+<th style="text-align: center;">Turn In</th>
+<th style="text-align: center;">Extra Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Calculus Review</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">NTB # 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">TB # 19, 20*</td>
+<td style="text-align: center;"># 2, 3, 7, 17, 18, 22, 23</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>*Also find the cdf <span class="math inline">\(F_X(x)\)</span></p>
+</section>
+<section id="non-textbook-problems-ntb" class="level2">
+<h2 class="anchored" data-anchor-id="non-textbook-problems-ntb">Non-textbook problems (NTB)</h2>
+<ol type="1">
+<li><p>Calculus Review</p>
+<ol type="a">
+<li><span class="math display">\[\int_0^yc(x+y)dx\]</span></li>
+<li><span class="math display">\[\frac{d}{dx}\bigg(\frac{4}{9}x^2y^2+\frac{5}{9}xy^4\bigg)\]</span></li>
+<li><span class="math display">\[\frac{d}{dy}\bigg(\frac{4}{9}x^2y^2+\frac{5}{9}xy^4\bigg)\]</span></li>
+<li><span class="math display">\[\int_0^y2e^{-x}e^{-y}dx\]</span></li>
+<li><span class="math display">\[\int_0^\infty xye^{-(x+y)}dy\]</span></li>
+<li><span class="math display">\[\int_x^{2x} 2e^{-(x+3y)}dy\]</span></li>
+<li>Find the area of the region bounded by the graphs of <span class="math inline">\(f(x)=2-x^2\)</span> and <span class="math inline">\(g(x)=x\)</span> by integrating with respect to <span class="math inline">\(x\)</span>.</li>
+<li>Find the area of the region bounded by the graphs of <span class="math inline">\(f(x)=2-x^2\)</span> and <span class="math inline">\(g(x)=x\)</span> by integrating with respect to <span class="math inline">\(y\)</span>.</li>
+<li>Find the area of the region bounded by the graphs of <span class="math inline">\(x=3-y^2\)</span> and <span class="math inline">\(y=x-1\)</span> by integrating with respect to <span class="math inline">\(x\)</span>.</li>
+<li>Find the area of the region bounded by the graphs of <span class="math inline">\(x=3-y^2\)</span> and <span class="math inline">\(y=x-1\)</span> by integrating with respect to <span class="math inline">\(y\)</span>.</li>
+</ol></li>
+</ol>
+</section>
+<section id="some-select-answers" class="level2">
+<h2 class="anchored" data-anchor-id="some-select-answers">Some select answers</h2>
+<p>Selected answers (or hints) not provided at the end the book:</p>
 <ul>
-<li><p><strong>Email:</strong> <a href="mailto:wakim@ohsu.edu">wakim@ohsu.edu</a></p></li>
-<li><p><strong>Office:</strong> VPT 622A</p></li>
-</ul>
-<p><strong>Pronouns:</strong> she/her/hers</p>
-<p><em>You are welcome to address me as Nicky (pronounced “nik-EE”), Dr.&nbsp;Wakim (pronounced “wah-KEEM”), Dr.&nbsp;W, Dr.&nbsp;Nicky, Professor, Professor Wakim, or any combination of the prior.</em></p>
-<p><strong>Best method to contact:</strong> Office hours or Slack for general course questions or E-mail/Calendly appointments for private communication.</p>
-</div><div class="column" style="width:2%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="images/N_Wakim.jpg" class="img-fluid figure-img" width="256"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Brief professor statement:</strong> As a professor, my main goal is to instill a growth mindset into my students. Growth mindset means we are NOT stuck in our abilities or knowledge, and that we all can and will grow! This course aims to be as transparent as possible. I want you to understand my motivation for assessments, questions, and lessons. I also want those assessments to be clear, so please ask for clarification whenever needed.</p>
-<section id="office-hours" class="level3">
-<h3 class="anchored" data-anchor-id="office-hours">Office Hours</h3>
-<p><a href="https://ohsu.webex.com/meet/wakim">Link to Webex!!</a></p>
-<p>TBD</p>
-<p>Known exceptions:</p>
+<li><p>Calculus Review</p>
 <ul>
-<li>Cancelled:</li>
+<li><p>(a)&nbsp;&nbsp;<span class="math inline">\(c(\frac{y^{2}}{2}+y^{2})\)</span></p></li>
+<li><p>(b)&nbsp;&nbsp;<span class="math inline">\(\frac{8}{9}xy^{2}+\frac{5}{9}y^{4}\)</span></p></li>
+<li><p>(c)&nbsp;&nbsp;<span class="math inline">\(\frac{8}{9}x^{2}y+\frac{20}{9}xy^{3}\)</span></p></li>
+<li><p>(d)&nbsp;&nbsp;<span class="math inline">\(-2e^{-2y}+2e^{-y}\)</span></p></li>
+<li><p>(e)&nbsp;&nbsp;<span class="math inline">\(xe^{-x}\)</span></p></li>
+<li><p>(f)&nbsp;&nbsp;<span class="math inline">\(-\frac{2}{3}(e^{-7x}-e^{-4x})\)</span></p></li>
+<li><p>(g)&nbsp;&nbsp;<span class="math inline">\(\frac{9}{2}\)</span></p></li>
+<li><p>(h)&nbsp;&nbsp;<span class="math inline">\(\frac{9}{2}\)</span></p></li>
+<li><p>(i)&nbsp;&nbsp;<span class="math inline">\(\frac{9}{2}\)</span></p></li>
+<li><p>(j)&nbsp;&nbsp;<span class="math inline">\(\frac{9}{2}\)</span></p></li>
+</ul></li>
+<li><p>Chapter 24</p>
+<ul>
+<li><p># 2: (a) Discrete &nbsp;&nbsp;&nbsp;&nbsp;(b) Discrete &nbsp;&nbsp;&nbsp;&nbsp;(c) Continuous</p></li>
+<li><p># 22: <span class="math display">\[f_X(x) = \left\{
+        \begin{array}{ll}
+            0 &amp; \quad x &lt;0 \\
+            \frac{7x}{4} &amp; \quad 0\leq x\leq 1 \\
+            0 &amp; \quad 1&lt; x&lt; 7 \\
+            \frac{1}{8} &amp; \quad 7\leq x\leq 8 \\
+            0 &amp; \quad  x&gt;8 \\
+        \end{array}
+    \right.\]</span></p></li>
+</ul></li>
+<li><p>Chapter 25</p>
+<ul>
+<li><p># 4: &nbsp;&nbsp;7/16</p></li>
+<li><p># 8:&nbsp;&nbsp;(a) <span class="math inline">\(\frac{25}{228}\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(b) <span class="math inline">\(f_X(x)=\frac{1}{12}(x+1)\)</span>, for <span class="math inline">\(0\leq x\leq 4\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(c) <span class="math inline">\(f_Y(y)=\frac{3}{76}(y^2+1)\)</span>, for <span class="math inline">\(0\leq y\leq 4\)</span></p></li>
+<li><p># 18:&nbsp;&nbsp;5/6</p></li>
+<li><p># 24:&nbsp;&nbsp;(a) <span class="math inline">\(f_X(x)=-2e^{-2x}+2e^{-x}\)</span>, for <span class="math inline">\(x\geq 0\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(b) <span class="math inline">\(f_Y(y)=2e^{-2y}\)</span>, for <span class="math inline">\(y\geq 0\)</span></p></li>
+</ul></li>
+<li><p>Chapter 26</p>
+<ul>
+<li><p># 12:&nbsp;&nbsp;(b) <span class="math inline">\(\frac{233}{256}\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(c) <span class="math inline">\(\frac{65}{256}\)</span> &nbsp;&nbsp;&nbsp;&nbsp;(d) <span class="math inline">\(\frac{1}{512}\)</span></p></li>
+<li><p># 20:&nbsp;&nbsp;(a) Yes. &nbsp;&nbsp;&nbsp;&nbsp;(b) <span class="math inline">\(\frac{15}{16}\)</span></p></li>
+<li><p>NTB # 3: (b) 0.09999546 &nbsp;&nbsp;(d) <span class="math inline">\(f_Z(z) =\Big(\frac{11}{5} - \frac{2z}{5}\Big)e^{-2z}\)</span>, for what values of <span class="math inline">\(z\)</span>?</p></li>
+</ul></li>
+<li><p>Chapter 27</p>
+<ul>
+<li><p># 6: <span class="math inline">\(f_{X|Y}(x|y)=\frac{e^{-x/4-y/5}}{4(e^{-y/5}-e^{-9y/20})}\)</span>, for <span class="math inline">\(0&lt; x&lt; y\)</span></p></li>
+<li><p># 8: <span class="math inline">\(f_{X|Y}(x|y)=\frac{1-x^2}{1-y-\frac{(1-y)^3}{3}}\)</span>, for <span class="math inline">\(0\leq x, 0\leq y, x+y\leq 1\)</span></p></li>
+<li><p># 12: (a) <span class="math inline">\(f_{X|Y}(x|y)=\frac{1}{2}\)</span> &nbsp;&nbsp;&nbsp;(c) <span class="math inline">\(\frac{4}{7}\)</span></p></li>
+</ul></li>
 </ul>
 
 
@@ -403,6 +510,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

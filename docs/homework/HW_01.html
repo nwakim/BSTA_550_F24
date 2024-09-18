@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-10-05">
+<meta name="description" content="Due: Thursday October 5, 2023">
 
-<title>Introduction to Probability - Instructor: Nicole (Nicky) Wakim, PhD</title>
+<title>Introduction to Probability - Homework 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,6 +62,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -70,10 +74,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-sm navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/bsta_550_hex_3.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/bsta_550_hex_3.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Introduction to Probability</span>
     </a>
   </div>
@@ -84,19 +88,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html" rel="" target="">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html" rel="" target="">
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./instructors.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../instructors.html" rel="" target="">
  <span class="menu-text">Instructor</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./homeworks.html" rel="" target="">
+    <a class="nav-link" href="../homeworks.html" rel="" target="">
  <span class="menu-text">Homework</span></a>
   </li>  
 </ul>
@@ -115,57 +119,118 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#office-hours" id="toc-office-hours" class="nav-link active" data-scroll-target="#office-hours">Office Hours</a></li>
+  <li><a href="#directions" id="toc-directions" class="nav-link active" data-scroll-target="#directions">Directions</a></li>
+  <li><a href="#non-textbook-problems-ntb" id="toc-non-textbook-problems-ntb" class="nav-link" data-scroll-target="#non-textbook-problems-ntb">Non-textbook problems (NTB)</a></li>
+  <li><a href="#some-select-answers" id="toc-some-select-answers" class="nav-link" data-scroll-target="#some-select-answers">Some select answers</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="HW_01.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Instructor: Nicole (Nicky) Wakim, PhD</h1>
+<h1 class="title">Homework 1</h1>
+<p class="subtitle lead">BSTA 550</p>
 </div>
 
+<div>
+  <div class="description">
+    Due: Thursday October 5, 2023
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 5, 2023</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">September 28, 2023</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<div class="columns">
-<div class="column" style="width:68%;">
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<p><a href="https://sakai.ohsu.edu/portal/site/BSTA-550-1-12619-F23/tool/085b18e7-8118-4a51-ace5-0255aa46136e?panel=Main">Please turn in this homework on Sakai.</a> Please submit your homework in pdf format. You can type your work on your computer or submit a photo of your written work or any other method that can be turned into a pdf. Please let me know if you greatly prefer to submit a physical copy. We can work out another way for you to turn in homework.</p>
+<p>Complete all of the problems listed below. Only turn in the ones listed in the “Turn In” column. Please submit problems in the order they are listed.</p>
+<p><em>You must show all of your work to receive credit.</em></p>
+<div class="center">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Chapter</th>
+<th style="text-align: center;">Turn In</th>
+<th style="text-align: center;">Extra Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"># 3, 7, 9, 11</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">NTB # 1, TB # 30</td>
+<td style="text-align: center;"># 1, 4, 8, 16, 19, 23</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="non-textbook-problems-ntb" class="level2">
+<h2 class="anchored" data-anchor-id="non-textbook-problems-ntb">Non-textbook problems (NTB)</h2>
+<ol type="1">
+<li><p>Suppose the following are the percentage of US adults with the following conditions:</p>
 <ul>
-<li><p><strong>Email:</strong> <a href="mailto:wakim@ohsu.edu">wakim@ohsu.edu</a></p></li>
-<li><p><strong>Office:</strong> VPT 622A</p></li>
+<li><p><span class="math inline">\(A\)</span>: Hypertension 33%</p></li>
+<li><p><span class="math inline">\(B\)</span>: Diabetes 9%</p></li>
+<li><p><span class="math inline">\(C\)</span>: Metabolic syndrome 24%</p></li>
+<li><p><span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>: 39%</p></li>
+<li><p><span class="math inline">\(A\)</span> or <span class="math inline">\(C\)</span>: 45%</p></li>
+<li><p><span class="math inline">\(B\)</span> or <span class="math inline">\(C\)</span>: 28%</p></li>
+<li><p><span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span> or <span class="math inline">\(C\)</span>: 48%</p></li>
 </ul>
-<p><strong>Pronouns:</strong> she/her/hers</p>
-<p><em>You are welcome to address me as Nicky (pronounced “nik-EE”), Dr.&nbsp;Wakim (pronounced “wah-KEEM”), Dr.&nbsp;W, Dr.&nbsp;Nicky, Professor, Professor Wakim, or any combination of the prior.</em></p>
-<p><strong>Best method to contact:</strong> Office hours or Slack for general course questions or E-mail/Calendly appointments for private communication.</p>
-</div><div class="column" style="width:2%;">
-
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="images/N_Wakim.jpg" class="img-fluid figure-img" width="256"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Brief professor statement:</strong> As a professor, my main goal is to instill a growth mindset into my students. Growth mindset means we are NOT stuck in our abilities or knowledge, and that we all can and will grow! This course aims to be as transparent as possible. I want you to understand my motivation for assessments, questions, and lessons. I also want those assessments to be clear, so please ask for clarification whenever needed.</p>
-<section id="office-hours" class="level3">
-<h3 class="anchored" data-anchor-id="office-hours">Office Hours</h3>
-<p><a href="https://ohsu.webex.com/meet/wakim">Link to Webex!!</a></p>
-<p>TBD</p>
-<p>Known exceptions:</p>
+<ol type="a">
+<li>Make a Venn diagram of the 3 conditions labeling the percentage (or probability) for <em>ALL</em> of the 8 “sections”. <em>Hint: Start from the last condition and work your way up!</em></li>
+<li>For each of the following (1. - 7. below), (<span class="math inline">\(i\)</span>) write out the event using unions, intersections, and/or complements of the events <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span>, and <span class="math inline">\(C\)</span> (this is NOT finding the probability, that’s in <span class="math inline">\(ii\)</span>); (<span class="math inline">\(ii\)</span>) find the probability of the event; and (<span class="math inline">\(iii\)</span>) write a sentence explaining what the probability is of in terms of the context of the problem.
+<ol type="1">
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event at least one of the 3)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event none)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event <span class="math inline">\(A\)</span> only)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event exactly one)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> but not <span class="math inline">\(C\)</span>)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}\)</span>(event all 3)</p></li>
+</ol></li>
+</ol></li>
+</ol>
+</section>
+<section id="some-select-answers" class="level2">
+<h2 class="anchored" data-anchor-id="some-select-answers">Some select answers</h2>
+<p>Selected answers (or hints) not provided at the end the book:</p>
 <ul>
-<li>Cancelled:</li>
+<li><p>Chapter 2</p>
+<ul>
+<li><p># 4: 0.35</p></li>
+<li><p># 8: 0.03125</p></li>
+<li><p># 16: 0.48</p></li>
+<li><p># 30: (a) 0.189 &nbsp;&nbsp;&nbsp;&nbsp;(b) 0.811 &nbsp;&nbsp;&nbsp;&nbsp;(c) 0.189</p></li>
+</ul></li>
 </ul>
 
 
@@ -403,6 +468,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
