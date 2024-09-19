@@ -1,10 +1,8 @@
 ---
 title: "Homework 3"
 subtitle: "BSTA 550"
-description: "Due: Thursday October 19, 2023 at 11pm"
-date-modified: "10/12/2023"
-date: "10/19/2023"
-categories: [""]
+description: "Due: Thursday October 25, 2024 at 11pm"
+date-modified: "today"
 format: 
   html:
     link-external-newwindow: true
@@ -16,11 +14,11 @@ editor_options:
 
 ## Directions
 
-[Please turn in this homework on Sakai.](https://sakai.ohsu.edu/portal/site/BSTA-550-1-12619-F23/tool/085b18e7-8118-4a51-ace5-0255aa46136e) Please submit your homework in pdf format. You can type your work on your computer or submit a photo of your written work or any other method that can be turned into a pdf. Please let me know if you greatly prefer to submit a physical copy. We can work out another way for you to turn in homework.
+[Please turn in this homework on Sakai.](https://sakai.ohsu.edu/portal/site/BSTA-550-1-14926-F24/tool/c8320b13-1b6d-42ed-9c19-134634cf25af) Please submit your homework in pdf format. You can type your work on your computer or submit a photo of your written work or any other method that can be turned into a pdf. The Adobe Scan phone app is an easy way to scan photos and compile into a PDF. Please let me know if you greatly prefer to submit a physical copy. We can work out another way for you to turn in homework.
 
 **Try to complete all of the problems listed below at some point this quarter! You may want to save some of them for studying later!** Only turn in the ones listed in the "Turn In" column. Please submit problems in the order they are listed.
 
-The more work you include that shows your thought process, the more I can give you feedback.
+*You must show all of your work to receive credit.*
 
 ::: center
 | Chapter |      Turn In       |    Extra Problems    |
@@ -35,35 +33,3 @@ The more work you include that shows your thought process, the more I can give y
 ## Non-textbook problems (NTB)
 
 1.  A new drug is packaged to contain 30 pills in a bottle. Suppose that 98% of all bottles contain no defective pills, 1.5% contain one defective pill, and 0.5% contain two defective pills. Two pills from a bottle are randomly selected and tested. What is the probability that there are 2 defective pills in the bottle given that one of the two tested pills is defective?
-
-## Some select answers
-
-Selected answers (or hints) not provided at the end the book:
-
--   Chapter 5
-
-    -   NTB \# 1: 0.3916
-
--   Chapter 7
-
-    -   \# 2: $X\in(0,\infty)$, continuous; $Y\in\{0,1,2,\ldots\}$, discrete
-
-    -   \# 10: $X_j\in[0,\infty),j=1,\ldots,100$; $Y\in[0,\infty)$; both continuous
-
-    -   \# 16: $Y$ could be 0
-
-    -   \# 18: Yes, a r.v. can be both. Give an example!
-
--   Chapter 8
-
-    -   \# 2: (a) $p(x)=\binom{7}{x}(.5)^7$ for $x=0,1,2,\ldots,7$
-
-    -   \# 9: (a) $c = \frac{1}{8}$
-
-    -   \# 10:
-
-        ::: center
-        |  $x$   |  2   |  4  |  6   |  8   |
-        |:------:|:----:|:---:|:----:|:----:|
-        | $p(x)$ | 3/10 | 1/2 | 3/20 | 1/20 |
-        :::

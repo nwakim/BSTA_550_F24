@@ -1,9 +1,8 @@
 ---
 title: "Homework 0"
 subtitle: "BSTA 550"
-description: "Due: Thursday September 28, 2023"
-date-modified: "09/14/2023"
-date: "9/28/2023"
+description: "Due: Thursday October 3, 2024"
+date-modified: "today"
 categories: [""]
 format: 
   html:
@@ -50,7 +49,7 @@ Provide a pronunciation of your name: Please follow the below steps to add an au
 
 ### Question 3
 
-Please complete the [following whenisgood poll](https://whenisgood.net/53kgg2b) so that we can schedule office hours. Please use a unique identifier (does not have to be your name), so that I can make sure each student can attend at least one office hour.
+Please complete the [following whenisgood poll](https://whenisgood.net/3giiafw) so that we can schedule office hours. Please use a unique identifier (does not have to be your name), so that I can make sure each student can attend at least one office hour.
 
 ### Question 4
 
@@ -66,7 +65,7 @@ Please post an introduction in the `#random` channel on Slack. You ***do not nee
 -   Career interests
 -   Hobbies
 -   Family, children, and/or fur babies
--   Favorite/recent adventures, restaurants, TV shows, books, podcasts, games, etc.
+-   Favorite/recent adventures, restaurants, TV shows, books, podcasts, games, memes, etc.
 -   Willingness to join a study group
 -   Anticipated Fall trip/activity
 -   Any resolutions/vibes/outlooks that you are thinking about as we start the new academic year/quarter

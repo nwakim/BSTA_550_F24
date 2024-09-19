@@ -11,11 +11,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-Selected answers (or hints) not provided at the end the book:
+## Non-textbook problems
 
--   Chapter 5
+-   #1: 0.3916
 
-    -   NTB \# 1: 0.3916
+## Textbook problems
+
+There are answers at the back of the book!! Selected answers (or hints) not provided at the end the book:
 
 -   Chapter 7
 
@@ -31,7 +33,13 @@ Selected answers (or hints) not provided at the end the book:
 
     -   \# 2: (a) $p(x)=\binom{7}{x}(.5)^7$ for $x=0,1,2,\ldots,7$
 
-    -   \# 9: (a) $c = \frac{1}{8}$
+    -   \# 8: (a) $c = \dfrac{1}{8}$     
+
+        -   (b)![](images/HW_03_TB_8.8_B.png)
+
+            -   \(c\) ![](images/HW_03_TB_8.8_C.png)     
+
+            -   \(d\) ![](images/HW_03_TB_8.8_D.png)
 
     -   \# 10:
 
@@ -40,3 +48,9 @@ Selected answers (or hints) not provided at the end the book:
         |:------:|:----:|:---:|:----:|:----:|
         | $p(x)$ | 3/10 | 1/2 | 3/20 | 1/20 |
         :::
+
+    -   \# 18:
+
+        -   \(a\) ![](images/HW_03_TB_8.18_A.png)
+
+        -   \(b\) ![](images/HW_03_TB_8.18_B.png)

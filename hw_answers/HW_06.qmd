@@ -11,7 +11,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-Selected answers (or hints) not provided at the end the book:
+## Non-textbook problems
+
+-   #1: 
+
+## Textbook problems
+
+There are answers at the back of the book!! Selected answers (or hints) not provided at the end the book:
 
 -   Calculus Review
 

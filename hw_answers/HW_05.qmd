@@ -11,7 +11,17 @@ editor_options:
   chunk_output_type: console
 ---
 
-Selected answers (or hints) not provided at the end the book:
+## Non-textbook problems
+
+-   #1: Start with definition of variance: I used $Var(X) = E(X^2) - [E(X)]^2$
+
+-   #2: (a) $E(\bar{X}) = \mu$      (b) $Var(\bar{X}) = \dfrac{\sigma^2}{n}$
+
+-   #3: (a) $X\sim binomial \big(\sum_{i=1}^m n_i, p\big)$      (b) $E(X) = p\sum_{i=1}^m n_i$      (c) $Var(X) = p(1-p)\sum_{i=1}^m n_i$
+
+## Textbook problems
+
+There are answers at the back of the book!! Selected answers (or hints) not provided at the end the book:
 
 -   Chapter 12
 
@@ -51,6 +61,8 @@ Selected answers (or hints) not provided at the end the book:
 
 -   Chapter 18
 
+    -   \# 20 (a) (b) 0.6514 (c) 0.0598
+    
     -   \# 24  (c) 0.8571
 
     -   \# 26  162,754.8
