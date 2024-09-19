@@ -3,8 +3,7 @@ title: "Chapter 2: Introduction to Probability"
 author: "Meike Niederhausen and Nicky Wakim"
 title-slide-attributes:
     data-background-color: "#006a4e"
-date: "09/27/2023"
-categories: ["Week 1"]
+date: "10/02/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
