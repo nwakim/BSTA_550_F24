@@ -19,7 +19,11 @@ format:
     footer: Chapter 2 Slides
 ---
 
-## Learning Objectives
+## Monty Hall Problem
+
+[Survivor Season 42](https://www.youtube.com/watch?v=6JGyiISwY1k)
+
+# Learning Objectives
 
 1.  Define basic axioms and propositions in probability
 

@@ -23,12 +23,10 @@ editor_options:
 ::: center
 |   Chapter   |  Turn In   |                Extra Problems                |
 |:-----------:|:----------:|:--------------------------------------------:|
-|     12      | NTB \# 1-2 | \# 1, 2, 7, 11, 12, 15, 19, 25, 27, NTB \# 4 |
-| 13 (review) |            |       \# 3, 4, 5, 6, 8, 9, 10, 17, 25        |
 |     14      |            |                   \# 3, 7                    |
-|     15      |  NTB \# 3  |        \# 1, 5, 11, 18, 23, NTB \# 5         |
+|     15      |  NTB \# 1  |        \# 1, 5, 11, 18, 23, NTB \# 2         |
 |     16      |  TB \# 7   |              \# 3a-g, 8, 11, 21              |
-|     17      |  TB \# 9   |       \# 3a-g, 6, 11, 12a-c, NTB \# 6        |
+|     17      |  TB \# 9   |       \# 3a-g, 6, 11, 12a-c, NTB \# 3        |
 |     18      |  TB \# 20  |               \# 1, 24, 26, 27               |
 |     19      |  TB \# 6   |                 \# 1, 18, 19                 |
 |     20      |            |                  \# 2, 3, 4                  |
@@ -36,15 +34,7 @@ editor_options:
 
 ## Non-textbook problems (NTB)
 
-1.  Prove that for a r.v. $X$ and constants $a$ and $b$, that $$\mathrm{Var}[aX+b]=a^2\mathrm{Var}[X].$$
-
-2.  Let $\bar{X}$ be the random variable for the sample mean, $\bar{X}=\frac{\sum_{i=1}^nX_i}{n}$, where the $X_i$ are i.i.d. random variables with common mean $\mu$ and variance $\sigma^2$.
-
-    a.  Find $\mathbb{E}[\bar{X}]$.
-
-    b.  Find $Var[\bar{X}]$.
-
-3.  Let $X_i\sim$ Binomial($n_i,p$) be independent r.v.'s for $i=1,\ldots,m$.
+1.  Let $X_i\sim$ Binomial($n_i,p$) be independent r.v.'s for $i=1,\ldots,m$.
 
     a.  What does the r.v. $X=\sum_{i=1}^mX_i$ count, and what is the distribution of $X$? Make sure to specify the parameters of $X$'s distribution.
 
@@ -55,13 +45,7 @@ editor_options:
 
 ### Extra Problems
 
-4.  Let $\hat{p}$ be the random variable for the sample proportion, $\hat{p}=\frac{X}{n}$, where $X$ is the number of successes in a random sample of size $n$. Assume the probability of success is $p$.
-
-    a.  Find $\mathbb{E}[\hat{p}]$.
-
-    b.  Find $Var[\hat{p}]$.
-
-5.  Read the Washington Post article *The amazing woman who can smell Parkinson's disease - before symptoms appear* (<http://www.washingtonpost.com/news/morning-mix/wp/2015/10/23/scottish-woman-detects-a-musky-smell-that-could-radically-improve-how-parkinsons-disease-is-diagnosed/>)
+2.  Read the Washington Post article *The amazing woman who can smell Parkinson's disease - before symptoms appear* (<http://www.washingtonpost.com/news/morning-mix/wp/2015/10/23/scottish-woman-detects-a-musky-smell-that-could-radically-improve-how-parkinsons-disease-is-diagnosed/>)
 
     Assuming Joy Milne does not have the ability to detect Parkinson's disease via smell, answer the following questions:
 
@@ -69,7 +53,7 @@ editor_options:
 
     b.  What is the probability of her correctly detecting Parkinson's in 12 out of 12 t-shirts?
 
-6.  Let $X_i\sim$ Negative Binomial($r_i,p$) be independent r.v.'s for $i=1,\ldots,m$.
+3.  Let $X_i\sim$ Negative Binomial($r_i,p$) be independent r.v.'s for $i=1,\ldots,m$.
 
     a.  What does the r.v. $X=\sum_{i=1}^mX_i$ count, and what is the distribution of $X$? Make sure to specify the parameters of $X$'s distribution.
 

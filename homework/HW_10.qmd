@@ -24,7 +24,7 @@ editor_options:
 | Chapter |                 Turn In                 |     Extra Problems     |
 |:-------:|:---------------------------------------:|:----------------------:|
 |   37    |              TB \# 24, 30               | TB \# 2, 4, 13, 20, 29 |
-|   43    | TB #9\*, 10**, 11, 12**, NTB \# 1, 2, 4 |  TB \# 1-4, NTB \# 3   |
+|   43    | TB #9\*, 10\*\*, 11, 12\*\*, NTB \# 1, 2, 4 |  TB \# 1-4, NTB \# 3   |
 :::
 
 \* Include in your answer an explanation as to why we need the condition that $t<\lambda$.
@@ -78,30 +78,3 @@ editor_options:
     of a $\chi^2_{(n)}$ is, which will help you determine whether the
     mgf of the sum of $n$ i.i.d. $\chi^2_{(1)}$ r.v.'s has a
     $\chi^2_{(n)}$ distribution.
-
-------------------------------------------------------------------------
-
-Selected answers (or hints) not provided at the end the book:
-
--   Chapter 43
-
-    -   NTB 3: \(a\) Poisson$(\sum_{i=1}^n \lambda_i)$     (b)
-        Poisson$(3\lambda)$      (c) $M_{3X}(t)=e{\lambda(e^{3t}-1)}$
-        This is not an mgf of a common probability distribution.
-             (d) In (b) we are adding independent r.v.'s $X_i$, while
-        in (c) we are adding dependent r.v.'s ($3X=X+X+X$; $X$ is
-        dependent with itself).
-
-
--   Chapter 37
-
-    -   0.8869
-
-    -   0.0023
-
-    -   0.3936
-
-    -   0.4562
-
-    -   \(b\) 0.0022     (c) $478.696\approx 479$
-
