@@ -4,10 +4,9 @@ author: "Meike Niederhausen and Nicky Wakim"
 date: "09/27/2023"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 1"]
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
+    theme: "../simple_NW.scss"
     toc: true
     toc-depth: 1
     toc-title: Class Overview
@@ -16,7 +15,7 @@ format:
     show-slide-number: all
     width: 1955
     height: 1100
-    footer: Chapter 22 Slides
+    footer: Chapter 1 Slides
 ---
 
 ## Learning Objectives
