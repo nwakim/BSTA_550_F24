@@ -1,14 +1,15 @@
 ---
 title: "Chapter 7: Discrete vs. Continuous Random Variables"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/09/2023"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 3"]
+date: "10/09/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
+    theme: "../simple_NW.scss"
     toc: true
+    toc-depth: 1
+    toc-title: Class Overview
     chalkboard: true
     slide-number: true
     show-slide-number: all

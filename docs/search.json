@@ -11,7 +11,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nDate\nChapter\nTopic\nKey Info\nSlides QMD\nSlides PDF\nSlides Notes\nRecord-ing\nMuddy Points\n\n\n\n\n1\n9/30\n\nWelcome\n\n\n\n\n\n\n\n\n\n\n1\nOutcomes, Events, and Sample Space\n\n\n\n\n\n\n\n\n\n10/2\n2\nProbability\n\n\n\n\n\n\n\n\n\n\n22\nIntroduction to Counting\n\n\n\n\n\n\n\n\n\n10/3\n\nHW 0 due 11pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n10/7\n3\nIndependent Events\n\n\n\n\n\n\n\n\n\n\n4\nConditional Probability\n\n\n\n\n\n\n\n\n\n10/9\n5\nBayes Theorem\n\n\n\n\n\n\n\n\n\n\n7\nRandom Variables\n\n\n\n\n\n\n\n\n\n10/10\n\nHW 1 due 11pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3\n10/14\n8\npmfs and CDFs\n\n\n\n\n\n\n\n\n\n\n14\nBernoulli RV\n\n\n\n\n\n\n\n\n\n\n15\nBinomial RV\n\n\n\n\n\n\n\n\n\n\n16\nGeometric RV\n\n\n\n\n\n\n\n\n\n\n19\nHypergeometric RV\n\n\n\n\n\n\n\n\n\n\n20\nDiscrete Uniform RV\n\n\n\n\n\n\n\n\n\n10/16\n17\nNegative Binomial RV\n\n\n\n\n\n\n\n\n\n\n18\nPoisson RV\n\n\n\n\n\n\n\n\n\n10/17\n\nHW 2 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\n10/21\n9\nIndependence and Conditioning (Joint Distributions)\n\n\n\n\n\n\n\n\n\n10/23\n10\nExpected Values of discrete RVs\n\n\n\n\n\n\n\n\n\n10/25\n\nHW 3 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n10/28\n11\nExpected Values of sums of discrete RVs\n\n\n\n\n\n\n\n\n\n10/30\n12\nVariance of discrete RVs\n\n\n\n\n\n\n\n\n\n10/31\n\nHW 4 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n11/4\npre-24\nCalculus Review\n\n\n\n\n\n\n\n\n\n11/6\n24\nContinuous RVs and PDFs\n\n\n\n\n\n\n\n\n\n11/7\n\nHW 5 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n7\n11/11\n25\nJoint Densities\n\n\n\n\n\n\n\n\n\n11/13\n26\nIndependent continuous RVs\n\n\n\n\n\n\n\n\n\n11/14\n\nHW 6 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8\n11/18\n27\nConditional distributions\n\n\n\n\n\n\n\n\n\n\n28\nExpected value of continuous RVs\n\n\n\n\n\n\n\n\n\n11/20\n29\nVariance of continuous RVs\n\n\n\n\n\n\n\n\n\n11/21\n\nHW 7 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9\n11/25\n31\nUniform RV\n\n\n\n\n\n\n\n\n\n\n32\nExponential RV\n\n\n\n\n\n\n\n\n\n\n33\nGamma RV\n\n\n\n\n\n\n\n\n\n\n35\nNormal RV\n\n\n\n\n\n\n\n\n\n\n36\nSums of independent normal RVs\n\n\n\n\n\n\n\n\n\n11/27\n\nNo class\n\n\n\n\n\n\n\n\n\n11/27\n\nHW 8 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n10\n12/2\n37\nCentral limit theorem\n\n\n\n\n\n\n\n\n\n12/4\n43\nMoment generating functions\n\n\n\n\n\n\n\n\n\n12/5\n\nHW 9 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11\n12/9\n\nCatch up day!\n\n\n\n\n\n\n\n\n\n12/13\n\nOptional HW 10 due 11 pm"
+    "text": "Week\nDate\nChapter\nTopic\nKey Info\nSlides QMD\nSlides PDF\nSlides Notes\nRecord-ing\nMuddy Points\n\n\n\n\n1\n9/30\n\nWelcome\n\n\n\n\n\n\n\n\n\n\n1\nOutcomes, Events, and Sample Space\n\n\n\n\n\n\n\n\n\n10/2\n2\nProbability\n\n\n\n\n\n\n\n\n\n\n22\nIntroduction to Counting\n\n\n\n\n\n\n\n\n\n10/3\n\nHW 0 due 11pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n10/7\n3\nIndependent Events\n\n\n\n\n\n\n\n\n\n\n4\nConditional Probability\n\n\n\n\n\n\n\n\n\n10/9\n5\nBayes Theorem\n\n\n\n\n\n\n\n\n\n\n7\nRandom Variables\n\n\n\n\n\n\n\n\n\n10/10\n\nHW 1 due 11pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3\n10/14\n8\npmfs and CDFs\n\n\n\n\n\n\n\n\n\n\n14\nBernoulli RV\n\n\n\n\n\n\n\n\n\n\n15\nBinomial RV\n\n\n\n\n\n\n\n\n\n\n16\nGeometric RV\n\n\n\n\n\n\n\n\n\n\n19\nHypergeometric RV\n\n\n\n\n\n\n\n\n\n\n20\nDiscrete Uniform RV\n\n\n\n\n\n\n\n\n\n10/16\n17\nNegative Binomial RV\n\n\n\n\n\n\n\n\n\n\n18\nPoisson RV\n\n\n\n\n\n\n\n\n\n10/17\n\nHW 2 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\n10/21\n9\nIndependence and Conditioning (Joint Distributions)\n\n\n\n\n\n\n\n\n\n10/23\n10\nExpected Values of discrete RVs\n\n\n\n\n\n\n\n\n\n10/25\n\nHW 3 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n10/28\n11\nExpected Values of sums of discrete RVs\n\n\n\n\n\n\n\n\n\n10/30\n12\nVariance of discrete RVs\n\n\n\n\n\n\n\n\n\n10/31\n\nHW 4 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n11/4\npre-24\nCalculus Review\n\n\n\n\n\n\n\n\n\n11/6\n24\nContinuous RVs and PDFs\n\n\n\n\n\n\n\n\n\n11/7\n\nHW 5 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n7\n11/11\n31\nUniform RV\n\n\n\n\n\n\n\n\n\n\n32\nExponential RV\n\n\n\n\n\n\n\n\n\n\n33\nGamma RV\n\n\n\n\n\n\n\n\n\n\n35\nNormal RV\n\n\n\n\n\n\n\n\n\n11/13\n25\nJoint Densities\n\n\n\n\n\n\n\n\n\n11/14\n\nHW 6 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n8\n11/18\n26\nIndependent continuous RVs\n\n\n\n\n\n\n\n\n\n\n27\nConditional distributions\n\n\n\n\n\n\n\n\n\n11/20\n28\nExpected value of continuous RVs\n\n\n\n\n\n\n\n\n\n11/21\n\nHW 7 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9\n11/25\n29\nVariance of continuous RVs\n\n\n\n\n\n\n\n\n\n\n36\nSums of independent normal RVs\n\n\n\n\n\n\n\n\n\n11/27\n\nNo class\n\n\n\n\n\n\n\n\n\n11/27\n\nHW 8 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n10\n12/2\n37\nCentral limit theorem\n\n\n\n\n\n\n\n\n\n12/4\n43\nMoment generating functions\n\n\n\n\n\n\n\n\n\n12/5\n\nHW 9 due 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11\n12/9\n\nCatch up day!\n\n\n\n\n\n\n\n\n\n12/13\n\nOptional HW 10 due 11 pm"
   },
   {
     "objectID": "lessons/Continuous_distributions.html",
@@ -703,8 +703,8 @@
     "objectID": "lessons/05_Bayes_Theorem/05_Bayes_Theorem.html#learning-objectives",
     "href": "lessons/05_Bayes_Theorem/05_Bayes_Theorem.html#learning-objectives",
     "title": "Chapter 5: Bayes’ Theorem",
-    "section": "",
-    "text": "Calculate conditional probability of an event using Bayes’ Theorem\nUtilize additional probability rules in probability calculations, specifically the Higher Order Multiplication Rule and the Law of Total Probabilities"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nCalculate conditional probability of an event using Bayes’ Theorem\nUtilize additional probability rules in probability calculations, specifically the Higher Order Multiplication Rule and the Law of Total Probabilities"
   },
   {
     "objectID": "lessons/05_Bayes_Theorem/05_Bayes_Theorem.html#introduction",
@@ -774,7 +774,7 @@
     "href": "lessons/05_Bayes_Theorem/05_Bayes_Theorem.html#bayes-rule",
     "title": "Chapter 5: Bayes’ Theorem",
     "section": "Bayes’ Rule",
-    "text": "Bayes’ Rule\n\n\nTheorem: Bayes’ Rule\n\n\nIf \\(\\{A_i\\}_{i=1}^{n}\\) form a partition of the sample space \\(S\\), with \\(\\mathbb{P}(A_i)&gt;0\\) for \\(i=1\\ldots n\\) and \\(\\mathbb{P}(B)&gt;0\\), then\n\\[\\mathbb{P}(A_j | B) =\n\\frac{\\mathbb{P}(B|A_j) \\cdot \\mathbb{P}(A_j)}\n{\\sum_{i=1}^{n} \\mathbb{P}(B|A_i) \\cdot \\mathbb{P}(A_i)}\\]"
+    "text": "Bayes’ Rule\n\n\nTheorem: Bayes’ Rule\n\n\nIf \\(\\{A_i\\}_{i=1}^{n}\\) form a partition of the sample space \\(S\\), with \\(\\mathbb{P}(A_i)&gt;0\\) for \\(i=1\\ldots n\\) and \\(\\mathbb{P}(B)&gt;0\\), then\n\\[\\mathbb{P}(A_j | B) =\n\\frac{\\mathbb{P}(B|A_j) \\cdot \\mathbb{P}(A_j)}\n{\\sum_{i=1}^{n} \\mathbb{P}(B|A_i) \\cdot \\mathbb{P}(A_i)}\\]\n\n\n\n\nChapter 5 Slides"
   },
   {
     "objectID": "lessons/43_01_Moment_Generating_Functions/43_Moment_Generating_Functions_Part1.html",
@@ -2110,8 +2110,8 @@
     "objectID": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#learning-objectives",
     "href": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#learning-objectives",
     "title": "Chapter 4: Conditional Probability",
-    "section": "",
-    "text": "Use set process to calculate probability of event of interest\nCalculate the probability of an event occurring, given that another event occurred.\nDefine keys facts for conditional probabilities using notation."
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nUse set process to calculate probability of event of interest\nCalculate the probability of an event occurring, given that another event occurred.\nDefine keys facts for conditional probabilities using notation."
   },
   {
     "objectID": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#general-process-for-probability-word-problems",
@@ -2146,7 +2146,7 @@
     "href": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#conditional-probability-with-two-dice",
     "title": "Chapter 4: Conditional Probability",
     "section": "Conditional probability with two dice",
-    "text": "Conditional probability with two dice\n\n\n\n\nExample 2\n\n\nTwo dice (red and blue) are rolled. If the dice do not show the same face, what is the probability that one of the dice is a 1?"
+    "text": "Conditional probability with two dice\n\n\n\n\nExample 2\n\n\nTwo dice (red and blue) are rolled. If the dice do not show the same face, what is the probability that one of the dice is a 1?\n\n\n\n\n\n\nChapter 4 Slides"
   },
   {
     "objectID": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html",
@@ -2586,8 +2586,8 @@
     "objectID": "lessons/07_Random_Variables/07_Random_Variables.html#learning-objectives",
     "href": "lessons/07_Random_Variables/07_Random_Variables.html#learning-objectives",
     "title": "Chapter 7: Discrete vs. Continuous Random Variables",
-    "section": "",
-    "text": "Map the sample space to the set of real numbers using a discrete and continuous random variable\nDistinguish between discrete and continuous random variables from a written description"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nMap the sample space to the set of real numbers using a discrete and continuous random variable\nDistinguish between discrete and continuous random variables from a written description"
   },
   {
     "objectID": "lessons/07_Random_Variables/07_Random_Variables.html#what-is-a-random-variable",
@@ -2629,7 +2629,7 @@
     "href": "lessons/07_Random_Variables/07_Random_Variables.html#discrete-vs.-continuous-r.v.s",
     "title": "Chapter 7: Discrete vs. Continuous Random Variables",
     "section": "Discrete vs. Continuous r.v.’s",
-    "text": "Discrete vs. Continuous r.v.’s\n\nFor a discrete r.v., the set of possible values is either finite or can be put into a countably infinite list\n\nYou could theoretically list the specific possible outcomes that the variable can take\nIf you sum the rolls of three dice, you must get a whole number. For example, you can’t get any number between 3 and 4.\n\n\n   \n\nContinuous r.v.’s take on values from continuous intervals, or unions of continuous intervals\n\nVariable takes on a range of values, but there are infinitely possible values within the range\nIf you keep track of the time you sleep, you can sleep for 8 hours or 7.9 hours or 7.99 hours or 7.999 hours …"
+    "text": "Discrete vs. Continuous r.v.’s\n\nFor a discrete r.v., the set of possible values is either finite or can be put into a countably infinite list\n\nYou could theoretically list the specific possible outcomes that the variable can take\nIf you sum the rolls of three dice, you must get a whole number. For example, you can’t get any number between 3 and 4.\n\n\n   \n\nContinuous r.v.’s take on values from continuous intervals, or unions of continuous intervals\n\nVariable takes on a range of values, but there are infinitely possible values within the range\nIf you keep track of the time you sleep, you can sleep for 8 hours or 7.9 hours or 7.99 hours or 7.999 hours …\n\n\n\n\nChapter 7 Slides"
   },
   {
     "objectID": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html",
