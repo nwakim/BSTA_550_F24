@@ -27,6 +27,13 @@ editor_options:
 }
 ```
 
+## Key Course Info
+
+-   If an assignment on Sakai is closed or you are submitting late work, please email me AND the TAs your work
+-   For homework, you will have TWO no-questions-asked, 3-day extensions: one for the first assignment, and one for either the solutions or presentation. You just need to send me and the TAs a quick email saying "I am using my no-questions-asked extension for Homework \_\_ assignment/solutions/presentation."
+-   Attendance policy: attend in person and fill out exit tickets for 12 out of the 19 classes
+-   The class will end on December 9, 2024. **All coursework is expected to be completed by December 13, 2024 at 11pm.**
+
 ## Description
 
 Welcome to BSTA 550! In this course, we will establish foundational knowledge in probability in which more statistics knowledge can be built! This course is designed to introduce history, concepts and distributions in probability, Monte Carlo simulation techniques, and Markov chains. Students will also learn how to write R codes for various statistical computations and plots. Previous experience in R is not required. R is free software available from http://www.r-project.org.
