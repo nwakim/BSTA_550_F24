@@ -1,15 +1,12 @@
 ---
 title: "Chapter 8: Probability Mass Functions (pmf's) and Cumulative Distribution Functions (cdf's)"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/09/2023"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 3"]
+date: "10/14/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -24,6 +21,10 @@ format:
 2.  Calculate and graph a probability mass function (pmf)
 
 3.  Calculate and graph a cumulative distribution function (CDF)
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## What is a probability mass function?
 

@@ -1,15 +1,12 @@
 ---
 title: "Chapter 9: Independence and Conditioning (Joint Distributions)"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/16/2023"
-categories: ["Week 3"]
 title-slide-attributes:
     data-background-color: "#006a4e"
+date: "10/21/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -24,6 +21,10 @@ format:
 2.  Calculate a *joint, marginal, and conditional* probability mass function (pmf)
 
 3.  Calculate a *joint, marginal, and conditional* cumulative distribution function (CDF)
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## What is a joint pmf?
 

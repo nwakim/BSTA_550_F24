@@ -1,15 +1,12 @@
 ---
 title: "Chapter 10: Expected Values of Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/18/2023"
-categories: ["Week 4"]
 title-slide-attributes:
     data-background-color: "#006a4e"
+date: "10/23/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -20,6 +17,10 @@ format:
 ## Learning Objectives
 
 1.  Calculate the mean (expected value) of discrete random variables
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## Our good and fair friend, the 6-sided die
 

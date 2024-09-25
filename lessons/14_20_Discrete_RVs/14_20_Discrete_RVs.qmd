@@ -1,23 +1,17 @@
 ---
 title: "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/25/2023"
-categories: ["Week 5"]
 title-slide-attributes:
     data-background-color: "#006a4e"
+date: "10/14/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
-    footer: Chapter 14-16, 19-20 Slides
-editor: 
-  markdown: 
-    wrap: 72
+    footer: Chapter 14-20 Slides
 ---
 
 ## Learning Objectives
@@ -28,6 +22,10 @@ editor:
     the variable and parameters mean.
 3.  Use the formulas for the pmf/CDF, expected value, and variance to
     answer questions and find probabilities.
+    
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 # Chapter 14: Bernoulli RVs
 

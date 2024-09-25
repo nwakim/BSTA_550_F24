@@ -1,23 +1,17 @@
 ---
 title: "Chapter 12: Variance of Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/23/2023"
-categories: ["Week 5"]
 title-slide-attributes:
     data-background-color: "#006a4e"
+date: "10/30/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 12 Slides
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
 ## Learning Objectives
@@ -26,6 +20,10 @@ editor:
     variables
 2.  Calculate the variance of sums of discrete random variables
 3.  Calculate the variance of functions of discrete random variables
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## Let's start building the variance through expected values of functions
 

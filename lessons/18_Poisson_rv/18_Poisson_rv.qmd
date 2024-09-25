@@ -1,23 +1,17 @@
 ---
 title: "Chapter 18: Poisson RVs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/30/2023"
-categories: ["Week 6"]
 title-slide-attributes:
     data-background-color: "#006a4e"
+date: "10/16/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 18 Slides
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
 ## Learning Objectives
@@ -26,6 +20,10 @@ editor:
     the variable and parameters mean.
 2.  Use the formulas for the pmf/CDF, expected value, and variance to
     answer questions and find probabilities.
+    
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## Properties of Poisson RVs
 

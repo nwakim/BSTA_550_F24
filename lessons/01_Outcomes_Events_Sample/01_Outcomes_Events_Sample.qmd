@@ -8,16 +8,13 @@ categories: ["Week 1"]
 format: 
   revealjs:
     theme: "../simple_NW.scss"
-    toc: true
-    toc-depth: 1
-    toc-title: Class Overview
-    chalkboard: true
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 1 Slides
 ---
+
 
 ## Learning Objectives
 
@@ -30,6 +27,10 @@ format:
 4.  Describe events into which outcomes can be grouped
 
 5.  Define important terms and rules within set theory such as unions, intersections, complements, mutually exclusive, and De Morgan's Laws
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 # Tossing One Coin (Outcomes, Events, and Sample Space)
 

@@ -7,10 +7,6 @@ date: "10/09/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
-    toc: true
-    toc-depth: 1
-    toc-title: Class Overview
-    chalkboard: true
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -23,6 +19,10 @@ format:
 1.  Calculate conditional probability of an event using Bayes' Theorem
 
 2.  Utilize additional probability rules in probability calculations, specifically the Higher Order Multiplication Rule and the Law of Total Probabilities
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## Introduction
 

@@ -1,15 +1,12 @@
 ---
 title: "Chapter 11: Expected Values of Sums of Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/18/2023"
-categories: ["Week 4"]
 title-slide-attributes:
     data-background-color: "#006a4e"
+date: "10/28/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -20,6 +17,10 @@ format:
 ## Learning Objectives
 
 1. Calculate the mean (expected value) of *sums of* discrete random variables
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## Revisiting our two card draw
 

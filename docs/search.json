@@ -178,8 +178,8 @@
     "objectID": "lessons/18_Poisson_rv/18_Poisson_rv.html#learning-objectives",
     "href": "lessons/18_Poisson_rv/18_Poisson_rv.html#learning-objectives",
     "title": "Chapter 18: Poisson RVs",
-    "section": "",
-    "text": "Identify the variable and the parameters of a Poisson distribution in a word problem, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nIdentify the variable and the parameters of a Poisson distribution in a word problem, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
   },
   {
     "objectID": "lessons/18_Poisson_rv/18_Poisson_rv.html#properties-of-poisson-rvs",
@@ -235,7 +235,7 @@
     "href": "lessons/18_Poisson_rv/18_Poisson_rv.html#medical-lab-errors",
     "title": "Chapter 18: Poisson RVs",
     "section": "Medical lab errors",
-    "text": "Medical lab errors\n\n\n\n\nExample 3\n\n\nSuppose that in the long run, errors in a medical testing lab are made 0.1% of the time. Find the probability that fewer than 4 mistakes are made in the next 2,000 tests.\n\nFind the probability using the Binomial distribution.\nApproximate the probability in part (1) using the Poisson distribution."
+    "text": "Medical lab errors\n\n\n\n\nExample 3\n\n\nSuppose that in the long run, errors in a medical testing lab are made 0.1% of the time. Find the probability that fewer than 4 mistakes are made in the next 2,000 tests.\n\nFind the probability using the Binomial distribution.\nApproximate the probability in part (1) using the Poisson distribution.\n\n\n\n\n\n\n\nChapter 18 Slides"
   },
   {
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html",
@@ -521,8 +521,8 @@
     "objectID": "lessons/10_Expected_Values/10_Expected_Values.html#learning-objectives",
     "href": "lessons/10_Expected_Values/10_Expected_Values.html#learning-objectives",
     "title": "Chapter 10: Expected Values of Discrete RVs",
-    "section": "",
-    "text": "Calculate the mean (expected value) of discrete random variables"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nCalculate the mean (expected value) of discrete random variables"
   },
   {
     "objectID": "lessons/10_Expected_Values/10_Expected_Values.html#our-good-and-fair-friend-the-6-sided-die",
@@ -591,8 +591,8 @@
     "objectID": "lessons/09_Joint_distributions/09_Joint_distributions.html#learning-objectives",
     "href": "lessons/09_Joint_distributions/09_Joint_distributions.html#learning-objectives",
     "title": "Chapter 9: Independence and Conditioning (Joint Distributions)",
-    "section": "",
-    "text": "Calculate probabilities for a pair of discrete random variables\nCalculate a joint, marginal, and conditional probability mass function (pmf)\nCalculate a joint, marginal, and conditional cumulative distribution function (CDF)"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nCalculate probabilities for a pair of discrete random variables\nCalculate a joint, marginal, and conditional probability mass function (pmf)\nCalculate a joint, marginal, and conditional cumulative distribution function (CDF)"
   },
   {
     "objectID": "lessons/09_Joint_distributions/09_Joint_distributions.html#what-is-a-joint-pmf",
@@ -983,8 +983,8 @@
     "objectID": "lessons/14_20_Discrete_RVs/14_18_Discrete_RVs.html#learning-objectives",
     "href": "lessons/14_20_Discrete_RVs/14_18_Discrete_RVs.html#learning-objectives",
     "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
-    "section": "",
-    "text": "Distinguish between Bernoulli, Binomial, Geometric, Hypergeometric, and Discrete Uniform distributions when reading a story.\nIdentify the variable and the parameters in a story, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDistinguish between Bernoulli, Binomial, Geometric, Hypergeometric, and Discrete Uniform distributions when reading a story.\nIdentify the variable and the parameters in a story, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
   },
   {
     "objectID": "lessons/14_20_Discrete_RVs/14_18_Discrete_RVs.html#properties-of-bernoulli-rvs",
@@ -1103,7 +1103,7 @@
     "href": "lessons/14_20_Discrete_RVs/14_18_Discrete_RVs.html#what-discrete-uniform-rvs-have-we-seen-already",
     "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
     "section": "What discrete uniform RVs have we seen already?",
-    "text": "What discrete uniform RVs have we seen already?\n\n\n\n\nExample 6\n\n\nExamples of discrete uniform RVs"
+    "text": "What discrete uniform RVs have we seen already?\n\n\n\n\nExample 6\n\n\nExamples of discrete uniform RVs\n\n\n\n\n\n\nChapter 14-20 Slides"
   },
   {
     "objectID": "lessons/24_01_Continuous_rv/24_01_Continuous_rv.html",
@@ -1424,8 +1424,8 @@
     "objectID": "lessons/12_Variance/12_Variance.html#learning-objectives",
     "href": "lessons/12_Variance/12_Variance.html#learning-objectives",
     "title": "Chapter 12: Variance of Discrete RVs",
-    "section": "",
-    "text": "Calculate the variance and standard deviation of discrete random variables\nCalculate the variance of sums of discrete random variables\nCalculate the variance of functions of discrete random variables"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nCalculate the variance and standard deviation of discrete random variables\nCalculate the variance of sums of discrete random variables\nCalculate the variance of functions of discrete random variables"
   },
   {
     "objectID": "lessons/12_Variance/12_Variance.html#lets-start-building-the-variance-through-expected-values-of-functions",
@@ -1523,7 +1523,7 @@
     "href": "lessons/12_Variance/12_Variance.html#back-to-our-hotel-example-from-chapter-11",
     "title": "Chapter 12: Variance of Discrete RVs",
     "section": "Back to our hotel example from Chapter 11",
-    "text": "Back to our hotel example from Chapter 11\n\n\n\n\nExample 4\n\n\nA tour group is planning a visit to the city of Minneapolis and needs to book 30 hotel rooms. The average price of a room is $200 with standard deviation $10. In addition, there is a 10% tourism tax for each room. What is the standard deviation of the cost for the 30 hotel rooms?\n\n\nProblem to do at home if we don’t have enough time."
+    "text": "Back to our hotel example from Chapter 11\n\n\n\n\nExample 4\n\n\nA tour group is planning a visit to the city of Minneapolis and needs to book 30 hotel rooms. The average price of a room is $200 with standard deviation $10. In addition, there is a 10% tourism tax for each room. What is the standard deviation of the cost for the 30 hotel rooms?\n\n\nProblem to do at home if we don’t have enough time.\n\n\n\n\nChapter 12 Slides"
   },
   {
     "objectID": "readings/Calc_review.html",
@@ -1914,8 +1914,8 @@
     "objectID": "lessons/08_pmfs_and_cdfs/08_pmfs_and_cdfs.html#learning-objectives",
     "href": "lessons/08_pmfs_and_cdfs/08_pmfs_and_cdfs.html#learning-objectives",
     "title": "Chapter 8: Probability Mass Functions (pmf’s) and Cumulative Distribution Functions (cdf’s)",
-    "section": "",
-    "text": "Calculate probabilities for discrete random variables\nCalculate and graph a probability mass function (pmf)\nCalculate and graph a cumulative distribution function (CDF)"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nCalculate probabilities for discrete random variables\nCalculate and graph a probability mass function (pmf)\nCalculate and graph a cumulative distribution function (CDF)"
   },
   {
     "objectID": "lessons/08_pmfs_and_cdfs/08_pmfs_and_cdfs.html#what-is-a-probability-mass-function",
@@ -1999,7 +1999,7 @@
     "href": "lessons/08_pmfs_and_cdfs/08_pmfs_and_cdfs.html#properties-of-discrete-cdfs",
     "title": "Chapter 8: Probability Mass Functions (pmf’s) and Cumulative Distribution Functions (cdf’s)",
     "section": "Properties of discrete CDFs",
-    "text": "Properties of discrete CDFs\n\n\\(F(x)\\) is increasing or flat (never decreasing)\n\\(\\min\\limits_x F(x) = 0\\)\n\\(\\max\\limits_xF(x)=1\\)\nCDF is a step function"
+    "text": "Properties of discrete CDFs\n\n\\(F(x)\\) is increasing or flat (never decreasing)\n\\(\\min\\limits_x F(x) = 0\\)\n\\(\\max\\limits_xF(x)=1\\)\nCDF is a step function\n\n\n\nChapter 8 Slides"
   },
   {
     "objectID": "lessons/02_Probability/02_Probability_muddy_points.html",
@@ -2159,8 +2159,8 @@
     "objectID": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html#learning-objectives",
     "href": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html#learning-objectives",
     "title": "Chapter 11: Expected Values of Sums of Discrete RVs",
-    "section": "",
-    "text": "Calculate the mean (expected value) of sums of discrete random variables"
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nCalculate the mean (expected value) of sums of discrete random variables"
   },
   {
     "objectID": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html#revisiting-our-two-card-draw",
@@ -2202,7 +2202,7 @@
     "href": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html#cost-of-hotel-rooms",
     "title": "Chapter 11: Expected Values of Sums of Discrete RVs",
     "section": "Cost of hotel rooms",
-    "text": "Cost of hotel rooms\n\n\n\n\nExample 4\n\n\nA tour group is planning a visit to the city of Minneapolis and needs to book 30 hotel rooms. The average price of a room is $200. In addition, there is a 10% tourism tax for each room. What is the expected cost for the 30 hotel rooms?"
+    "text": "Cost of hotel rooms\n\n\n\n\nExample 4\n\n\nA tour group is planning a visit to the city of Minneapolis and needs to book 30 hotel rooms. The average price of a room is $200. In addition, there is a 10% tourism tax for each room. What is the expected cost for the 30 hotel rooms?\n\n\n\n\n\n\nChapter 11 Slides"
   },
   {
     "objectID": "lessons/29_Variance_and_Sums_of_rv/29_Variance_and_Sums_of_rv.html",
@@ -2300,14 +2300,14 @@
     "href": "lessons/00_Intro/00_Intro.html#some-important-tasks",
     "title": "Welcome to BSTA 550!",
     "section": "Some important tasks",
-    "text": "Some important tasks\n\nJoin the Slack page!\nStar the class website: https://nwakim.github.io/F2023_BSTA_550/\nComplete the WhenIsGood for office hours\nComplete Homework 0 by this Thursday at 11pm!\nHighly suggest that you make an appointment with a learning specialist through Student Academic Support Services!"
+    "text": "Some important tasks\n\nJoin the Slack page!\nStar the class website: https://nwakim.github.io/BSTA_550_F24/\nComplete the WhenIsGood for office hours\nComplete Homework 0 by this Thursday at 11pm!\n\nIncludes some items above\nThink about what day of the week you would like your homeworks due\n\nHighly suggest that you make an appointment with a learning specialist through Student Academic Success Center!"
   },
   {
     "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website",
     "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website",
     "title": "Welcome to BSTA 550!",
     "section": "Let’s visit the website",
-    "text": "Let’s visit the website\n\nHomepage\n\nGitHub\n\nSyllabus\nSchedule\n\nWeeks, class info, exams, homeworks\n\nSearch\n\n\n\nImportant Note\n\n\nThis is my first time teaching the course. I will work hard to answer your questions in class, but I will often need some time outside of class to make sure I give you the best answer possible! Also, many of the examples are not my own. I will work to improve examples, but if you have feedback or suggestions, I am happy to hear them!"
+    "text": "Let’s visit the website\n\nHomepage\nSyllabus\nSchedule\n\nWeeks, class info, exams, homeworks\n\nSearch"
   },
   {
     "objectID": "lessons/00_Intro/00_Intro.html#lets-go-through-the-syllabus",
@@ -2321,7 +2321,7 @@
     "href": "lessons/00_Intro/00_Intro.html#structure-for-this-course",
     "title": "Welcome to BSTA 550!",
     "section": "Structure for this course",
-    "text": "Structure for this course\n\nLearning the basic tools to understand statistics\nFor each tool we learn, there is another tool to learn\nEDIT THIS SLIDE!!\n\n\n\nIntro"
+    "text": "Structure for this course\n\nLearning the basic tools to understand statistics\nIt is going to feel useless at times, but I swear it is not!\nThis class will help you build a toolbox that allows to analyze data while understanding the inner theory at play"
   },
   {
     "objectID": "lessons/28_Expected_Values/28_Expected_Values.html",
@@ -2642,8 +2642,8 @@
     "objectID": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#learning-objectives",
     "href": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#learning-objectives",
     "title": "Chapter 17: Negative Binomial RVs",
-    "section": "",
-    "text": "Identify the variable and the parameters of a Negative Binomial distribution in a word problem, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nIdentify the variable and the parameters of a Negative Binomial distribution in a word problem, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
   },
   {
     "objectID": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#properties-of-negative-binomial-rvs",
@@ -2664,7 +2664,7 @@
     "href": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#hitting-more-than-1-bullseye-1",
     "title": "Chapter 17: Negative Binomial RVs",
     "section": "Hitting more than 1 bullseye",
-    "text": "Hitting more than 1 bullseye\n\n\n\n\nExample 1\n\n\nConsider again the bullseye example, where we throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nWhat is the probability that the \\(5^{th}\\) bullseye is on the \\(20^{th}\\) throw?"
+    "text": "Hitting more than 1 bullseye\n\n\n\n\nExample 1\n\n\nConsider again the bullseye example, where we throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nWhat is the probability that the \\(5^{th}\\) bullseye is on the \\(20^{th}\\) throw?\n\n\n\n\n\n\n\nChapter 17 Slides"
   },
   {
     "objectID": "syllabus.html#description",
@@ -3560,7 +3560,7 @@
     "href": "homeworks.html#structure-details-and-grading",
     "title": "Homework",
     "section": "Structure, Details, and Grading",
-    "text": "Structure, Details, and Grading\nThere are three distinct parts to our homework:\n\n\n\n\n\n\n\n\n\nHomework part\nDue date\nWhat is required?\nGrading\n\n\n\n\nIndividual assignment\nDate specified above\nYou will complete the homework assignment, and turn in an individual copy of your work. This will be graded for completion.\nFor completion\n\n\nGroup solutions\n\nWith groups of 4, you will make a homework key for 4 questions (that Nicky chooses). Each group member will be in charge of turning in one question’s solutions. This will be graded for correctness. The group will receive the same grade, which is summed across questions.\nFor correctness\n\n\nIndividual presentation\n\nFor homeworks 3 or 4 and 7 or 8, you will also need to make a video or meet with me. You will use less than 10 minutes to explain your homework question solutions. This will be graded for correctness. Example videos will be posted after homework 1.\nGraded out of 4 points. 0 indicating no understanding of the solutions. 1 indicating some basic understanding, but missing major steps. 3 indicating that most of the problem is considered, but not necessarily all or all correctly. 4 indicating that all needed parts were considered and correctly solved.\n\n\n\nIf you are having any group dynamic issues, please please please come see me earlier rather than later! You do not need to wait for group evals. We will come up with options for moving forward!"
+    "text": "Structure, Details, and Grading\nThere are three distinct parts to our homework:\n\n\n\n\n\n\n\n\n\nHomework part\nDue date\nWhat is required?\nGrading\n\n\n\n\nIndividual assignment\nDate specified above\nYou will complete the homework assignment, and turn in an individual copy of your work. This will be graded for completion.\nFor completion\n\n\nGroup solutions\n\nWith groups of 4, you will make a homework key for 4 questions (that Nicky chooses). Each group member will be in charge of turning in one question’s solutions. This will be graded for correctness. The group will receive the same grade, which is summed across questions.\nFor correctness\n\n\nIndividual presentation\n\nFor homeworks 3 and 7, you will also need to make a video or meet with me. You will use less than 10 minutes to explain your homework question solutions. This will be graded for correctness. Example videos will be posted after homework 1.\nGraded out of 4 points. 0 indicating no understanding of the solutions. 1 indicating some basic understanding, but missing major steps. 3 indicating that most of the problem is considered, but not necessarily all or all correctly. 4 indicating that all needed parts were considered and correctly solved.\n\n\n\nIf you are having any group dynamic issues, please please please come see me earlier rather than later! You do not need to wait for group evals. We will come up with options for moving forward!"
   },
   {
     "objectID": "lessons/00_Intro/00_Intro.html#decision-on-homework-due-dates",
@@ -3575,5 +3575,243 @@
     "title": "BSTA 550 Syllabus",
     "section": "Key Course Info",
     "text": "Key Course Info\n\nIf an assignment on Sakai is closed or you are submitting late work, please email me AND the TAs your work\nFor homework, you will have TWO no-questions-asked, 3-day extensions: one for the first assignment, and one for either the solutions or presentation. You just need to send me and the TAs a quick email saying “I am using my no-questions-asked extension for Homework __ assignment/solutions/presentation.”\nAttendance policy: attend in person and fill out exit tickets for 12 out of the 19 classes\nThe class will end on December 9, 2024. All coursework is expected to be completed by December 13, 2024 at 11pm."
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#what-we-will-cover",
+    "href": "lessons/00_Intro/00_Intro.html#what-we-will-cover",
+    "title": "Welcome to BSTA 550!",
+    "section": "What we will cover",
+    "text": "What we will cover\n\n\n\nWelcome"
+  },
+  {
+    "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#where-are-we",
+    "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#where-are-we",
+    "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/02_Probability/02_Probability.html#where-are-we",
+    "href": "lessons/02_Probability/02_Probability.html#where-are-we",
+    "title": "Chapter 2: Introduction to Probability",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/03_Independent_Events/03_Independent_Events.html#where-are-we",
+    "href": "lessons/03_Independent_Events/03_Independent_Events.html#where-are-we",
+    "title": "Chapter 3: Independent Events",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#where-are-we",
+    "href": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#where-are-we",
+    "title": "Chapter 4: Conditional Probability",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#monty-hall-problem",
+    "href": "lessons/04_Conditional_Probability/04_Conditional_Probability.html#monty-hall-problem",
+    "title": "Chapter 4: Conditional Probability",
+    "section": "Monty Hall Problem",
+    "text": "Monty Hall Problem\nSurvivor Season 42\nWith the Wiki page on it!"
+  },
+  {
+    "objectID": "lessons/05_Bayes_Theorem/05_Bayes_Theorem.html#where-are-we",
+    "href": "lessons/05_Bayes_Theorem/05_Bayes_Theorem.html#where-are-we",
+    "title": "Chapter 5: Bayes’ Theorem",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/07_Random_Variables/07_Random_Variables.html#where-are-we",
+    "href": "lessons/07_Random_Variables/07_Random_Variables.html#where-are-we",
+    "title": "Chapter 7: Discrete vs. Continuous Random Variables",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/08_pmfs_and_cdfs/08_pmfs_and_cdfs.html#where-are-we",
+    "href": "lessons/08_pmfs_and_cdfs/08_pmfs_and_cdfs.html#where-are-we",
+    "title": "Chapter 8: Probability Mass Functions (pmf’s) and Cumulative Distribution Functions (cdf’s)",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/09_Joint_distributions/09_Joint_distributions.html#where-are-we",
+    "href": "lessons/09_Joint_distributions/09_Joint_distributions.html#where-are-we",
+    "title": "Chapter 9: Independence and Conditioning (Joint Distributions)",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/10_Expected_Values/10_Expected_Values.html#where-are-we",
+    "href": "lessons/10_Expected_Values/10_Expected_Values.html#where-are-we",
+    "title": "Chapter 10: Expected Values of Discrete RVs",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html#where-are-we",
+    "href": "lessons/11_Expected_Values_of_Sums_of_rvs/11_Expected_Values_of_Sums_of_rvs.html#where-are-we",
+    "title": "Chapter 11: Expected Values of Sums of Discrete RVs",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/12_Variance/12_Variance.html#where-are-we",
+    "href": "lessons/12_Variance/12_Variance.html#where-are-we",
+    "title": "Chapter 12: Variance of Discrete RVs",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#learning-objectives",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#learning-objectives",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDistinguish between Bernoulli, Binomial, Geometric, Hypergeometric, and Discrete Uniform distributions when reading a story.\nIdentify the variable and the parameters in a story, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#properties-of-bernoulli-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#properties-of-bernoulli-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Properties of Bernoulli RVs",
+    "text": "Properties of Bernoulli RVs\n\nScenario: One trial, with outcome success or failure\nShorthand: \\(X \\sim \\text{Bernoulli}(p)\\)\n\n\\[\nX = \\left\\{\n        \\begin{array}{ll}\n            1 & \\quad \\mathrm{with\\ probability}\\ p \\quad \\\\\n            0 & \\quad \\mathrm{with\\ probability}\\ 1-p \\quad\n        \\end{array}\n    \\right.\n\\]\n\\[\np_X(x) = P(X=x) = p^x(1-p)^{1-x} \\text{ for } x=0,1\n\\]\n\\[\\text{E}(X) = p\\]\n\\[\\text{Var}(X) = pq = p(1-p)\\]"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bernoulli-example-1",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bernoulli-example-1",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bernoulli Example 1",
+    "text": "Bernoulli Example 1\n\n\n\n\nExample 1\n\n\n\nWe roll a fair 6-sided die.\nWe get $1 if we roll a 5, and nothing otherwise.\nLet \\(X\\) be how much money we get.\nFind the mean and variance of \\(X\\)."
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#properties-of-binomial-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#properties-of-binomial-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Properties of Binomial RVs",
+    "text": "Properties of Binomial RVs\n\nScenario: There are \\(n\\) independent trials, each resulting in a success or failure, with constant probability, \\(p\\), in each trial. We are counting the number of successes (or failures).\nShorthand: \\(X \\sim \\text{Binomial}(n, p)\\)\n\n\\[\nX = \\text{Number of successes of } n \\text{ independent trials}\n\\]\n\\[\np_X(x) = P(X=x) = {n \\choose x}p^x(1-p)^{n-x} \\text{ for } x=0,1,2,  ..., n\n\\]\n\\[\\text{E}(X) = np\\] \\[\\text{Var}(X) = npq = np(1-p)\\]"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bernoulli-to-binomial",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bernoulli-to-binomial",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bernoulli to Binomial",
+    "text": "Bernoulli to Binomial\n\n\n\n\nExample 2\n\n\n\nSuppose we roll a fair 6-sided die 50 times.\nWe get $1 every time we roll a 5, and nothing otherwise.\nLet \\(X\\) be how much money we get on the 50 rolls.\nFind the mean and variance of \\(X\\)."
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#geometric-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#geometric-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Geometric RVs",
+    "text": "Geometric RVs\n\nScenario: There are repeated independent trials, each resulting in a success or failure, with constant probability of success for each trial. We are counting the number of trials until the first success.\nShorthand: \\(X \\sim \\text{Geo}(p)\\) or \\(X \\sim \\text{Geometric}(p)\\) or \\(X \\sim \\text{G}(p)\\)\n\n\n\n\n\n\n\n\n\\(X =\\) Number of trials needed for first success (count \\(x\\) includes the success)\n\\(X =\\) Number of failures before first success (count \\(x\\) does not include the success)\n\n\n\n\n\\(p _ X  ( x ) = P(X=x) = (1-p)^{x-1}p\\)\nfor \\(x=1,2, 3,...\\)\n\\(F_ X ( x ) = P(X\\leq x) = 1-(1-p)^x\\)\nfor \\(x=1,2, 3,...\\)\n\\(p _X (x)= P(X=x) = (1-p)^{x}p\\)\nfor \\(x=0, 1,2,...\\)\n\\(F_X ( x ) = P(X\\leq x) = 1-(1-p)^{x+1}\\)\nfor \\(x=0, 1,2,...\\)\n\n\n\\(E(X)=\\dfrac{1-p}{p}\\)\n\\(Var(X)= \\dfrac{1-p}{p^2}\\)\n\\(E(X)=\\dfrac{1-p}{p}\\)\n\\(Var(X) = \\dfrac{1-p}{p^2}\\)"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-16",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-16",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bullseye (1/6)",
+    "text": "Bullseye (1/6)\n\n\n\n\nExample 3\n\n\nWe throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nWhat is the pmf for the number of throws needed to hit the bullseye?\nWhat are the mean and variance for the number of throws needed to hit the bullseye?\nFind the probability that our first bullseye:\n\nis on the fourth try\nis on one of the first four tries\nis after the fifth try\nis on one of the first fifty tries\nis after the \\(50^{th}\\) try, given that it did not happen on the first 20 tries\n\nFind the expected number of misses until we hit the bullseye."
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-26",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-26",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bullseye (2/6)",
+    "text": "Bullseye (2/6)\n\n\n\n\nExample 3\n\n\nWe throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nWhat is the pmf for the number of throws needed to hit the bullseye?"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-36",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-36",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bullseye (3/6)",
+    "text": "Bullseye (3/6)\n\n\n\n\nExample 3\n\n\nWe throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nWhat are the mean and variance for the number of throws needed to hit the bullseye?"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-46",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-46",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bullseye (4/6)",
+    "text": "Bullseye (4/6)\n\n\n\n\nExample 3\n\n\nWe throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nFind the probability that our first bullseye:\n\nis on the fourth try\nis on one of the first four tries\nis after the fourth try"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-56",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#bullseye-56",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Bullseye (5/6)",
+    "text": "Bullseye (5/6)\n\n\n\n\nExample 3\n\n\nWe throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.\n\nFind the probability that our first bullseye:\n\nis on one of the first fifty tries\nis after the \\(50^{th}\\) try, given that it did not happen on the first 20 tries"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#memoryless-property-for-geometric-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#memoryless-property-for-geometric-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Memoryless property for Geometric RVs",
+    "text": "Memoryless property for Geometric RVs\nIf we know \\(X\\) is greater than some number (aka given \\(X &gt;j\\)), then the probability of \\(X &gt; k+j\\) is just the probability that \\(X&gt;k\\).\n \n\\(P(X &gt; k+j |X &gt; j) = P(X &gt; k)\\) \\[ P(X &gt; k+j |X &gt; j) = \\dfrac{P(X&gt;k+j \\text{ and } X&gt;j)}{P(X&gt;j)} = \\dfrac{P(X&gt;k+j)}{P(X&gt;j)} = \\dfrac{(1-p)^{k+j}}{(1-p)^{j}} = (1-p)^{k} \\]"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#hypergeometric-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#hypergeometric-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Hypergeometric RVs",
+    "text": "Hypergeometric RVs\n\nScenario: There are a fixed number of successes and failures (which are known in advance), from which we make \\(n\\) draws without replacement. We are counting the number of successes from the \\(n\\) trials.\n\nThere is a finite population of \\(N\\) items\nEach item in the population is either a success or a failure, and there are \\(M\\) successes total.\nWe randomly select (sample) \\(n\\) items from the population.\n\nShorthand: \\(X \\sim \\text{Hypergeo}(M, N, n)\\)\n\n\n\n\\[\nX = \\text{Number of successes in } n \\text{ draws}\n\\]\n\\[\np_X(x) = P(X=x) = \\dfrac{{M \\choose x}{N-M \\choose n-x}}{{N \\choose n}}\n\\] \\[\\text{ for } x \\text{ integer-valued } \\\\ \\max(0, n-(N-M)) \\leq x \\leq \\min(n, M)\\]\n\n\\[\\text{E}(X) =\\dfrac{nM}{N}\\]\n\\[\\text{Var}(X) = n \\dfrac{M}{N} \\bigg(1- \\dfrac{M}{N} \\bigg)\\bigg(\\dfrac{N-n}{N-1} \\bigg)\\]"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#wolf-population",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#wolf-population",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Wolf population",
+    "text": "Wolf population\n\n\n\n\nExample 4\n\n\nA wildlife biologist is using mark-recapture to research a wolf population. Suppose a specific study region is known to have 24 wolves, of which 11 have already been tagged. If 5 wolves are randomly captured, what is the probability that 3 of them have already been tagged?"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#hypergeometric-vs.-binomial-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#hypergeometric-vs.-binomial-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Hypergeometric vs. Binomial RVs",
+    "text": "Hypergeometric vs. Binomial RVs\nSuppose a hypergeometric RV \\(X\\) has the following properties:\n\nthe population size \\(N\\) is really big,\nthe number of successes \\(M\\) in the population is relatively large,\n\n\\(\\frac{M}{N}\\) shouldn’t be close to 0 or 1\n\nand the number of items \\(n\\) selected is small.\n\nThen, in this case, making \\(n\\) draws from the population doesn’t change the probability of success much, and the hypergeometric r.v. can be approximated by a binomial r.v."
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#wolf-population-revisited",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#wolf-population-revisited",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Wolf population revisited",
+    "text": "Wolf population revisited\n\n\n\n\nExample 5\n\n\nSuppose a specific study region is known to have 2400 wolves, of which 1100 have already been tagged.\n\nIf 50 wolves are randomly captured, what is the probability that 20 of them have already been tagged?\nApproximate the probability in part (1) using the binomial distribution."
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#discrete-uniform-rvs",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#discrete-uniform-rvs",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Discrete Uniform RVs",
+    "text": "Discrete Uniform RVs\n\nScenario: There are \\(N\\) possible outcomes, which are all equally likely.\nShorthand: \\(X \\sim \\text{Uniform}(N)\\)\n\n\\[\nX = \\text{Outcome of interest, with } x=1, 2, ..., N\n\\]\n\\[\np_X(x) = P(X=x) = \\dfrac{1}{N} \\text{ for } x=1, 2, 3, ..., N\n\\]\n\\[\\text{E}(X) =\\dfrac{N+1}{2}\\]\n\\[\\text{Var}(X) = \\dfrac{N^2 -1}{12}\\]"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#what-discrete-uniform-rvs-have-we-seen-already",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#what-discrete-uniform-rvs-have-we-seen-already",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "What discrete uniform RVs have we seen already?",
+    "text": "What discrete uniform RVs have we seen already?\n\n\n\n\nExample 6\n\n\nExamples of discrete uniform RVs\n\n\n\n\n\n\nChapter 14-20 Slides"
+  },
+  {
+    "objectID": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#where-are-we",
+    "href": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#where-are-we",
+    "title": "Chapter 17: Negative Binomial RVs",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#where-are-we",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#where-are-we",
+    "title": "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs",
+    "section": "Where are we?",
+    "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/18_Poisson_rv/18_Poisson_rv.html#where-are-we",
+    "href": "lessons/18_Poisson_rv/18_Poisson_rv.html#where-are-we",
+    "title": "Chapter 18: Poisson RVs",
+    "section": "Where are we?",
+    "text": "Where are we?"
   }
 ]

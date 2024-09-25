@@ -7,10 +7,6 @@ date: "10/02/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
-    toc: true
-    toc-depth: 1
-    toc-title: Class Overview
-    chalkboard: true
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -18,15 +14,15 @@ format:
     footer: Chapter 2 Slides
 ---
 
-## Monty Hall Problem
-
-[Survivor Season 42](https://www.youtube.com/watch?v=6JGyiISwY1k)
-
 # Learning Objectives
 
 1.  Define basic axioms and propositions in probability
 
 2.  Assign probabilities to events, and perform manipulations on probabilities to make calculations easier
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 # Probabilities of equally likely events
 
@@ -114,6 +110,8 @@ Axiom 3
 If $A_1, A_2, A_3, \ldots$, is a collection of **disjoint** events, then $$\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) =  \sum_{i=1}^{\infty}\mathbb{P}(A_i).$$
 :::
 :::
+
+
 
 # Some probability properties
 

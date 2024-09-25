@@ -7,10 +7,6 @@ date: "10/09/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
-    toc: true
-    toc-depth: 1
-    toc-title: Class Overview
-    chalkboard: true
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -23,6 +19,10 @@ format:
 1.  Map the sample space to the set of real numbers using a discrete and continuous random variable
 
 2.  Distinguish between discrete and continuous random variables from a written description
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 ## What is a random variable?
 

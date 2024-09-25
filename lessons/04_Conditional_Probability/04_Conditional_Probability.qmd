@@ -7,10 +7,6 @@ date: "10/07/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
-    toc: true
-    toc-depth: 1
-    toc-title: Class Overview
-    chalkboard: true
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -25,6 +21,11 @@ format:
 2.  Calculate the probability of an event occurring, given that another event occurred.
 
 3.  Define keys facts for conditional probabilities using notation.
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
+
 
 ## General Process for Probability Word Problems
 
@@ -128,6 +129,12 @@ $\mathbb{P}(A|B)$ is a probability, meaning that it satisfies the probability ax
 :::
 :::
 :::
+
+## Monty Hall Problem
+
+[Survivor Season 42](https://www.youtube.com/watch?v=6JGyiISwY1k)
+
+[With the Wiki page on it!](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 
 ## Conditional probability with two dice
 
