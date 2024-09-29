@@ -12,7 +12,6 @@ editor_options:
 ## Announcements
 
 -   Welcome! Here is where I will put announcements for class!
+- Homework 0 is due THIS THURSDAY at 11pm!
 
-## Exit tickets
 
-[![](/lessons/img_slides/exit_tickets/QRCode for Exit Ticket 9_30_2024.png){fig-align="center" width="427"}](https://forms.office.com/Pages/ResponsePage.aspx?id=V3lz4rj6fk2U9pvWr59xWFMopmPUjRtDiHLswhgacNhUQkhZOVI1QlIyWDNCRU44MUVXME1MNTNCNy4u)
