@@ -12,6 +12,7 @@ format:
     width: 1955
     height: 1100
     footer: Chapter 2 Slides
+    html-math-method: mathjax
 ---
 
 # Learning Objectives
@@ -63,15 +64,25 @@ In human speak:
 
 ## A probability is a function...
 
-$\mathbb{P}(A)$ is a function with
+- $\mathbb{P}(A)$ is a function with
 
--   **Input:** event $A$ from the sample space $S$, ($A \subseteq S$)
+    -   **Input:** event $A$ from the sample space $S$, ($A \subseteq S$)
 
--   **Output:** a number between 0 and 1 (inclusive)
+        - $A \subseteq S$ means "A contained within S" or "A is a subset of S"
 
-$$\mathbb{P}(A): S \rightarrow [0,1]$$
+    -   **Output:** a number between 0 and 1 (inclusive)
+    
+ 
 
-A function that follows some specific rules though!
+- The probability function maps an event (or something within our sample space) to value between 0 and 1 
+
+  - When we speak of the probability function, we often call the values between 0 and 1 "probabilities"
+  
+    - Example: "The probability of drawing a heart is 0.25" for $P(\text{heart}) = 0.25$ 
+
+ 
+
+- The probability function needs to follow some specific rules!
 
  
 
@@ -117,7 +128,7 @@ If $A_1, A_2, A_3, \ldots$, is a collection of **disjoint** events, then $$\math
 
 ## Some probability properties
 
-Using the Axioms, we can prove all other probability properties!
+Using the Axioms, we can prove all other probability properties! Events A, B, and C are not necessarily disjoint!
 
 ::: columns
 ::: column
@@ -169,7 +180,7 @@ Proposition 5
 :::
 
 ::: prop-cont
-$\mathbb{P}(A \cup B \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \\ \mathbb{P}(C) - \mathbb{P}(A \cap B) - \mathbb{P}(A \cap C) - \\ \mathbb{P}(B \cap C) + \mathbb{P}(A \cap B \cap C)$
+$\begin{aligned} \mathbb{P}(A \cup B & \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \\ & \mathbb{P}(C) - \mathbb{P}(A \cap B) - \mathbb{P}(A \cap C) - \\ & \mathbb{P}(B \cap C) + \mathbb{P}(A \cap B \cap C) \end{aligned}$
 :::
 :::
 :::
@@ -177,6 +188,8 @@ $\mathbb{P}(A \cup B \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \\ \mathbb{P}(C) 
 
 ## Proposition 1 Proof
 
+::: columns
+::: {.column width="70%"}
 ::: proposition
 ::: prop-title
 Proposition 1
@@ -186,9 +199,33 @@ Proposition 1
 For any event $A$, $\mathbb{P}(A)= 1 - \mathbb{P}(A^C)$
 :::
 :::
+:::
+
+::: {.column width="30%"}
+::: axiom
+::: axiom-title
+Use Axioms!
+:::
+
+::: axiom-cont
+A1: $0\leq\mathbb{P}(A)\leq 1$
+
+A2: $\mathbb{P}(S)=1$
+
+A3: For disjoint $A_i$, 
+
+$\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) =  \sum_{i=1}^{\infty}\mathbb{P}(A_i)$
+:::
+:::
+:::
+:::
+
+
 
 ## Proposition 2 Proof
 
+::: columns
+::: {.column width="70%"}
 ::: proposition
 ::: prop-title
 Proposition 2
@@ -198,9 +235,32 @@ Proposition 2
 $\mathbb{P}(\emptyset)=0$
 :::
 :::
+:::
+
+::: {.column width="30%"}
+::: axiom
+::: axiom-title
+Use Axioms!
+:::
+
+::: axiom-cont
+A1: $0\leq\mathbb{P}(A)\leq 1$
+
+A2: $\mathbb{P}(S)=1$
+
+A3: For disjoint $A_i$, 
+
+$\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) =  \sum_{i=1}^{\infty}\mathbb{P}(A_i)$
+:::
+:::
+:::
+:::
+
 
 ## Proposition 3 Proof
 
+::: columns
+::: {.column width="70%"}
 ::: proposition
 ::: prop-title
 Proposition 3
@@ -210,6 +270,27 @@ Proposition 3
 If $A \subseteq B$, then $\mathbb{P}(A) \leq \mathbb{P}(B)$
 :::
 :::
+:::
+
+::: {.column width="30%"}
+::: axiom
+::: axiom-title
+Use Axioms!
+:::
+
+::: axiom-cont
+A1: $0\leq\mathbb{P}(A)\leq 1$
+
+A2: $\mathbb{P}(S)=1$
+
+A3: For disjoint $A_i$, 
+
+$\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) =  \sum_{i=1}^{\infty}\mathbb{P}(A_i)$
+:::
+:::
+:::
+:::
+
 
 ## Proposition 4 Visual Proof
 
@@ -303,3 +384,4 @@ then find the probability of them taking their medication exactly one of the two
 *Hint: Draw a Venn diagram labelling each of the parts to find the probability.*
 :::
 :::
+

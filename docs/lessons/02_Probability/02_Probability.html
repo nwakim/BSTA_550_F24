@@ -392,13 +392,30 @@ Meike Niederhausen and Nicky Wakim
 </section>
 <section id="a-probability-is-a-function" class="slide level2">
 <h2>A probability is a function…</h2>
-<p><span class="math inline">\(\mathbb{P}(A)\)</span> is a function with</p>
 <ul>
-<li><p><strong>Input:</strong> event <span class="math inline">\(A\)</span> from the sample space <span class="math inline">\(S\)</span>, (<span class="math inline">\(A \subseteq S\)</span>)</p></li>
+<li><p><span class="math inline">\(\mathbb{P}(A)\)</span> is a function with</p>
+<ul>
+<li><p><strong>Input:</strong> event <span class="math inline">\(A\)</span> from the sample space <span class="math inline">\(S\)</span>, (<span class="math inline">\(A \subseteq S\)</span>)</p>
+<ul>
+<li><span class="math inline">\(A \subseteq S\)</span> means “A contained within S” or “A is a subset of S”</li>
+</ul></li>
 <li><p><strong>Output:</strong> a number between 0 and 1 (inclusive)</p></li>
+</ul></li>
 </ul>
-<p><span class="math display">\[\mathbb{P}(A): S \rightarrow [0,1]\]</span></p>
-<p>A function that follows some specific rules though!</p>
+<p>&nbsp;</p>
+<ul>
+<li><p>The probability function maps an event (or something within our sample space) to value between 0 and 1</p>
+<ul>
+<li><p>When we speak of the probability function, we often call the values between 0 and 1 “probabilities”</p>
+<ul>
+<li>Example: “The probability of drawing a heart is 0.25” for <span class="math inline">\(P(\text{heart}) = 0.25\)</span></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>The probability function needs to follow some specific rules!</li>
+</ul>
 <p>&nbsp;</p>
 <p><em>See Probability Axioms on next slide.</em></p>
 </section></section>
@@ -441,7 +458,7 @@ Meike Niederhausen and Nicky Wakim
 </section>
 <section id="some-probability-properties-1" class="slide level2">
 <h2>Some probability properties</h2>
-<p>Using the Axioms, we can prove all other probability properties!</p>
+<p>Using the Axioms, we can prove all other probability properties! Events A, B, and C are not necessarily disjoint!</p>
 <div class="columns">
 <div class="column">
 <div class="proposition">
@@ -482,7 +499,7 @@ Meike Niederhausen and Nicky Wakim
 <p>Proposition 5</p>
 </div>
 <div class="prop-cont">
-<p><span class="math inline">\(\mathbb{P}(A \cup B \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \\ \mathbb{P}(C) - \mathbb{P}(A \cap B) - \mathbb{P}(A \cap C) - \\ \mathbb{P}(B \cap C) + \mathbb{P}(A \cap B \cap C)\)</span></p>
+<p><span class="math inline">\(\begin{aligned} \mathbb{P}(A \cup B &amp; \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \\ &amp; \mathbb{P}(C) - \mathbb{P}(A \cap B) - \mathbb{P}(A \cap C) - \\ &amp; \mathbb{P}(B \cap C) + \mathbb{P}(A \cap B \cap C) \end{aligned}\)</span></p>
 </div>
 </div>
 </div>
@@ -490,6 +507,8 @@ Meike Niederhausen and Nicky Wakim
 </section>
 <section id="proposition-1-proof" class="slide level2">
 <h2>Proposition 1 Proof</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="proposition">
 <div class="prop-title">
 <p>Proposition 1</p>
@@ -498,9 +517,25 @@ Meike Niederhausen and Nicky Wakim
 <p>For any event <span class="math inline">\(A\)</span>, <span class="math inline">\(\mathbb{P}(A)= 1 - \mathbb{P}(A^C)\)</span></p>
 </div>
 </div>
+</div><div class="column" style="width:30%;">
+<div class="axiom">
+<div class="axiom-title">
+<p>Use Axioms!</p>
+</div>
+<div class="axiom-cont">
+<p>A1: <span class="math inline">\(0\leq\mathbb{P}(A)\leq 1\)</span></p>
+<p>A2: <span class="math inline">\(\mathbb{P}(S)=1\)</span></p>
+<p>A3: For disjoint <span class="math inline">\(A_i\)</span>,</p>
+<p><span class="math inline">\(\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) = \sum_{i=1}^{\infty}\mathbb{P}(A_i)\)</span></p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="proposition-2-proof" class="slide level2">
 <h2>Proposition 2 Proof</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="proposition">
 <div class="prop-title">
 <p>Proposition 2</p>
@@ -509,15 +544,45 @@ Meike Niederhausen and Nicky Wakim
 <p><span class="math inline">\(\mathbb{P}(\emptyset)=0\)</span></p>
 </div>
 </div>
+</div><div class="column" style="width:30%;">
+<div class="axiom">
+<div class="axiom-title">
+<p>Use Axioms!</p>
+</div>
+<div class="axiom-cont">
+<p>A1: <span class="math inline">\(0\leq\mathbb{P}(A)\leq 1\)</span></p>
+<p>A2: <span class="math inline">\(\mathbb{P}(S)=1\)</span></p>
+<p>A3: For disjoint <span class="math inline">\(A_i\)</span>,</p>
+<p><span class="math inline">\(\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) = \sum_{i=1}^{\infty}\mathbb{P}(A_i)\)</span></p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="proposition-3-proof" class="slide level2">
 <h2>Proposition 3 Proof</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="proposition">
 <div class="prop-title">
 <p>Proposition 3</p>
 </div>
 <div class="prop-cont">
 <p>If <span class="math inline">\(A \subseteq B\)</span>, then <span class="math inline">\(\mathbb{P}(A) \leq \mathbb{P}(B)\)</span></p>
+</div>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="axiom">
+<div class="axiom-title">
+<p>Use Axioms!</p>
+</div>
+<div class="axiom-cont">
+<p>A1: <span class="math inline">\(0\leq\mathbb{P}(A)\leq 1\)</span></p>
+<p>A2: <span class="math inline">\(\mathbb{P}(S)=1\)</span></p>
+<p>A3: For disjoint <span class="math inline">\(A_i\)</span>,</p>
+<p><span class="math inline">\(\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) = \sum_{i=1}^{\infty}\mathbb{P}(A_i)\)</span></p>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -798,7 +863,7 @@ Meike Niederhausen and Nicky Wakim
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
