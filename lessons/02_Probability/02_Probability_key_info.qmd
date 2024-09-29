@@ -1,6 +1,6 @@
 ---
 title: "Key Info"
-date: "09/30/2024"
+date: "10/2/2024"
 date-modified: "today"
 format: 
   html:
@@ -9,3 +9,6 @@ editor_options:
   chunk_output_type: console
 ---
 
+## Exit ticket
+
+[![](/lessons/img_slides/exit_tickets/QRCode for Exit Ticket 10_2_2024.png){fig-align="center" width="427"}](https://forms.office.com/Pages/ResponsePage.aspx?id=V3lz4rj6fk2U9pvWr59xWFMopmPUjRtDiHLswhgacNhUQUlOMFlVUUFVNk9LR044TTczT0JSMzcwSy4u)
