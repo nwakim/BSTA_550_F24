@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "BSTA 550: Introduction to Probability",
     "section": "",
-    "text": "BSTA 550: Introduction to Probability\n\nFall 2024\n \nWelcome to Biostatistics and Probability! This course is designed to introduce history, concepts and distributions in probability, Monte Carlo simulation techniques, and Markov chains. Students will also learn how to write R codes for various statistical computations and plots. Previous experience in R is not required. R is free software available from http://www.r-project.org.\n \n\n\n\n\n\n\n\nInstructor\n Dr. Nicky Wakim\n Vanport 622A\n wakim@ohsu.edu\n\n\nOffice Hours\nOffice Hours Link\n TBD\n TBD\n\n\nCourse details\n Mondays, Wednesdays\n Sept 30 - Dec 9\n 10:30 AM - 12 PM\n In-person\n\n\nContacting me\nE-mail or Slack is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n\n\n\n\n\n\n View the source on GitHub"
+    "text": "BSTA 550: Introduction to Probability\n\nFall 2024\n \nWelcome to Biostatistics and Probability! This course is designed to introduce history, concepts and distributions in probability, Monte Carlo simulation techniques, and Markov chains. Students will also learn how to write R codes for various statistical computations and plots. Previous experience in R is not required. R is free software available from http://www.r-project.org.\n \n\n\n\n\n\n\n\nInstructor\n Dr. Nicky Wakim\n Vanport 622A\n wakim@ohsu.edu\n\n\nOffice Hours\nOffice Hours Link\n TBD\n TBD\n\n\nCourse details\n Mondays, Wednesdays\n Sept 30 - Dec 9\n 10:30 AM - 12 PM\n In-person, VPT 620M\n\n\nContacting me\nE-mail or Slack is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n\n\n\n\n\n\n View the source on GitHub"
   },
   {
     "objectID": "schedule.html",
@@ -2293,7 +2293,7 @@
     "href": "lessons/00_Intro/00_Intro.html#nicky-wakim-sheher",
     "title": "Welcome to BSTA 550!",
     "section": "Nicky Wakim (she/her)",
-    "text": "Nicky Wakim (she/her)\n\n\n\nCall me “Nicky,” “Dr. W,” “Professor Wakim,” or any combo!\nAssistant Professor of Biostatistics\n \nGrew up in DC area (Virginia side!)\nMoved here from Michigan around 2 years ago\nTwo sweet kitties\nVolleyball, pickleball, ceramics, strolling around my neighborhood\nBut also sleeping, TV, and reading\nProud plant mamma\n\n\n\n\n Video"
+    "text": "Nicky Wakim (she/her)\n\n\n\nCall me “Nicky,” “Dr. W,” “Professor Wakim,” or any combo!\nAssistant Professor of Biostatistics\n \nGrew up in DC area (Virginia side!)\nMoved here from Michigan around 2 years ago\nTwo sweet kitties\nVolleyball, pickleball, ceramics, strolling around my neighborhood\nBut also sleeping, TV, and reading\nProud plant mamma\nA few other things about myself that I will share non-publicly\n\n\n\n\n Video"
   },
   {
     "objectID": "lessons/00_Intro/00_Intro.html#some-important-tasks",
@@ -3813,5 +3813,75 @@
     "title": "Chapter 18: Poisson RVs",
     "section": "Where are we?",
     "text": "Where are we?"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-homepage",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-homepage",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Homepage",
+    "text": "Let’s visit the website: Homepage\n\nHomepage"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-syllabus",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-syllabus",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Syllabus",
+    "text": "Let’s visit the website: Syllabus\n\nCourse learning objectives\nTextbook in shared folder!\nResources: PennState STAT 414 site!\nR: not a big worry in our class, you will get a lot of help in BSTA 511\nAssessments and grade breakdowns\nHomework: 3 parts + grading\nFeedback: in the form of exit tickets, group evals, midterm feedback, and final course\nHow to succeed in this course: resources and assignments explained\nLate work policy / Attendance policy\nChatGPT and other AI technology\nCourse expectations: a few ways that I will show you respect and commitment to you as students\n\nAnd a few ways I expect from you!\n\nCommunicating with me: give me 24 hours to reply M-F\n\nOnline communication is not my strength!"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-schedule",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-schedule",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Schedule",
+    "text": "Let’s visit the website: Schedule\n\nWeeks, class info, exams, homeworks"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-search",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-search",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Search",
+    "text": "Let’s visit the website: Search"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-homework",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-homework",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Homework!",
+    "text": "Let’s visit the website: Homework!"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-schedule-12",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-schedule-12",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Schedule (1/2)",
+    "text": "Let’s visit the website: Schedule (1/2)\n\nWeeks, class info, exams, homeworks"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-schedule-22",
+    "href": "lessons/00_Intro/00_Intro.html#lets-visit-the-website-schedule-22",
+    "title": "Welcome to BSTA 550!",
+    "section": "Let’s visit the website: Schedule (2/2)",
+    "text": "Let’s visit the website: Schedule (2/2)\n\n\n\n\nKey Info\nI will post announcements and other important class related information here. This will often include logistics for the class and other helpful information. For example, if I change a due date or discuss a common mistake in homework, I will put it here.\n\n\n\nSlides QMD\nThese are the basic slides that will open in your browser.\n\n\n\nSlides PDF\nThese are the slides in pdf form. I try to save the slides in pdf form for easy note taking. I’m not always the best at posting these before class, so make sure you know how to save your own copy of pdf slides!\n\n\n\nSlides Notes\nThese are the annotated slides in pdf form. In class, I add my own notes to slides. After class, I will post them here.\n\n\n\nRecording\nI record our classes. This will be a link to the OneDrive folder containing this recording.\n\n\n\nMuddy Points\nYou will have a chance to ask questions about class in your exit tickets. If I notice a trend in confusion, I will add explanations to these “Muddy Points”"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro_key_info.html",
+    "href": "lessons/00_Intro/00_Intro_key_info.html",
+    "title": "Key Info and Announcements",
+    "section": "",
+    "text": "Welcome! Here is where I will put announcements for class!"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro_key_info.html#announcements",
+    "href": "lessons/00_Intro/00_Intro_key_info.html#announcements",
+    "title": "Key Info and Announcements",
+    "section": "",
+    "text": "Welcome! Here is where I will put announcements for class!"
+  },
+  {
+    "objectID": "lessons/00_Intro/00_Intro_key_info.html#exit-tickets",
+    "href": "lessons/00_Intro/00_Intro_key_info.html#exit-tickets",
+    "title": "Key Info and Announcements",
+    "section": "Exit tickets",
+    "text": "Exit tickets"
   }
 ]
