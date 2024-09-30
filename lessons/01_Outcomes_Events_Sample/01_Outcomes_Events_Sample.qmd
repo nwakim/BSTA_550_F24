@@ -71,10 +71,8 @@ When something happens at random, such as a coin toss, there are several possibl
 :::
 :::
 
-## Coin Toss Example: 1 coin (3/3)
+## Definitions: Sample Space and Events
 
-::: columns
-::: {.column width="35%"}
 ::: definition
 ::: def-title
 Definition: Sample Space
@@ -91,15 +89,22 @@ Definition: Event
 :::
 
 ::: def-cont
-An **event** is a *collection of some* outcomes. An event can include multiple outcomes or no outcomes.
-:::
+An **event** is a *collection of some* outcomes. An event can include multiple outcomes or no outcomes (a subset of the sample space).
 :::
 :::
 
-::: {.column width="65%"}
+When thinking about events, think about outcomes that you might be asking the probability of. For example, what is the probability that you get a heads and a tails in one flip? (Answer: 0)
+
+## Coin Toss Example: 1 coin (3/3)
+
+::: columns
+
+::: {.column width="60%"}
 -   What is the sample space?
 
     -   $S =$
+
+ 
 
  
 
@@ -115,9 +120,33 @@ An **event** is a *collection of some* outcomes. An event can include multiple o
 
      
 
-    When thinking about events, think about outcomes that you might be asking the probability of.
+:::
+
+::: {.column width="40%"}
+::: fact
+::: fact-title
+Note #1
+:::
+
+::: fact-cont
+We use curly brackets ($\{\}$) to denote a set (collecting a list of outcomes or values)
 :::
 :::
+
+::: fact
+::: fact-title
+Note #2
+:::
+
+::: fact-cont
+The total number of possible events is $$2^{|S|}$$ where $|S|$ is the total number of outcomes in the sample space. Also, possible events are not necessarily something that can actually occur (i.e. getting a heads and a tails on a single coin flip)
+:::
+:::
+:::
+:::
+
+
+
 
 # Tossing Two Coins (Outcomes, Events, and Sample Space)
 
@@ -151,7 +180,7 @@ An **event** is a *collection of some* outcomes. An event can include multiple o
 
  
 
--   The total number of possible events is $2^{|S|}$, which is the total number of possible subsets of $S$. We will prove this later in the course.
+-   The total number of possible events is $2^{|S|}$, which is the total number of possible subsets of $S$. 
 
  
 
@@ -305,7 +334,7 @@ $$\bigcap\limits_{i=1}^{n}A_i^C = \Big(\bigcup\limits_{i=1}^{n}A_i\Big)^C$$
 :::
 :::
 
-"all not A = $($at least one event A$)^C$"
+"all not A = $($at least one event A$)^C$" or "intersection of the complements is the complement of the union"
 
 ::: theorem
 ::: thm-title
@@ -319,7 +348,7 @@ $$\bigcup\limits_{i=1}^{n}A_i^C = \Big(\bigcap\limits_{i=1}^{n}A_i\Big)^C$$
 :::
 :::
 
-"at least one event not A = $($all A$)^C$"
+"at least one event not A = $($all A$)^C$" or "union of complements is complement of the intersection"
 
 ## Remarks on De Morgan's Laws
 

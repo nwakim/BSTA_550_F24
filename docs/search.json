@@ -270,7 +270,7 @@
     "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#coin-toss-example-1-coin-33",
     "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
     "section": "Coin Toss Example: 1 coin (3/3)",
-    "text": "Coin Toss Example: 1 coin (3/3)\n\n\n\n\nDefinition: Sample Space\n\n\nThe sample space \\(S\\) is the set of all outcomes\n\n\n\n\nDefinition: Event\n\n\nAn event is a collection of some outcomes. An event can include multiple outcomes or no outcomes.\n\n\n\n\nWhat is the sample space?\n\n\\(S =\\)\n\n\n \n\nWhat are the possible events?\n\n\n\n\n\n\n \nWhen thinking about events, think about outcomes that you might be asking the probability of."
+    "text": "Coin Toss Example: 1 coin (3/3)\n\n\n\nWhat is the sample space?\n\n\\(S =\\)\n\n\n \n \n\nWhat are the possible events?\n\n\n\n\n\n\n \n\n\n\n\nNote #1\n\n\nWe use curly brackets (\\(\\{\\}\\)) to denote a set (collecting a list of outcomes or values)\n\n\n\n\nNote #2\n\n\nThe total number of possible events is \\[2^{|S|}\\] where \\(|S|\\) is the total number of outcomes in the sample space. Also, possible events are not necessarily something that can actually occur (i.e. getting a heads and a tails on a single coin flip)"
   },
   {
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#coin-toss-example-2-coins",
@@ -284,7 +284,7 @@
     "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#more-info-on-events-and-sample-spaces",
     "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
     "section": "More info on events and sample spaces",
-    "text": "More info on events and sample spaces\n\nWe usually use capital letters from the beginning of the alphabet to denote events. However, other letters might be chosen to be more descriptive.\n\n \n\nWe use the notation \\(|S|\\) to denote the size of the sample space.\n\n \n\nThe total number of possible events is \\(2^{|S|}\\), which is the total number of possible subsets of \\(S\\). We will prove this later in the course.\n\n \n\nThe empty set, denoted by \\(\\emptyset\\), is the set containing no outcomes."
+    "text": "More info on events and sample spaces\n\nWe usually use capital letters from the beginning of the alphabet to denote events. However, other letters might be chosen to be more descriptive.\n\n \n\nWe use the notation \\(|S|\\) to denote the size of the sample space.\n\n \n\nThe total number of possible events is \\(2^{|S|}\\), which is the total number of possible subsets of \\(S\\).\n\n \n\nThe empty set, denoted by \\(\\emptyset\\), is the set containing no outcomes."
   },
   {
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#example-keep-sampling-until",
@@ -333,7 +333,7 @@
     "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#de-morgans-laws",
     "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
     "section": "De Morgan’s Laws",
-    "text": "De Morgan’s Laws\n\n\nTheorem: De Morgan’s 1st Law\n\n\nFor a collection of events (sets) \\(A_1, A_2, A_3, \\ldots\\)\n\\[\\bigcap\\limits_{i=1}^{n}A_i^C = \\Big(\\bigcup\\limits_{i=1}^{n}A_i\\Big)^C\\]\n\n\n“all not A = \\((\\)at least one event A\\()^C\\)”\n\n\nTheorem: De Morgan’s 2nd Law\n\n\nFor a collection of events (sets) \\(A_1, A_2, A_3, \\ldots\\)\n\\[\\bigcup\\limits_{i=1}^{n}A_i^C = \\Big(\\bigcap\\limits_{i=1}^{n}A_i\\Big)^C\\]\n\n\n“at least one event not A = \\((\\)all A\\()^C\\)”"
+    "text": "De Morgan’s Laws\n\n\nTheorem: De Morgan’s 1st Law\n\n\nFor a collection of events (sets) \\(A_1, A_2, A_3, \\ldots\\)\n\\[\\bigcap\\limits_{i=1}^{n}A_i^C = \\Big(\\bigcup\\limits_{i=1}^{n}A_i\\Big)^C\\]\n\n\n“all not A = \\((\\)at least one event A\\()^C\\)” or “intersection of the complements is the complement of the union”\n\n\nTheorem: De Morgan’s 2nd Law\n\n\nFor a collection of events (sets) \\(A_1, A_2, A_3, \\ldots\\)\n\\[\\bigcup\\limits_{i=1}^{n}A_i^C = \\Big(\\bigcap\\limits_{i=1}^{n}A_i\\Big)^C\\]\n\n\n“at least one event not A = \\((\\)all A\\()^C\\)” or “union of complements is complement of the intersection”"
   },
   {
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#remarks-on-de-morgans-laws",
@@ -3904,5 +3904,12 @@
     "title": "Chapter 2: Introduction to Probability",
     "section": "Weekly medications (more space to work)",
     "text": "Weekly medications (more space to work)\n\n\n\n\nExample 3\n\n\nIf a subject has an\n\n80% chance of taking their medication this week,\n70% chance of taking their medication next week, and\n10% chance of not taking their medication either week,\n\nthen find the probability of them taking their medication exactly one of the two weeks.\n\n\n\n\n\n\n\n\nChapter 2 Slides"
+  },
+  {
+    "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#definitions-sample-space-and-events",
+    "href": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample.html#definitions-sample-space-and-events",
+    "title": "Chapter 1: Outcomes, Events, and Sample Spaces",
+    "section": "Definitions: Sample Space and Events",
+    "text": "Definitions: Sample Space and Events\n\n\nDefinition: Sample Space\n\n\nThe sample space \\(S\\) is the set of all outcomes\n\n\n\n\nDefinition: Event\n\n\nAn event is a collection of some outcomes. An event can include multiple outcomes or no outcomes (a subset of the sample space).\n\n\nWhen thinking about events, think about outcomes that you might be asking the probability of. For example, what is the probability that you get a heads and a tails in one flip? (Answer: 0)"
   }
 ]

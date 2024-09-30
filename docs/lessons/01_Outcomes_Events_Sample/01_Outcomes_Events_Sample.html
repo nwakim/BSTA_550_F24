@@ -388,10 +388,8 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </section>
-<section id="coin-toss-example-1-coin-33" class="slide level2">
-<h2>Coin Toss Example: 1 coin (3/3)</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
+<section id="definitions-sample-space-and-events" class="slide level2">
+<h2>Definitions: Sample Space and Events</h2>
 <div class="definition">
 <div class="def-title">
 <p>Definition: Sample Space</p>
@@ -405,16 +403,22 @@ Meike Niederhausen and Nicky Wakim
 <p>Definition: Event</p>
 </div>
 <div class="def-cont">
-<p>An <strong>event</strong> is a <em>collection of some</em> outcomes. An event can include multiple outcomes or no outcomes.</p>
+<p>An <strong>event</strong> is a <em>collection of some</em> outcomes. An event can include multiple outcomes or no outcomes (a subset of the sample space).</p>
 </div>
 </div>
-</div><div class="column" style="width:65%;">
+<p>When thinking about events, think about outcomes that you might be asking the probability of. For example, what is the probability that you get a heads and a tails in one flip? (Answer: 0)</p>
+</section>
+<section id="coin-toss-example-1-coin-33" class="slide level2">
+<h2>Coin Toss Example: 1 coin (3/3)</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
 <li><p>What is the sample space?</p>
 <ul>
 <li><span class="math inline">\(S =\)</span></li>
 </ul></li>
 </ul>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <ul>
 <li><p>What are the possible events?</p>
@@ -424,9 +428,25 @@ Meike Niederhausen and Nicky Wakim
 <li></li>
 <li></li>
 </ul>
-<p>&nbsp;</p>
-<p>When thinking about events, think about outcomes that you might be asking the probability of.</p></li>
+<p>&nbsp;</p></li>
 </ul>
+</div><div class="column" style="width:40%;">
+<div class="fact">
+<div class="fact-title">
+<p>Note #1</p>
+</div>
+<div class="fact-cont">
+<p>We use curly brackets (<span class="math inline">\(\{\}\)</span>) to denote a set (collecting a list of outcomes or values)</p>
+</div>
+</div>
+<div class="fact">
+<div class="fact-title">
+<p>Note #2</p>
+</div>
+<div class="fact-cont">
+<p>The total number of possible events is <span class="math display">\[2^{|S|}\]</span> where <span class="math inline">\(|S|\)</span> is the total number of outcomes in the sample space. Also, possible events are not necessarily something that can actually occur (i.e.&nbsp;getting a heads and a tails on a single coin flip)</p>
+</div>
+</div>
 </div>
 </div>
 </section></section>
@@ -466,7 +486,7 @@ Meike Niederhausen and Nicky Wakim
 </ul>
 <p>&nbsp;</p>
 <ul>
-<li>The total number of possible events is <span class="math inline">\(2^{|S|}\)</span>, which is the total number of possible subsets of <span class="math inline">\(S\)</span>. We will prove this later in the course.</li>
+<li>The total number of possible events is <span class="math inline">\(2^{|S|}\)</span>, which is the total number of possible subsets of <span class="math inline">\(S\)</span>.</li>
 </ul>
 <p>&nbsp;</p>
 <ul>
@@ -597,7 +617,7 @@ Meike Niederhausen and Nicky Wakim
 <p><span class="math display">\[\bigcap\limits_{i=1}^{n}A_i^C = \Big(\bigcup\limits_{i=1}^{n}A_i\Big)^C\]</span></p>
 </div>
 </div>
-<p>“all not A = <span class="math inline">\((\)</span>at least one event A<span class="math inline">\()^C\)</span>”</p>
+<p>“all not A = <span class="math inline">\((\)</span>at least one event A<span class="math inline">\()^C\)</span>” or “intersection of the complements is the complement of the union”</p>
 <div class="theorem">
 <div class="thm-title">
 <p>Theorem: De Morgan’s 2nd Law</p>
@@ -607,7 +627,7 @@ Meike Niederhausen and Nicky Wakim
 <p><span class="math display">\[\bigcup\limits_{i=1}^{n}A_i^C = \Big(\bigcap\limits_{i=1}^{n}A_i\Big)^C\]</span></p>
 </div>
 </div>
-<p>“at least one event not A = <span class="math inline">\((\)</span>all A<span class="math inline">\()^C\)</span>”</p>
+<p>“at least one event not A = <span class="math inline">\((\)</span>all A<span class="math inline">\()^C\)</span>” or “union of complements is complement of the intersection”</p>
 </section>
 <section id="remarks-on-de-morgans-laws" class="slide level2">
 <h2>Remarks on De Morgan’s Laws</h2>
