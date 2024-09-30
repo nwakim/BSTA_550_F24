@@ -83,7 +83,7 @@ g=3
 
 -   **ISBN-13**: 978-0716771098
 
--   [Textbook in Sakai](https://sakai.ohsu.edu/access/content/group/BSTA-550-1-12619-F23/Textbook/introduction-to-probability_compress.pdf)
+-   [Textbook in Sakai](https://sakai.ohsu.edu/access/content/group/BSTA-550-1-14926-F24/introduction-to-probability_compress.pdf)
 
 #### Supplemental Readings (Optional)
 
