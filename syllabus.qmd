@@ -62,7 +62,7 @@ Wednesdays    10:30 AM -- 12:00 PM PST in room VPT 620M
 
 ### Known Exceptions
 
-Wednesday, November 26    No class
+Wednesday, November 27    No class
 
 ```{r}
 #| echo: false
