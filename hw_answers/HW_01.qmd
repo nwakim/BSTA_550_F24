@@ -29,9 +29,11 @@ editor_options:
 
     7.  0.02
 
+-   \# 2: (a) 16, (c) for one, $P(X=10) = \dfrac{5}{16}$, (d) 0.375
+
 ## Textbook problems
 
-There are answers at the back of the book!! Selected answers (or hints) not provided at the end the book:
+There are some answers at the back of the book!! Selected answers (or hints) not provided at the end the book:
 
 -   Chapter 2
 
@@ -40,5 +42,7 @@ There are answers at the back of the book!! Selected answers (or hints) not prov
     -   \# 8: 0.03125
 
     -   \# 16: 0.48
+
+    -   \# 23: 0.47
 
     -   \# 30: (a) 0.189     (b) 0.811     (c) 0.189
