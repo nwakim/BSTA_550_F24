@@ -1285,28 +1285,28 @@
     "href": "lessons/02_Probability/02_Probability.html#lets-break-down-this-probability",
     "title": "Chapter 2: Introduction to Probability",
     "section": "Let’s break down this probability",
-    "text": "Let’s break down this probability\nIf \\(S\\) is a finite sample space, with equally likely outcomes, then\n\\[\\mathbb{P}(A) = \\frac{|A|}{|S|}\\]\nIn human speak:\n\nFor equally likely outcomes, the probability that a certain event occurs is: the number of outcomes within the event of interest (\\(|A|\\)) divided by the total number of possible outcomes (\\(|S|\\))\nThus, it is important to be able to count the outcomes within an event"
+    "text": "Let’s break down this probability\nIf \\(S\\) is a finite sample space, with equally likely outcomes, then\n\\[\\mathbb{P}(A) = \\frac{|A|}{|S|}\\]\nIn human speak:\n\nFor equally likely outcomes, the probability that a certain event occurs is: the number of outcomes within the event of interest (\\(|A|\\)) divided by the total number of possible outcomes (\\(|S|\\))\n\n\\[\\mathbb{P}(A) = \\frac{\\text{total number of outcomes in event A}}{\\text{total number of outcomes in sample space}}\\]\n\nThus, it is important to be able to count the outcomes within an event"
   },
   {
     "objectID": "lessons/02_Probability/02_Probability.html#a-probability-is-a-function",
     "href": "lessons/02_Probability/02_Probability.html#a-probability-is-a-function",
     "title": "Chapter 2: Introduction to Probability",
     "section": "A probability is a function…",
-    "text": "A probability is a function…\n\n\\(\\mathbb{P}(A)\\) is a function with\n\nInput: event \\(A\\) from the sample space \\(S\\), (\\(A \\subseteq S\\))\n\n\\(A \\subseteq S\\) means “A contained within S” or “A is a subset of S”\n\nOutput: a number between 0 and 1 (inclusive)\n\n\n \n\nThe probability function maps an event (or something within our sample space) to value between 0 and 1\n\nWhen we speak of the probability function, we often call the values between 0 and 1 “probabilities”\n\nExample: “The probability of drawing a heart is 0.25” for \\(P(\\text{heart}) = 0.25\\)\n\n\n\n \n\nThe probability function needs to follow some specific rules!\n\n \nSee Probability Axioms on next slide."
+    "text": "A probability is a function…\n\n\\(\\mathbb{P}(A)\\) is a function with\n\nInput: event \\(A\\) from the sample space \\(S\\), (\\(A \\subseteq S\\))\n\n\\(A \\subseteq S\\) means “A contained within S” or “A is a subset of S”\n\nOutput: a number between 0 and 1 (inclusive)\n\n\n \n\nThe probability function maps an event (input) to value between 0 and 1 (output)\n\nWhen we speak of the probability function, we often call the values between 0 and 1 “probabilities”\n\nExample: “The probability of drawing a heart is 0.25” for \\(P(\\text{heart}) = 0.25\\)\n\n\n\n \n\nThe probability function needs to follow some specific rules!\n\n \nSee Probability Axioms on next slide."
   },
   {
     "objectID": "lessons/02_Probability/02_Probability.html#probability-axioms-1",
     "href": "lessons/02_Probability/02_Probability.html#probability-axioms-1",
     "title": "Chapter 2: Introduction to Probability",
     "section": "Probability Axioms",
-    "text": "Probability Axioms\n\n\nAxiom 1\n\n\nFor every event \\(A\\), \\(0\\leq\\mathbb{P}(A)\\leq 1\\). Probability is between 0 and 1.\n\n\n\n\nAxiom 2\n\n\nFor the sample space \\(S\\), \\(\\mathbb{P}(S)=1\\).\n\n\n\n\nAxiom 3\n\n\nIf \\(A_1, A_2, A_3, \\ldots\\), is a collection of disjoint events, then \\[\\mathbb{P}\\Big( \\bigcup \\limits_{i=1}^{\\infty}A_i\\Big) =  \\sum_{i=1}^{\\infty}\\mathbb{P}(A_i).\\]"
+    "text": "Probability Axioms\n\n\n\n\nAxiom 1\n\n\nFor every event \\(A\\), \\(0\\leq\\mathbb{P}(A)\\leq 1\\). Probability is between 0 and 1.\n\n\n\n\nAxiom 2\n\n\nFor the sample space \\(S\\), \\(\\mathbb{P}(S)=1\\).\n\n\n\n\nAxiom 3\n\n\nIf \\(A_1, A_2, A_3, \\ldots\\), is a collection of disjoint events, then \\[\\mathbb{P}\\Big( \\bigcup \\limits_{i=1}^{\\infty}A_i\\Big) =  \\sum_{i=1}^{\\infty}\\mathbb{P}(A_i).\\] The probability of at least one \\(A_i\\) is the sum of the individual probabilities of each."
   },
   {
     "objectID": "lessons/02_Probability/02_Probability.html#some-probability-properties-1",
     "href": "lessons/02_Probability/02_Probability.html#some-probability-properties-1",
     "title": "Chapter 2: Introduction to Probability",
     "section": "Some probability properties",
-    "text": "Some probability properties\nUsing the Axioms, we can prove all other probability properties! Events A, B, and C are not necessarily disjoint!\n\n\n\n\nProposition 1\n\n\nFor any event \\(A\\), \\(\\mathbb{P}(A)= 1 - \\mathbb{P}(A^C)\\)\n\n\n\n\nProposition 2\n\n\n\\(\\mathbb{P}(\\emptyset)=0\\)\n\n\n\n\nProposition 3\n\n\nIf \\(A \\subseteq B\\), then \\(\\mathbb{P}(A) \\leq \\mathbb{P}(B)\\)\n\n\n\n\n\nProposition 4\n\n\n\\(\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) + \\mathbb{P}(B) - \\mathbb{P}(A \\cap B)\\)\n\n\n\n\nProposition 5\n\n\n\\(\\begin{aligned} \\mathbb{P}(A \\cup B & \\cup C) = \\mathbb{P}(A) + \\mathbb{P}(B) + \\\\ & \\mathbb{P}(C) - \\mathbb{P}(A \\cap B) - \\mathbb{P}(A \\cap C) - \\\\ & \\mathbb{P}(B \\cap C) + \\mathbb{P}(A \\cap B \\cap C) \\end{aligned}\\)"
+    "text": "Some probability properties\nUsing the Axioms, we can prove all other probability properties! Events A, B, and C are not necessarily disjoint!\n\n\n\n\nProposition 1\n\n\nFor any event \\(A\\), \\(\\mathbb{P}(A)= 1 - \\mathbb{P}(A^C)\\)\n\n\n\n\nProposition 2\n\n\n\\(\\mathbb{P}(\\emptyset)=0\\)\n\n\n\n\nProposition 3\n\n\nIf \\(A \\subseteq B\\), then \\(\\mathbb{P}(A) \\leq \\mathbb{P}(B)\\)\n\n\n\n\n\nProposition 4\n\n\n\\[\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) + \\mathbb{P}(B) - \\mathbb{P}(A \\cap B)\\] where \\(A\\) and \\(B\\) are not necessarily disjoint\n\n\n\n\nProposition 5\n\n\n\\(\\begin{aligned} \\mathbb{P}(A \\cup B & \\cup C) = \\mathbb{P}(A) + \\mathbb{P}(B) + \\\\ & \\mathbb{P}(C) - \\mathbb{P}(A \\cap B) - \\mathbb{P}(A \\cap C) - \\\\ & \\mathbb{P}(B \\cap C) + \\mathbb{P}(A \\cap B \\cap C) \\end{aligned}\\)"
   },
   {
     "objectID": "lessons/02_Probability/02_Probability.html#proposition-1-proof",
@@ -3932,5 +3932,12 @@
     "title": "Muddy Points",
     "section": "6. Partition of events",
     "text": "6. Partition of events\nWe’ve been working with event partitions throughout Chapter 2, but we have not formally identified them. Partitions are advantageous to define for two reasons:\n\nThe partitions may be easier to calculate. We can then use the partitions to reconstruct other probabilities that may be more difficult to calculate\nPartitions have nice properties as a consequence of being disjoint. For example, the probability of the union of partitions is the sum of the probabilities across each partition: \\[P\\bigg(\\bigcup_{i=1}^n A_i\\bigg) = P(A_1)P(A_2)P(A_3) \\cdot \\cdot \\cdot P(A_n)\\]"
+  },
+  {
+    "objectID": "lessons/02_Probability/02_Probability.html#some-final-remarks-on-these-proposition",
+    "href": "lessons/02_Probability/02_Probability.html#some-final-remarks-on-these-proposition",
+    "title": "Chapter 2: Introduction to Probability",
+    "section": "Some final remarks on these proposition",
+    "text": "Some final remarks on these proposition\n\nNotice how we spliced events into multiple disjoint events\n\nIt is often easier to work with disjoint events\n\n\n \n\nIf we want to calculate the probability for one event, we may need to get creative with how we manipulate other events and the sample space\n\nHelps us use any incomplete information we have"
   }
 ]

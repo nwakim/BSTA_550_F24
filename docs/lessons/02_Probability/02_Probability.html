@@ -343,7 +343,8 @@ Meike Niederhausen and Nicky Wakim
 <h1>Learning Objectives</h1>
 <ol type="1">
 <li><p>Define basic axioms and propositions in probability</p></li>
-<li><p>Assign probabilities to events, and perform manipulations on probabilities to make calculations easier</p></li>
+<li><p>Assign probabilities to events</p></li>
+<li><p>Perform manipulations on probabilities to make calculations easier</p></li>
 </ol>
 </section>
 <section id="where-are-we" class="slide level2">
@@ -386,8 +387,11 @@ Meike Niederhausen and Nicky Wakim
 <p><span class="math display">\[\mathbb{P}(A) = \frac{|A|}{|S|}\]</span></p>
 <p>In human speak:</p>
 <ul>
-<li><p>For equally likely outcomes, the probability that a certain event occurs is: the number of outcomes within the event of interest (<span class="math inline">\(|A|\)</span>) <strong>divided by</strong> the total number of possible outcomes (<span class="math inline">\(|S|\)</span>)</p></li>
-<li><p>Thus, it is important to be able to count the outcomes within an event</p></li>
+<li>For equally likely outcomes, the probability that a certain event occurs is: the number of outcomes within the event of interest (<span class="math inline">\(|A|\)</span>) <strong>divided by</strong> the total number of possible outcomes (<span class="math inline">\(|S|\)</span>)</li>
+</ul>
+<p><span class="math display">\[\mathbb{P}(A) = \frac{\text{total number of outcomes in event A}}{\text{total number of outcomes in sample space}}\]</span></p>
+<ul>
+<li>Thus, it is important to be able to count the outcomes within an event</li>
 </ul>
 </section>
 <section id="a-probability-is-a-function" class="slide level2">
@@ -404,7 +408,7 @@ Meike Niederhausen and Nicky Wakim
 </ul>
 <p>&nbsp;</p>
 <ul>
-<li><p>The probability function maps an event (or something within our sample space) to value between 0 and 1</p>
+<li><p>The <span style="color:#E25D3B;"><strong>probability function</strong></span> maps an event (input) to value between 0 and 1 (output)</p>
 <ul>
 <li><p>When we speak of the probability function, we often call the values between 0 and 1 “probabilities”</p>
 <ul>
@@ -426,6 +430,8 @@ Meike Niederhausen and Nicky Wakim
 </section>
 <section id="probability-axioms-1" class="slide level2">
 <h2>Probability Axioms</h2>
+<div class="columns">
+<div class="column">
 <div class="axiom">
 <div class="axiom-title">
 <p>Axiom 1</p>
@@ -447,7 +453,9 @@ Meike Niederhausen and Nicky Wakim
 <p>Axiom 3</p>
 </div>
 <div class="axiom-cont">
-<p>If <span class="math inline">\(A_1, A_2, A_3, \ldots\)</span>, is a collection of <strong>disjoint</strong> events, then <span class="math display">\[\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) =  \sum_{i=1}^{\infty}\mathbb{P}(A_i).\]</span></p>
+<p>If <span class="math inline">\(A_1, A_2, A_3, \ldots\)</span>, is a collection of <strong>disjoint</strong> events, then <span class="math display">\[\mathbb{P}\Big( \bigcup \limits_{i=1}^{\infty}A_i\Big) =  \sum_{i=1}^{\infty}\mathbb{P}(A_i).\]</span> The probability of at least one <span class="math inline">\(A_i\)</span> is the sum of the individual probabilities of each.</p>
+</div>
+</div>
 </div>
 </div>
 </section></section>
@@ -491,7 +499,7 @@ Meike Niederhausen and Nicky Wakim
 <p>Proposition 4</p>
 </div>
 <div class="prop-cont">
-<p><span class="math inline">\(\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)\)</span></p>
+<p><span class="math display">\[\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)\]</span> where <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are not necessarily disjoint</p>
 </div>
 </div>
 <div class="proposition">
@@ -607,6 +615,22 @@ Meike Niederhausen and Nicky Wakim
 <p><span class="math inline">\(\mathbb{P}(A \cup B \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \mathbb{P}(C) - \mathbb{P}(A \cap B) - \mathbb{P}(A \cap C) - \mathbb{P}(B \cap C) + \mathbb{P}(A \cap B \cap C)\)</span></p>
 </div>
 </div>
+</section>
+<section id="some-final-remarks-on-these-proposition" class="slide level2">
+<h2>Some final remarks on these proposition</h2>
+<ul>
+<li>Notice how we spliced events into multiple <strong>disjoint</strong> events
+<ul>
+<li>It is often easier to work with disjoint events</li>
+</ul></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>If we want to calculate the probability for one event, we may need to get creative with how we manipulate other events and the sample space
+<ul>
+<li>Helps us use any incomplete information we have</li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="partitions" class="title-slide slide level1 center">
