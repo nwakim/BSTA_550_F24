@@ -9,6 +9,8 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Exit ticket
+## Announcements
 
-[![](/lessons/img_slides/exit_tickets/QRCode for Exit Ticket 10_2_2024.png){fig-align="center" width="427"}](https://forms.office.com/Pages/ResponsePage.aspx?id=V3lz4rj6fk2U9pvWr59xWFMopmPUjRtDiHLswhgacNhUQUlOMFlVUUFVNk9LR044TTczT0JSMzcwSy4u)
+- Slack is working for a few people??
+  - <https://join.slack.com/t/bsta550/shared_invite/zt-2qtfo9s8j-j6ozEaYdT7yy1KuHoT9Mhw>
+
