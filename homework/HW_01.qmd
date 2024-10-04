@@ -26,16 +26,11 @@ editor_options:
 |:-------:|:------------:|:----------------------------------------:|
 |    1    |              |              \# 3, 7, 9, 11              |
 |    2    | NTB \# 1, 30 |     \# 1, 4, 8, 16, 19, 23, NTB \# 2     |
-|  22\*   |   TB \# 1    | \# 3, 5, 7, 25, 27, 30, 31, 39-41, 43-48 |
 :::
 
-\* Please note the following for Chapter 22:
+## Group assignments
 
--   See the table on pg. 277, which summarizes some key combinatorics concepts.
-
--   Problems 39-48 are a set that build on one another and more advanced than the other problems. It'll be much easier to do #42 after doing 39-41.
-
--   I *highly* recommend reading Chapter 23, which is a series of case studies in counting: poker hands and Yahtzee.
+[Please fill out this form to help me configure groups.](https://forms.office.com/Pages/ResponsePage.aspx?id=V3lz4rj6fk2U9pvWr59xWFMopmPUjRtDiHLswhgacNhUOURLVVRKR0pSWTU0M0IwQ1I3SUdUMTlDNy4u) I will first pair you based on people on your preferred list, then I will group pairs to balance working styles, R skills, and statistics exposure.
 
 ## Non-textbook problems (NTB)
 
