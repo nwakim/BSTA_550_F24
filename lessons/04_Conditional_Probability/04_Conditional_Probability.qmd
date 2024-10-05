@@ -3,7 +3,7 @@ title: "Chapter 4: Conditional Probability"
 author: "Meike Niederhausen and Nicky Wakim"
 title-slide-attributes:
     data-background-color: "#006a4e"
-date: "10/07/2024"
+date: "10/09/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"

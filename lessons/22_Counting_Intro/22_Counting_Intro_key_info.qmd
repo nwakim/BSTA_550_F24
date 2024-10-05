@@ -22,3 +22,6 @@ editor_options:
 - Homework solution groups!!
   - I added a link to a Microsoft form in Homework 1
   - Please specify who you would like to partner with
+- Office hours
+  - Let's discuss
+  - Looks like Thursdays 1-2:30pm is best or 1-2pm on Tuesday

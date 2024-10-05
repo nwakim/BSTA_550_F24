@@ -24,12 +24,6 @@ format:
 
 ![](../img_slides/course_map.png){fig-align="center"}
 
-## Revisiting our coin toss
-
-**Question:** Which of the following sequences of coin tosses of heads ($H$) and tails ($T$) is more likely to happen, assuming the coin is fair?
-
-$$HTTHHHTHTHHTTTH$$ or $$HTTTTTTTTHTTTTT$$
-
 ## Independent Events
 
 ::: definition
