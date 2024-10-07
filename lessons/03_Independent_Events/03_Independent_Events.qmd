@@ -36,7 +36,13 @@ Definition: Independence
 :::
 :::
 
-**Notation:** For shorthand, we sometimes write $$A \mathrel{\unicode{x2AEB}} B,$$ to denote that $A$ and $B$ are independent events.
+**Notation:** For shorthand, we sometimes write $A \mathrel{\unicode{x2AEB}} B,$ to denote that $A$ and $B$ are independent events.
+
+ 
+
+- Also note: 
+$$\begin{aligned} \mathbb{P}(A \cap B) = \mathbb{P}(A) \cdot  \mathbb{P}(B) & \implies A \mathrel{\unicode{x2AEB}} B \\
+A \mathrel{\unicode{x2AEB}} B & \implies \mathbb{P}(A \cap B) = \mathbb{P}(A) \cdot  \mathbb{P}(B) \end{aligned}$$
 
 ## Example of two dice
 

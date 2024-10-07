@@ -3518,7 +3518,7 @@
     "href": "lessons/03_Independent_Events/03_Independent_Events.html#independent-events",
     "title": "Chapter 3: Independent Events",
     "section": "Independent Events",
-    "text": "Independent Events\n\n\nDefinition: Independence\n\n\nEvents \\(A\\) and \\(B\\) are independent if \\[\\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\cdot  \\mathbb{P}(B).\\]\n\n\nNotation: For shorthand, we sometimes write \\[A \\mathrel{\\unicode{x2AEB}} B,\\] to denote that \\(A\\) and \\(B\\) are independent events."
+    "text": "Independent Events\n\n\nDefinition: Independence\n\n\nEvents \\(A\\) and \\(B\\) are independent if \\[\\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\cdot  \\mathbb{P}(B).\\]\n\n\nNotation: For shorthand, we sometimes write \\(A \\mathrel{\\unicode{x2AEB}} B,\\) to denote that \\(A\\) and \\(B\\) are independent events.\n \n\nAlso note: \\[\\begin{aligned} \\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\cdot  \\mathbb{P}(B) & \\implies A \\mathrel{\\unicode{x2AEB}} B \\\\\nA \\mathrel{\\unicode{x2AEB}} B & \\implies \\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\cdot  \\mathbb{P}(B) \\end{aligned}\\]"
   },
   {
     "objectID": "lessons/03_Independent_Events/03_Independent_Events.html#example-of-two-dice",
