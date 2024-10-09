@@ -213,13 +213,13 @@ Example 5
 ::: ex-cont
 Suppose
 
--   1% of women aged 40-50 years have breast cancer,
+-   1% of people who are AFAB aged 40-50 years have breast cancer,
 
--   a woman with breast cancer has a 90% chance of a positive test from a mammogram, and
+-   an AFAB person with breast cancer has a 90% chance of a positive test from a mammogram, and
 
--   a woman has a 10% chance of a false-positive result from a mammogram.
+-   an AFAB person has a 10% chance of a false-positive result from a mammogram.
 
-What is the probability that a woman has breast cancer given that she just had a positive test?
+What is the probability that an AFAB person has breast cancer given that they just had a positive test?
 :::
 :::
 :::
