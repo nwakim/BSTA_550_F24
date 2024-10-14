@@ -12,6 +12,7 @@ format:
     width: 1955
     height: 1100
     footer: Chapter 17 Slides
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives

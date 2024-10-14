@@ -3,7 +3,7 @@ title: "Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
 title-slide-attributes:
     data-background-color: "#006a4e"
-date: "10/14/2024"
+date: "10/16/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
@@ -12,6 +12,7 @@ format:
     width: 1955
     height: 1100
     footer: Chapter 14-20 Slides
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives
