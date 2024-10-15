@@ -3546,7 +3546,7 @@
     "href": "lessons/03_Independent_Events/03_Independent_Events_muddy_points.html",
     "title": "Muddy Points",
     "section": "",
-    "text": "My main piece of advice for independence is to rely on the math to show it, not logic! Don’t go into a problem thinking “Logically, these two events are independent.” If the problem does not say “Assume independence,” then we need to show it mathematically.\nSame goes with the definition of independence. When we say “knowing the outcome of one provides no information about the outcome of the other,” we once again need to show this mathematically, not just using logic. We translate the previous statement to \\[P(A) = P(A|B)\\] And we need to show this mathematically!"
+    "text": "1. How do I know if two events are independent?\nMy main piece of advice for independence is to rely on the math to show it, not logic! Don’t go into a problem thinking “Logically, these two events are independent.” If the problem does not say “Assume independence,” then we need to show it mathematically.\nSame goes with the definition of independence. When we say “knowing the outcome of one provides no information about the outcome of the other,” we once again need to show this mathematically, not just using logic. We translate the previous statement to \\[P(A) = P(A|B)\\] And we need to show this mathematically!\n\n\n2. Disjoint vs. Independent Events\nHere is a pretty good video breaking down disjoint (mutually exclusive) events and independent events. It includes examples as well."
   },
   {
     "objectID": "lessons/03_Independent_Events/03_Independent_Events_muddy_points.html#from-fall-2023",
