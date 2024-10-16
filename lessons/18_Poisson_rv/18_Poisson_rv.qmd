@@ -97,9 +97,9 @@ per day. Find the following probabilities.
 Theorem 1
 :::
 ::: thm-cont
-If $X\sim Poiss(\lambda_1)$ and
-$Y\sim Poiss(\lambda_2)$ are independent of each other, then
-$Z=X+Y\sim Poiss(\lambda_1 + \lambda_2)$.
+If $X\sim Pois(\lambda_1)$ and
+$Y\sim Pois(\lambda_2)$ are independent of each other, then
+$Z=X+Y\sim Pois(\lambda_1 + \lambda_2)$.
 :::
 :::
 
@@ -154,5 +154,8 @@ than 4 mistakes are made in the next 2,000 tests.
 2.  Approximate the probability in part (1) using the Poisson distribution.
 :::
 :::
+:::
+::: {.column width="60%"}
+To do for extra practice - will also see a similar problem in BSTA 511
 :::
 :::

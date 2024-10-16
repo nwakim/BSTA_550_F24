@@ -12,7 +12,7 @@
 
   <meta name="author" content="Meike Niederhausen and Nicky Wakim">
   <meta name="dcterms.date" content="2024-10-16">
-  <title>Introduction to Probability - Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs</title>
+  <title>Introduction to Probability - Chapter 14-20: Some Important Discrete RVs</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,7 +326,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#006a4e" class="quarto-title-block center">
-  <h1 class="title">Chapter 14, 15, 16, 19, 20: Some Important Discrete RVs</h1>
+  <h1 class="title">Chapter 14-20: Some Important Discrete RVs</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -341,7 +341,7 @@ Meike Niederhausen and Nicky Wakim
 <section id="learning-objectives" class="slide level2">
 <h2>Learning Objectives</h2>
 <ol type="1">
-<li>Distinguish between Bernoulli, Binomial, Geometric, Hypergeometric, and Discrete Uniform distributions when reading a story.</li>
+<li>Distinguish between Bernoulli, Binomial, Geometric, Hypergeometric, Discrete Uniform, Negative Binomial, and Poisson distributions when reading a story.</li>
 <li>Identify the variable and the parameters in a story, and state what the variable and parameters mean.</li>
 <li>Use the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities.</li>
 </ol>
@@ -414,8 +414,8 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 \]</span></p>
 <p><span class="math display">\[\text{E}(X) = np\]</span> <span class="math display">\[\text{Var}(X) = npq = np(1-p)\]</span></p>
 </section>
-<section id="bernoulli-to-binomial" class="slide level2">
-<h2>Bernoulli to Binomial</h2>
+<section id="our-beloved-fair-sided-die" class="slide level2">
+<h2>Our beloved fair-sided die</h2>
 <div class="columns">
 <div class="column" style="width:35%;">
 <div class="example">
@@ -445,10 +445,10 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 <li><p><strong>Scenario:</strong> There are repeated independent trials, each resulting in a success or failure, with constant probability of success for each trial. We are counting the number of trials until the first success.</p></li>
 <li><p>Shorthand: <span class="math inline">\(X \sim \text{Geo}(p)\)</span> or <span class="math inline">\(X \sim \text{Geometric}(p)\)</span> or <span class="math inline">\(X \sim \text{G}(p)\)</span></p></li>
 </ul>
-<table style="width:94%;">
+<table style="width:99%;">
 <colgroup>
-<col style="width: 47%">
-<col style="width: 47%">
+<col style="width: 48%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -458,17 +458,20 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><p><span class="math inline">\(p _ X  ( x ) = P(X=x) = (1-p)^{x-1}p\)</span></p>
+<td style="text-align: center;"><p><span class="math inline">\(p _  X( x ) = P(X=x) = (1-p)^{x-1}p\)</span></p>
 <p>for <span class="math inline">\(x=1,2, 3,...\)</span></p>
-<p><span class="math inline">\(F_ X ( x ) = P(X\leq x) = 1-(1-p)^x\)</span></p>
+<p><span class="math display">\[F_
+X(x ) = P(X\leq x) = 1-(1-p)^x\]</span></p>
 <p>for <span class="math inline">\(x=1,2, 3,...\)</span></p></td>
 <td style="text-align: center;"><p><span class="math inline">\(p _X (x)= P(X=x) = (1-p)^{x}p\)</span></p>
 <p>for <span class="math inline">\(x=0, 1,2,...\)</span></p>
-<p><span class="math inline">\(F_X ( x ) = P(X\leq x) = 1-(1-p)^{x+1}\)</span></p>
+<p><span class="math display">\[F_X ( x
+)
+= P(X\leq x) = 1-(1-p)^{x+1}\]</span></p>
 <p>for <span class="math inline">\(x=0, 1,2,...\)</span></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p><span class="math inline">\(E(X)=\dfrac{1-p}{p}\)</span></p>
+<td style="text-align: center;"><p><span class="math inline">\(E(X)=\dfrac{1}{p}\)</span></p>
 <p><span class="math inline">\(Var(X)= \dfrac{1-p}{p^2}\)</span></p></td>
 <td style="text-align: center;"><p><span class="math inline">\(E(X)=\dfrac{1-p}{p}\)</span></p>
 <p><span class="math inline">\(Var(X) = \dfrac{1-p}{p^2}\)</span></p></td>
@@ -476,8 +479,8 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 </tbody>
 </table>
 </section>
-<section id="bullseye-16" class="slide level2">
-<h2>Bullseye (1/6)</h2>
+<section id="bullseye-14" class="slide level2">
+<h2>Bullseye (1/4)</h2>
 <div class="columns">
 <div class="column" style="width:100%;">
 <div class="example">
@@ -491,21 +494,17 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 <li><p>What are the mean and variance for the number of throws needed to hit the bullseye?</p></li>
 <li><p>Find the probability that our first bullseye:</p>
 <ul>
-<li><p>is on the fourth try</p></li>
-<li><p>is on one of the first four tries</p></li>
-<li><p>is after the fifth try</p></li>
 <li><p>is on one of the first fifty tries</p></li>
 <li><p>is after the <span class="math inline">\(50^{th}\)</span> try, given that it did not happen on the first 20 tries</p></li>
 </ul></li>
-<li><p>Find the expected number of misses until we hit the bullseye.</p></li>
 </ol>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="bullseye-26" class="slide level2">
-<h2>Bullseye (2/6)</h2>
+<section id="bullseye-24" class="slide level2">
+<h2>Bullseye (2/4)</h2>
 <div class="columns">
 <div class="column" style="width:35%;">
 <div class="example">
@@ -522,8 +521,8 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 </div>
 </div>
 </section>
-<section id="bullseye-36" class="slide level2">
-<h2>Bullseye (3/6)</h2>
+<section id="bullseye-34" class="slide level2">
+<h2>Bullseye (3/4)</h2>
 <div class="columns">
 <div class="column" style="width:35%;">
 <div class="example">
@@ -540,31 +539,8 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 </div>
 </div>
 </section>
-<section id="bullseye-46" class="slide level2">
-<h2>Bullseye (4/6)</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3</p>
-</div>
-<div class="ex-cont">
-<p>We throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol start="3" type="1">
-<li><p>Find the probability that our first bullseye:</p>
-<ul>
-<li><p>is on the fourth try</p></li>
-<li><p>is on one of the first four tries</p></li>
-<li><p>is after the fourth try</p></li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="bullseye-56" class="slide level2">
-<h2>Bullseye (5/6)</h2>
+<section id="bullseye-44" class="slide level2">
+<h2>Bullseye (4/4)</h2>
 <div class="columns">
 <div class="column" style="width:35%;">
 <div class="example">
@@ -592,6 +568,192 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 <p><span class="math inline">\(P(X &gt; k+j |X &gt; j) = P(X &gt; k)\)</span> <span class="math display">\[ P(X &gt; k+j |X &gt; j) = \dfrac{P(X&gt;k+j \text{ and } X&gt;j)}{P(X&gt;j)} = \dfrac{P(X&gt;k+j)}{P(X&gt;j)} = \dfrac{(1-p)^{k+j}}{(1-p)^{j}} = (1-p)^{k} \]</span></p>
 </section></section>
 <section>
+<section id="chapter-17-negative-binomial-rvs" class="title-slide slide level1 center">
+<h1>Chapter 17: Negative Binomial RVs</h1>
+
+</section>
+<section id="properties-of-negative-binomial-rvs" class="slide level2">
+<h2>Properties of Negative Binomial RVs</h2>
+<ul>
+<li><strong>Scenario:</strong> There are repeated independent trials, each resulting in a success or failure, with constant probability of success for each trial. We are counting the number of trials until the <span class="math inline">\(r^{th}\)</span> success.</li>
+<li>Shorthand: <span class="math inline">\(X \sim \text{NegBin}(p, r)\)</span> or <span class="math inline">\(X \sim \text{NB}(p, r)\)</span></li>
+<li>Negative binomial is sum of <span class="math inline">\(r\)</span> geometric distributions</li>
+</ul>
+<p><span class="math display">\[
+X = \text{Number of independent trials until } r^{th} \text{ success}
+\]</span></p>
+<p><span class="math display">\[ p_X(x) = P(X=x) = {x-1 \choose r-1}(1-p)^{x-r}p^r \text{ for } x = r, r+1, r+2, ...\]</span></p>
+<p><span class="math display">\[ E(X) = \dfrac{r}{p}\]</span></p>
+<p><span class="math display">\[Var(X) = \dfrac{rq}{p^2} = \dfrac{r(1-p)}{p^2}\]</span></p>
+</section>
+<section id="hitting-more-than-1-bullseye" class="slide level2">
+<h2>Hitting more than 1 bullseye</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="example">
+<div class="ex-title">
+<p>Example 1</p>
+</div>
+<div class="ex-cont">
+<p>Consider again the bullseye example, where we throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
+<ol type="1">
+<li>What is the expected value and variance of the number of throws needed to hit 5 bullseyes?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="hitting-more-than-1-bullseye-1" class="slide level2">
+<h2>Hitting more than 1 bullseye</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="example">
+<div class="ex-title">
+<p>Example 1</p>
+</div>
+<div class="ex-cont">
+<p>Consider again the bullseye example, where we throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
+<ol start="2" type="1">
+<li>What is the probability that the <span class="math inline">\(5^{th}\)</span> bullseye is on the <span class="math inline">\(20^{th}\)</span> throw?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section id="minute-break" class="title-slide slide level1 center">
+<h1>5 minute break</h1>
+
+</section>
+
+<section>
+<section id="chapter-18-poisson-rvs" class="title-slide slide level1 center">
+<h1>Chapter 18: Poisson RVs</h1>
+
+</section>
+<section id="properties-of-poisson-rvs" class="slide level2">
+<h2>Properties of Poisson RVs</h2>
+<ul>
+<li><strong>Scenario:</strong> We are counting the number of successes in a fixed time period, which has a constant rate of successes</li>
+<li>Shorthand: <span class="math inline">\(X \sim \text{Poisson}(\lambda)\)</span> or <span class="math inline">\(X \sim \text{Pois}(\lambda)\)</span></li>
+</ul>
+<p><span class="math display">\[
+X = \text{Number of successes in a given period}
+\]</span></p>
+<p><span class="math display">\[ p_X(x) = P(X=x) = \dfrac{e^{-\lambda}\lambda^x}{x!} \text{ for } x = 0, 1, 2,3, ...\]</span></p>
+<p><span class="math display">\[ \text{E}(X) = \lambda\]</span></p>
+<p><span class="math display">\[\text{Var}(X) = \lambda\]</span></p>
+</section>
+<section id="distinguishing-between-binomial-and-poisson-rvs" class="slide level2">
+<h2>Distinguishing between Binomial and Poisson RVs</h2>
+<ul>
+<li><p>Recall that if <span class="math inline">\(X\sim \text{Binomial}(n,p)\)</span>, then</p>
+<ul>
+<li><p><span class="math inline">\(X\)</span> models the number of successes …</p></li>
+<li><p>in <span class="math inline">\(n\)</span> independent (Bernoulli) trials …</p></li>
+<li><p>that each have the same probability of success <span class="math inline">\(p\)</span>.</p></li>
+</ul></li>
+<li><p>Poisson r.v.’s are similar,</p>
+<ul>
+<li><p>except that instead of having <span class="math inline">\(n\)</span> discrete independent trials,</p></li>
+<li><p>there is a <strong>fixed time period</strong> (or space) during which the successes happen</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="examples-of-poisson-rvs" class="slide level2">
+<h2>Examples of Poisson RVs</h2>
+<ul>
+<li><p>Number of visitors to an emergency room in an hour during a weekend night</p></li>
+<li><p>Number of study participants enrolled in a study per week</p></li>
+<li><p>Number of pedestrians walking through a square mile</p></li>
+<li><p>Any more?</p></li>
+</ul>
+</section>
+<section id="emergency-room-visitors" class="slide level2">
+<h2>Emergency Room Visitors</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="example">
+<div class="ex-title">
+<p>Example 1</p>
+</div>
+<div class="ex-cont">
+<p>Suppose an emergency room has an average of 50 visitors per day. Find the following probabilities.</p>
+<ol type="1">
+<li><p>Probability of 30 visitors in a day.</p></li>
+<li><p>Probability of 8 visitors in an hour.</p></li>
+<li><p>Probability of at least 8 visitors in an hour.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="combining-independent-poisson-distributions" class="slide level2">
+<h2>Combining independent Poisson distributions</h2>
+<div class="theorem">
+<div class="thm-title">
+<p>Theorem 1</p>
+</div>
+<div class="thm-cont">
+<p>If <span class="math inline">\(X\sim Pois(\lambda_1)\)</span> and <span class="math inline">\(Y\sim Pois(\lambda_2)\)</span> are independent of each other, then <span class="math inline">\(Z=X+Y\sim Pois(\lambda_1 + \lambda_2)\)</span>.</p>
+</div>
+</div>
+</section>
+<section id="two-emergency-rooms" class="slide level2">
+<h2>Two emergency rooms</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="example">
+<div class="ex-title">
+<p>Example 2</p>
+</div>
+<div class="ex-cont">
+<p>Suppose emergency room 1 has an average of 50 visitors per day, and emergency room 2 has an average of 70 visitors per day, independently of each other. What is the probability distribution to model of the total number of visitors to both?</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="poisson-approximation-of-the-binomial" class="slide level2">
+<h2>Poisson Approximation of the Binomial</h2>
+<p>Both Poisson and Binomial r.v.’s are counting the number of successes</p>
+<ul>
+<li><p>If for a Binomial r.v.</p>
+<ul>
+<li><p>the number of trials <span class="math inline">\(n\)</span> is very large, and</p></li>
+<li><p>the probability of success <span class="math inline">\(p\)</span> is close to 0 or 1,</p></li>
+</ul></li>
+<li><p>Then the Poisson distribution can be used to approximate Binomial probabilities</p>
+<ul>
+<li>and we use <span class="math inline">\(\lambda = np\)</span></li>
+</ul></li>
+<li><p><strong>Rule of thumb:</strong> We can use the Poisson approximation when <span class="math inline">\(\dfrac{1}{10} \leq np(1-p) \leq 10\)</span></p></li>
+</ul>
+</section>
+<section id="medical-lab-errors" class="slide level2">
+<h2>Medical lab errors</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="example">
+<div class="ex-title">
+<p>Example 3</p>
+</div>
+<div class="ex-cont">
+<p>Suppose that in the long run, errors in a medical testing lab are made 0.1% of the time. Find the probability that fewer than 4 mistakes are made in the next 2,000 tests.</p>
+<ol type="1">
+<li><p>Find the probability using the Binomial distribution.</p></li>
+<li><p>Approximate the probability in part (1) using the Poisson distribution.</p></li>
+</ol>
+</div>
+</div>
+</div><div class="column" style="width:60%;">
+<p>To do for extra practice - will also see a similar problem in BSTA 511</p>
+</div>
+</div>
+</section></section>
+<section>
 <section id="chapter-19-hypergeometric-r.v.s" class="title-slide slide level1 unnumbered center">
 <h1>Chapter 19: Hypergeometric RVs</h1>
 
@@ -603,7 +765,7 @@ p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
 <ul>
 <li>There is a finite population of <span class="math inline">\(N\)</span> items</li>
 <li>Each item in the population is either a success or a failure, and there are <span class="math inline">\(M\)</span> successes total.</li>
-<li>We randomly select (sample) <span class="math inline">\(n\)</span> items from the population.</li>
+<li>We randomly select (sample) <span class="math inline">\(n\)</span> items from the population without replacement</li>
 </ul></li>
 <li>Shorthand: <span class="math inline">\(X \sim \text{Hypergeo}(M, N, n)\)</span></li>
 </ul>
@@ -636,8 +798,8 @@ p_X(x) = P(X=x) = \dfrac{{M \choose x}{N-M \choose n-x}}{{N \choose n}}
 </div>
 </div>
 </section>
-<section id="hypergeometric-vs.-binomial-rvs" class="slide level2">
-<h2>Hypergeometric vs.&nbsp;Binomial RVs</h2>
+<section id="binomial-approximation-of-the-hypergeometric-rv" class="slide level2">
+<h2>Binomial approximation of the hypergeometric RV</h2>
 <p>Suppose a hypergeometric RV <span class="math inline">\(X\)</span> has the following properties:</p>
 <ul>
 <li><p>the population size <span class="math inline">\(N\)</span> is really big,</p></li>
@@ -645,9 +807,10 @@ p_X(x) = P(X=x) = \dfrac{{M \choose x}{N-M \choose n-x}}{{N \choose n}}
 <ul>
 <li><span class="math inline">\(\frac{M}{N}\)</span> shouldn’t be close to 0 or 1</li>
 </ul></li>
-<li><p>and the number of items <span class="math inline">\(n\)</span> selected is small.</p></li>
+<li><p>and the number of items <span class="math inline">\(n\)</span> selected is small</p></li>
+<li><p><strong>Rule of thumb:</strong> <span class="math inline">\(\dfrac{n}{N}&lt;0.05\)</span> or <span class="math inline">\(N&gt;20n\)</span></p></li>
 </ul>
-<p>Then, in this case, making <span class="math inline">\(n\)</span> draws from the population doesn’t change the probability of success much, and the hypergeometric r.v. can be approximated by a binomial r.v.</p>
+<p>Then, in this case, making <span class="math inline">\(n\)</span> draws from the population doesn’t change the probability of success much, and the <strong>hypergeometric RV. can be approximated by a binomial RV</strong></p>
 </section>
 <section id="wolf-population-revisited" class="slide level2">
 <h2>Wolf population revisited</h2>
