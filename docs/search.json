@@ -3671,8 +3671,8 @@
     "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#learning-objectives",
     "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#learning-objectives",
     "title": "Chapter 14-20: Some Important Discrete RVs",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nDistinguish between Bernoulli, Binomial, Geometric, Hypergeometric, Discrete Uniform, Negative Binomial, and Poisson distributions when reading a story.\nIdentify the variable and the parameters in a story, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
+    "section": "",
+    "text": "Distinguish between Bernoulli, Binomial, Geometric, Hypergeometric, Discrete Uniform, Negative Binomial, and Poisson distributions when reading a story.\nIdentify the variable and the parameters in a story, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
   },
   {
     "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#properties-of-bernoulli-rvs",
@@ -3791,7 +3791,7 @@
     "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html#what-discrete-uniform-rvs-have-we-seen-already",
     "title": "Chapter 14-20: Some Important Discrete RVs",
     "section": "What discrete uniform RVs have we seen already?",
-    "text": "What discrete uniform RVs have we seen already?\n\n\n\n\nExample 6\n\n\nExamples of discrete uniform RVs\n\n\n\n\n\n\nChapter 14-20 Slides"
+    "text": "What discrete uniform RVs have we seen already?\n\n\n\n\nExample 6\n\n\nExamples of discrete uniform RVs"
   },
   {
     "objectID": "lessons/17_Negative_binomial_rv/17_Negative_Binomial_rv.html#where-are-we",
@@ -4163,5 +4163,19 @@
     "title": "Key Info",
     "section": "Key Dates",
     "text": "Key Dates\n\nHW 02 Assignment due this Thursday at 11pm\nNo HW 01 Solutions"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs_muddy_points.html",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs_muddy_points.html",
+    "title": "Muddy Points",
+    "section": "",
+    "text": "1. In-class example of the Poisson distribution\n\nlibrary(tidyverse)\n\nx &lt;- 0:250\n# n = c(6,14,30,60)\np = c(0.1, 0.5)\n\ngeom = expand.grid(x = x, p = p) %&gt;%\n  mutate(y = dgeom(x, prob = p))\n\nggplot(geom %&gt;% filter(y &gt; 1e-5), \n       aes(x, y, color=factor(p))) +\n  geom_point(size=1) +\n  geom_segment(aes(x=x, xend=x, y=0, yend=y, color=factor(p)), lwd=0.8, alpha=0.5) +\n  facet_grid(rows = vars(p), scales=\"free_x\", space=\"free_x\") +\n  theme(legend.position = \"none\",\n        axis.title = element_text(size = 14),    # Axis title size\n        axis.text = element_text(size = 12),     # Axis text size\n        strip.text = element_text(size = 13)) +  # Facet label size\n  labs(x = \"Number of trials\", y = \"Probability\")"
+  },
+  {
+    "objectID": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html",
+    "href": "lessons/14_20_Discrete_RVs/14_20_Discrete_RVs.html",
+    "title": "Chapter 14-20: Some Important Discrete RVs",
+    "section": "",
+    "text": "Distinguish between Bernoulli, Binomial, Geometric, Hypergeometric, Discrete Uniform, Negative Binomial, and Poisson distributions when reading a story.\nIdentify the variable and the parameters in a story, and state what the variable and parameters mean.\nUse the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities."
   }
 ]
