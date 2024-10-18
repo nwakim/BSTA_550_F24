@@ -3,7 +3,6 @@ title: "Homework 4"
 subtitle: "BSTA 550"
 description: "Due: Thursday October 31, 2024 at 11pm"
 date-modified: "today"
-categories: [""]
 format: 
   html:
     link-external-newwindow: true
@@ -22,69 +21,64 @@ editor_options:
 *You must show all of your work to receive credit.*
 
 ::: center
-|   Chapter   |   Turn In   |                Extra Problems                |
-|:-----------:|:-----------:|:--------------------------------------------:|
-|   11\*\*    | NTB \# 1, 2 |   \# 1, 2, 9\*\*\*, 17\*\*\*, 18\*\*\*, 20   |
-|     12      | NTB \# 3, 4 | \# 1, 2, 7, 11, 12, 15, 19, 25, 27, NTB \# 5 |
-| 13 (review) |             |       \# 3, 4, 5, 6, 8, 9, 10, 17, 25        |
+| Chapter |      Turn In      |       Extra Problems        |
+|:-------:|:-----------------:|:---------------------------:|
+|    9    |    NTB \# 1, 2    | \# 1, 2, 4, $8^{\#}$, 9, 10 |
+| 10\*\*  | TB \# 6, NTB \# 3 |   \# 1, 8, 10, 11, 14, 17   |
 :::
 
-\*\* Use Chapter 11 techniques when computing expected values for Chapter 11 problems, i.e. expressing the r.v. as a sum of other r.v.'s and calculating the expected value of the sum of r.v.'s. Also, as I mentioned in class and posted on Sakai, we will be skipping the more complex examples of finding expected values using indicator r.v.'s. You can skip Examples 11.5, 11.10, and 11.11. We will not be covering these techniques.
+$^\#$ Break up your solution to Chapter 9 #8 into the following 5 parts:
 
-\*\*\* Although Chapter 11 exercises, these are to be done using Chapter 10 techniques since we aren't covering the more complex examples of finding expected values using indicator r.v.'s.
+1.  Make a table of the joint probabilities for $X$ and $Y$.
+
+2.  Using the table in the previous part, write down the piecewise-defined equation for $p_{X,Y}(x,y)$. There should be only 3 pieces (cases) for $p_{X,Y}(x,y)$.
+
+3.  Express $p_Y(y)$ as a formula (i.e. a function in terms of $y$).
+
+4.  Find the conditional pmf $p_{X|Y}(x|y)$ and express your answer as a piecewise-defined equation. There should be only 3 pieces (cases) for $p_{X|Y}(x|y)$.
+
+5.  Make a table of the joint cdf $F_{X,Y}(x,y)$ values.
+
+\* In addition to the graphs, include piecewise defined functions for the pmf and cdf.
+
+\*\* Use Chapter 10 techniques when computing expected values for Chapter 10 problems, i.e. computing the expected value directly using the definition of $\mathbb{E}[X]$.
 
 ## Non-textbook problems (NTB)
 
-1.  Approximately 10% of U.S. Veterans are women. Suppose an investigator plans a study with 4500 participants that are Veterans. How many women can they expect to be included? *Your answer must be calculated by defining a random variable and showing how to calculate the expected value.*
+1.  The following table shows the results of a survey in which the subjects were a sample of 300 adults residing in a certain metropolitan area. Each subject was asked to indicate which of three policies they favored with respect to smoking in public places. (Table is from *Biostatistics: A Foundation for Analysis in the Health Sciences*, 10th Edition, Daniel, Wayne W.; Cross, Chad L., pg. 630)
 
-2.  There is a bowl containing 30 cashews, 20 pecans, 25 almonds, and 25 walnuts. I am going to randomly pick and eat 3 nuts (without replacement). Find the expected value of the number of cashews by defining the number of cashews as a sum of random variables. (This one takes a little while if we don't rely on the
+    ![](Table_Smoking_vs_Education_Level.png){fig-align="center" width="6in"}
 
-3.  Prove that for a r.v. $X$ and constants $a$ and $b$, that $$\mathrm{Var}[aX+b]=a^2\mathrm{Var}[X].$$
+    Let $X=$ highest education level and $Y=$ policy favored. We can let $X=1$ for college graduate, $X=2$ for high-school graduate, etc., and similarly for $Y$, or just keep the category names for the different levels of $X$ and $Y$
 
-4.  Let $\bar{X}$ be the random variable for the sample mean, $\bar{X}=\frac{\sum_{i=1}^nX_i}{n}$, where the $X_i$ are i.i.d. random variables with common mean $\mu$ and variance $\sigma^2$.
+    a.  Make a table for the joint pmf $p_{X,Y}(x,y)$ and briefly describe in words what the values are the probability of.
 
-    a.  Find $\mathbb{E}[\bar{X}]$.
+    b.  Find the marginal pmf $p_{X}(x)$ and briefly describe in words what the values are the probability of.
 
-    b.  Find $Var[\bar{X}]$.
+    c.  Find the marginal pmf $p_{Y}(y)$ and briefly describe in words what the values are the probability of.
 
-### Extra problems
+    d.  Make a table for the joint cdf $F_{X,Y}(x,y)$ and briefly describe in words what the values are the probability of.
 
-5.  Let $\hat{p}$ be the random variable for the sample proportion, $\hat{p}=\frac{X}{n}$, where $X$ is the number of successes in a random sample of size $n$. Assume the probability of success is $p$.
+    e.  Find the marginal cdf $F_{X}(x)$ and briefly describe in words what the values are the probability of.
 
-    a.  Find $\mathbb{E}[\hat{p}]$.
+    f.  Find the marginal cdf $F_{Y}(y)$ and briefly describe in words what the values are the probability of.
 
-    b.  Find $Var[\hat{p}]$.
+    g.  Make a table for the conditional pmf $p_{X|Y}(x|y)$ and briefly describe in words what the values are the probability of.
 
-## Some select answers
+    h.  Make a table for the conditional pmf $p_{Y|X}(y|x)$ and briefly describe in words what the values are the probability of.
 
-Selected answers (or hints) not provided at the end the book:
+2.  Each day, Maude has a 1% chance of losing her cell phone (her behavior on different days is independent). Each day, Maude has a 3% chance of forgetting to eat breakfast (again, her behavior on different days is independent). Her breakfast and cell phone habits are independent. Let X be the number of days until she first loses her cell phone. Let Y be the number of days until she first forgets to eat breakfast. (Here, X and Y are independent.)
 
--   Chapter 9
+    a.  Find the joint probability mass function of X and Y.
 
-    -   NTB \# 1 Partial answers:
+    b.  Find the joint cdf of $X$ and $Y$ and briefly explain what $F_{X,Y}(x,y)$ represents in the context of the problem.
 
-        -   
+    c.  Find the conditional pmf $p_{Y|X}(y|x)$.
 
-            (g) $p_{X|Y}(X=\text{high school}| Y=\text{no smoking at all}) = 0.476$
+3.  Let $X_i\sim$ Binomial($n_i,p$) be independent r.v.'s for $i=1,\ldots,m$.
 
-        -   
+    a.  What does the r.v. $X=\sum_{i=1}^mX_i$ count, and what is the distribution of $X$? Make sure to specify the parameters of $X$'s distribution.
 
-            (h) $p_{Y|X}( Y=\text{no smoking at all}|X=\text{high school}) = 0.200$
+    b.  Find $\mathbb{E}[X]$. *Make sure to show your work for (b) and (c). However, you may use without proof what you know about the mean and variance of each* $X_i$.
 
--   Chapter 10
-
-    -   \# 6:  750.5
-
-    -   \# 8:  0.9
-
-    -   \# 10:   201
-
-    -   \# 14:   (a) 1.875     (b) 3.125     
-
--   Chapter 11
-
-    -   \# 2:  1.6
-
-    -   \# 18:  a) 48.5     (b) 96     
-
-    -   \# 20:  $\approx$ 23.077
+    c.  Find $Var[X]$.
