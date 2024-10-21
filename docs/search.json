@@ -4373,5 +4373,26 @@
     "title": "Homework 6 Answers",
     "section": "Textbook problems",
     "text": "Textbook problems\nThere are answers at the back of the book!! Selected answers (or hints) not provided at the end the book:\n\nCalculus Review\n\n(a)  \\(c(\\frac{y^{2}}{2}+y^{2})\\)\n(b)  \\(\\frac{8}{9}xy^{2}+\\frac{5}{9}y^{4}\\)\n(c)  \\(\\frac{8}{9}x^{2}y+\\frac{20}{9}xy^{3}\\)\n(d)  \\(-2e^{-2y}+2e^{-y}\\)\n(e)  \\(xe^{-x}\\)\n(f)  \\(-\\frac{2}{3}(e^{-7x}-e^{-4x})\\)\n(g)  \\(\\frac{9}{2}\\)\n(h)  \\(\\frac{9}{2}\\)\n(i)  \\(\\frac{9}{2}\\)\n(j)  \\(\\frac{9}{2}\\)\n\nChapter 24\n\n# 2: (a) Discrete     (b) Discrete     (c) Continuous\n# 22: \\[f_X(x) = \\left\\{\n        \\begin{array}{ll}\n            0 & \\quad x &lt;0 \\\\\n            \\frac{7x}{4} & \\quad 0\\leq x\\leq 1 \\\\\n            0 & \\quad 1&lt; x&lt; 7 \\\\\n            \\frac{1}{8} & \\quad 7\\leq x\\leq 8 \\\\\n            0 & \\quad  x&gt;8 \\\\\n        \\end{array}\n    \\right.\\]"
+  },
+  {
+    "objectID": "lessons/09_Joint_distributions/09_Joint_distributions_key_info.html",
+    "href": "lessons/09_Joint_distributions/09_Joint_distributions_key_info.html",
+    "title": "Key Info",
+    "section": "",
+    "text": "HW 02 assignments are graded!\n\nSolutions and videos are posted!"
+  },
+  {
+    "objectID": "lessons/09_Joint_distributions/09_Joint_distributions_key_info.html#announcements",
+    "href": "lessons/09_Joint_distributions/09_Joint_distributions_key_info.html#announcements",
+    "title": "Key Info",
+    "section": "",
+    "text": "HW 02 assignments are graded!\n\nSolutions and videos are posted!"
+  },
+  {
+    "objectID": "lessons/09_Joint_distributions/09_Joint_distributions_key_info.html#key-dates",
+    "href": "lessons/09_Joint_distributions/09_Joint_distributions_key_info.html#key-dates",
+    "title": "Key Info",
+    "section": "Key Dates",
+    "text": "Key Dates\n\nHW 03 Assignment due this Thursday at 11pm"
   }
 ]
