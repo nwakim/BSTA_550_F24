@@ -3,7 +3,7 @@ title: "Chapter 12: Variance of Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
 title-slide-attributes:
     data-background-color: "#006a4e"
-date: "10/30/2024"
+date: "10/28/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"

@@ -13,7 +13,10 @@ editor_options:
 
 - HW 02 assignments are graded!
   - Solutions and videos are posted!
+- Finish the discrete distributions notes
+  - Then get into joint distributions
 
 ## Key Dates
 
 - HW 03 Assignment due this Thursday at 11pm
+  - I updated the homework assignment on the 18th!

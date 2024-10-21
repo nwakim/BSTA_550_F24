@@ -1,14 +1,12 @@
 ---
 title: "Calculus Review"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "11/06/2023"
+date: "10/30/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 7"]
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
@@ -21,6 +19,10 @@ format:
 1. Find derivatives of continuous functions with one variable
 
 2. Find antiderivatives and integrals of functions with one variable
+
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
 
 # Differentiation
 

@@ -14,6 +14,7 @@ editor_options:
 - HW 02 assignments are graded!
   - Solutions and videos are posted!
 
+
 ## Key Dates
 
 - HW 03 Assignment due this Thursday at 11pm
