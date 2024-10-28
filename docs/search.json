@@ -536,7 +536,7 @@
     "href": "lessons/10_Expected_Values/10_Expected_Values.html#what-is-an-expected-value",
     "title": "Chapter 10: Expected Values of Discrete RVs",
     "section": "What is an expected value?",
-    "text": "What is an expected value?\n\n\nDefinition: Expected value\n\n\nThe expected value of a discrete r.v. \\(X\\) that takes on values \\(x_1, x_2, \\ldots, x_n\\) is \\[\\mathbb{E}[X] = \\sum_{i=1}^n x_ip_X(x_i).\\]\n\n\n\nExpected values are not necessarily an actual outcome\n\nIn previous example, we cannot roll a 3.5\nIt could be that our expected value is not in the sample space (\\(E(X) \\notin S\\))\n\nDefinition holds when \\(X\\) takes on countably infinitely many values (think \\(n=\\infty\\))"
+    "text": "What is an expected value?\n\n\nDefinition: Expected value\n\n\nThe expected value of a discrete r.v. \\(X\\) that takes on values \\(x_1, x_2, \\ldots, x_n\\) is \\[\\mathbb{E}[X] = \\sum_{i=1}^n x_ip_X(x_i).\\]\n\n\n\nExpected values are not necessarily an actual outcome\n\nIn previous example, we cannot roll a 3.5\nIt could be that our expected value is not in the sample space (\\(E(X) \\notin S\\))\n\nDefinition holds when \\(X\\) takes on countably infinitely many values:\n\n\\[\\mathbb{E}[X] = \\sum_{i=1}^\\infty x_ip_X(x_i)\\]"
   },
   {
     "objectID": "lessons/10_Expected_Values/10_Expected_Values.html#our-good-and-not-so-fair-friend-the-6-sided-die",
@@ -571,7 +571,7 @@
     "href": "lessons/10_Expected_Values/10_Expected_Values.html#ghost",
     "title": "Chapter 10: Expected Values of Discrete RVs",
     "section": "Ghost! 👻",
-    "text": "Ghost! 👻\n\n\n\n\nExample 6\n\n\nA ghost is trick-or-treating. It comes to a house where it is known that there are 30 candies in the bag and only one is a watermelon Jolly Rancher, which is the ghost’s favorite. The ghost takes pieces of candy without replacement until it gets the watermelon Jolly Rancher. How many pieces of candy do we expect the ghost to take?"
+    "text": "Ghost! 👻\n\n\n\n\nExample 6\n\n\nA ghost is trick-or-treating. It comes to a house where it is known that there are 30 candies in the bag and only one is a watermelon Jolly Rancher, which is the ghost’s favorite. The ghost takes pieces of candy without replacement until it gets the watermelon Jolly Rancher. How many pieces of candy do we expect the ghost to take?\n\n\nCan we model this with a distribution?"
   },
   {
     "objectID": "lessons/10_Expected_Values/10_Expected_Values.html#some-remarks-on-last-two-examples",
@@ -4400,21 +4400,21 @@
     "href": "lessons/10_Expected_Values/10_Expected_Values_key_info.html",
     "title": "Key Info",
     "section": "",
-    "text": "HW 02 assignments are graded!\n\nSolutions and videos are posted!"
+    "text": "Grading HW 03 assignment today\nGroup evals will be taken off the assessment breakdown\nMid-quarter feedback will be put on HW 05"
   },
   {
     "objectID": "lessons/10_Expected_Values/10_Expected_Values_key_info.html#announcements",
     "href": "lessons/10_Expected_Values/10_Expected_Values_key_info.html#announcements",
     "title": "Key Info",
     "section": "",
-    "text": "HW 02 assignments are graded!\n\nSolutions and videos are posted!"
+    "text": "Grading HW 03 assignment today\nGroup evals will be taken off the assessment breakdown\nMid-quarter feedback will be put on HW 05"
   },
   {
     "objectID": "lessons/10_Expected_Values/10_Expected_Values_key_info.html#key-dates",
     "href": "lessons/10_Expected_Values/10_Expected_Values_key_info.html#key-dates",
     "title": "Key Info",
     "section": "Key Dates",
-    "text": "Key Dates\n\nHW 03 Assignment due this Thursday at 11pm"
+    "text": "Key Dates\n\nHW 04 assignment due Thursday\nHW 03 solutions due Sunday\n\nAnd we will have a presentation on this one!"
   },
   {
     "objectID": "lessons/24_00_pre_Calculus_review/24_00_pre_Calculus_review.html#where-are-we",

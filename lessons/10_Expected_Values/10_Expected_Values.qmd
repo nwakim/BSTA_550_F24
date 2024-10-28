@@ -3,7 +3,7 @@ title: "Chapter 10: Expected Values of Discrete RVs"
 author: "Meike Niederhausen and Nicky Wakim"
 title-slide-attributes:
     data-background-color: "#006a4e"
-date: "10/23/2024"
+date: "10/28/2024"
 format: 
   revealjs:
     theme: "../simple_NW.scss"
@@ -54,7 +54,9 @@ The **expected value** of a discrete r.v. $X$ that takes on values $x_1, x_2, \l
 -   Expected values are not necessarily an actual outcome
     -   In previous example, we cannot roll a 3.5
     -   It could be that our expected value is not in the sample space ($E(X) \notin S$)
--   Definition holds when $X$ takes on countably infinitely many values (think $n=\infty$)
+-   Definition holds when $X$ takes on countably infinitely many values: 
+
+$$\mathbb{E}[X] = \sum_{i=1}^\infty x_ip_X(x_i)$$
 
 ## Our good and not-so-fair friend, the 6-sided die
 
@@ -154,7 +156,9 @@ Example 6
 A ghost is trick-or-treating. It comes to a house where it is known that there are 30 candies in the bag and only one is a watermelon Jolly Rancher, which is the ghost's favorite. The ghost takes pieces of candy without replacement until it gets the watermelon Jolly Rancher. How many pieces of candy do we expect the ghost to take?
 :::
 :::
+Can we model this with a distribution?
 :::
+
 :::
 
 ## Some remarks on last two examples {visibility="hidden"}
