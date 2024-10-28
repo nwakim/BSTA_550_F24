@@ -21,10 +21,10 @@ editor_options:
 *You must show all of your work to receive credit.*
 
 ::: center
-| Chapter |      Turn In      |       Extra Problems        |
-|:-------:|:-----------------:|:---------------------------:|
-|    9    |    NTB \# 1, 2    | \# 1, 2, 4, $8^{\#}$, 9, 10 |
-| 10\*\*  | TB \# 6, NTB \# 3 |   \# 1, 8, 10, 11, 14, 17   |
+|  Chapter   |        Turn In        |       Extra Problems        |
+|:----------:|:---------------------:|:---------------------------:|
+|     9      |      NTB \# 1, 2      | \# 1, 2, 4, $8^{\#}$, 9, 10 |
+| ~~10\*\*~~ | ~~TB \# 6, NTB \# 3~~ | ~~\# 1, 8, 10, 11, 14, 17~~ |
 :::
 
 $^\#$ Break up your solution to Chapter 9 #8 into the following 5 parts:
@@ -74,11 +74,3 @@ $^\#$ Break up your solution to Chapter 9 #8 into the following 5 parts:
     b.  Find the joint cdf of $X$ and $Y$ and briefly explain what $F_{X,Y}(x,y)$ represents in the context of the problem.
 
     c.  Find the conditional pmf $p_{Y|X}(y|x)$.
-
-3.  Let $X_i\sim$ Binomial($n_i,p$) be independent r.v.'s for $i=1,\ldots,m$.
-
-    a.  What does the r.v. $X=\sum_{i=1}^mX_i$ count, and what is the distribution of $X$? Make sure to specify the parameters of $X$'s distribution.
-
-    b.  Find $\mathbb{E}[X]$. *Make sure to show your work for (b) and (c). However, you may use without proof what you know about the mean and variance of each* $X_i$.
-
-    c.  Find $Var[X]$.
