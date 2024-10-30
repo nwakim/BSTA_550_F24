@@ -1,5 +1,5 @@
 ---
-title: "Homework 4 Answers"
+title: "Homework 5 Answers"
 subtitle: "BSTA 550"
 date-modified: "today"
 format: 
@@ -14,31 +14,20 @@ editor_options:
 ## Non-textbook problems
 
 -   #1:  
-
-    -   (a) Denominator should be 300
     
-    -   (b) $p_X(1) = 0.25$, $p_X(2) = 0.5$, $p_X(3) = 0.25$
+    - (a) $X \sim \text{Binom}\bigg( \sum_{i=1}^m n_i, p \bigg)$
     
-    -   (c) $p_Y(1) = 0.117$, $p_Y(2) = 0.613$, $p_Y(3) = 0.210$, $p_Y(4) = 0.060$
+    - (b) $E(x) = p \cdot \sum_{i=1}^m n_i$
     
-    -   (d-f) skipping these answers
-    
-    -   (g) $p_{X|Y}(X=\text{high school}| Y=\text{no smoking at all}) = 0.476$
-
-    -   (h) $p_{Y|X}( Y=\text{no smoking at all}|X=\text{high school}) = 0.200$
+    - (c) $\text{Var}(X) = p \cdot (1-p) \cdot \sum_{i=1}^m n_i$
 
 
--   #2: 
+-   #2: 450
 
-    -   (a) $p_{X,Y}(x, y) = [0.99^{x-1}0.01][0.97^{y-1}0.03]$ for $x = 1, 2, 3, ...$ and $y = 1, 2, 3, ...$
-    
-    -   (b) ![](images/HW_04_NTB_2_B.png)
-    
-    -   (c) $p_{Y|X}(y|x) = [0.97^{y-1}0.03]$ for $y=1, 2, 3, ...$
 
--   #3: 450
+-   #3: Hint: use the definition of variance
 
--   #4: 0.9
+-   #4: (a) $E(\overline{X}) = \mu$    (b) $\text{Var}(\overline{X}) = \dfrac{\sigma^2}{n}$
 
 ## Textbook problems
 

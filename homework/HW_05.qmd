@@ -22,17 +22,21 @@ editor_options:
 *You must show all of your work to receive credit.*
 
 ::: center
-|   Chapter   |      Turn In      |                Extra Problems                |
-|:-------------:|:-------------:|:----------------------------------------:|
-|   10\*\*    | TB \# 6, NTB \# 1 |           \# 1, 8, 10, 11, 14, 17            |
-|   11\*\*    |    NTB \# 2, 3    |   \# 1, 2, 9\*\*\*, 17\*\*\*, 18\*\*\*, 20   |
-|     12      |    NTB \# 4, 5    | \# 1, 2, 7, 11, 12, 15, 19, 25, 27, NTB \# 6 |
-| 13 (review) |                   |       \# 3, 4, 5, 6, 8, 9, 10, 17, 25        |
+| Chapter | Turn In | Extra Problems |
+|:---------------:|:---------------:|:-------------------------------------:|
+| 10\*\* | TB \# 6, NTB \# 1 | \# 1, 8, 10, 11, 14, 17 |
+| 11\*\* | NTB \# 2, | \# 1, 2, 9\*\*\*, 17\*\*\*, 18\*\*\*, 20, NTB \# 5 |
+| 12 | NTB \# 3, 4 | \# 1, 2, 7, 11, 12, 15, 19, 25, 27, NTB \# 6 |
+| 13 (review) |  | \# 3, 4, 5, 6, 8, 9, 10, 17, 25 |
 :::
 
 \*\* Use Chapter 11 techniques when computing expected values for Chapter 11 problems, i.e. expressing the r.v. as a sum of other r.v.'s and calculating the expected value of the sum of r.v.'s. Also, as I mentioned in class and posted on Sakai, we will be skipping the more complex examples of finding expected values using indicator r.v.'s. You can skip Examples 11.5, 11.10, and 11.11. We will not be covering these techniques.
 
 \*\*\* Although Chapter 11 exercises, these are to be done using Chapter 10 techniques since we aren't covering the more complex examples of finding expected values using indicator r.v.'s.
+
+## Mid-quarter feedback
+
+Please complete the mid-quarter feedback!: <https://forms.office.com/r/rC2JR2qQTq>
 
 ## Non-textbook problems (NTB)
 
@@ -46,11 +50,9 @@ editor_options:
 
 2.  Approximately 10% of U.S. Veterans are women. Suppose an investigator plans a study with 4500 participants that are Veterans. How many women can they expect to be included? *Your answer must be calculated by defining a random variable and showing how to calculate the expected value.*
 
-3.  There is a bowl containing 30 cashews, 20 pecans, 25 almonds, and 25 walnuts. I am going to randomly pick and eat 3 nuts (without replacement). Find the expected value of the number of cashews by defining the number of cashews as a sum of random variables. (This one takes a little while if we don't rely on the
+3.  Prove that for a r.v. $X$ and constants $a$ and $b$, that $$\mathrm{Var}[aX+b]=a^2\mathrm{Var}[X].$$
 
-4.  Prove that for a r.v. $X$ and constants $a$ and $b$, that $$\mathrm{Var}[aX+b]=a^2\mathrm{Var}[X].$$
-
-5.  Let $\bar{X}$ be the random variable for the sample mean, $\bar{X}=\frac{\sum_{i=1}^nX_i}{n}$, where the $X_i$ are i.i.d. random variables with common mean $\mu$ and variance $\sigma^2$.
+4.  Let $\bar{X}$ be the random variable for the sample mean, $\bar{X}=\frac{\sum_{i=1}^nX_i}{n}$, where the $X_i$ are i.i.d. random variables with common mean $\mu$ and variance $\sigma^2$.
 
     a.  Find $\mathbb{E}[\bar{X}]$.
 
@@ -58,42 +60,12 @@ editor_options:
 
 ### Extra problems
 
-5.  Let $\hat{p}$ be the random variable for the sample proportion, $\hat{p}=\frac{X}{n}$, where $X$ is the number of successes in a random sample of size $n$. Assume the probability of success is $p$.
+5.  There is a bowl containing 30 cashews, 20 pecans, 25 almonds, and 25 walnuts. I am going to randomly pick and eat 3 nuts (without replacement). Find the expected value of the number of cashews by defining the number of cashews as a sum of random variables. (This one takes a little while if we don't rely on the
+
+<!-- -->
+
+6.  Let $\hat{p}$ be the random variable for the sample proportion, $\hat{p}=\frac{X}{n}$, where $X$ is the number of successes in a random sample of size $n$. Assume the probability of success is $p$.
 
     a.  Find $\mathbb{E}[\hat{p}]$.
 
     b.  Find $Var[\hat{p}]$.
-
-## Some select answers
-
-Selected answers (or hints) not provided at the end the book:
-
--   Chapter 9
-
-    -   NTB \# 1 Partial answers:
-
-        -   
-
-            (g) $p_{X|Y}(X=\text{high school}| Y=\text{no smoking at all}) = 0.476$
-
-        -   
-
-            (h) $p_{Y|X}( Y=\text{no smoking at all}|X=\text{high school}) = 0.200$
-
--   Chapter 10
-
-    -   \# 6:  750.5
-
-    -   \# 8:  0.9
-
-    -   \# 10:   201
-
-    -   \# 14:   (a) 1.875     (b) 3.125     
-
--   Chapter 11
-
-    -   \# 2:  1.6
-
-    -   \# 18:  a) 48.5     (b) 96     
-
-    -   \# 20:  $\approx$ 23.077
