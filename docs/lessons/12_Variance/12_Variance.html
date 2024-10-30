@@ -433,7 +433,7 @@ Meike Niederhausen and Nicky Wakim
 <p>Definition: Variance of RV</p>
 </div>
 <div class="def-cont">
-<p>The variance of a r.v. <span class="math inline">\(X\)</span>, with (finite) expected value <span class="math inline">\(\mu_X=\mathbb{E}[X]\)</span> is <span class="math display">\[\sigma_X^2=Var(X)=\mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[(X-\mathbb{E}[X])^2].\]</span></p>
+<p>The variance of a r.v. <span class="math inline">\(X\)</span>, with (finite) expected value <span class="math inline">\(\mu_X=\mathbb{E}[X]\)</span> is <span class="math display">\[\sigma_X^2=Var(X)=\mathbb{E}[(X-\mu_X)^2] = \mathbb{E}[(X-\mathbb{E}[X])^2]\]</span></p>
 </div>
 </div>
 <div class="definition">
@@ -509,6 +509,8 @@ Meike Niederhausen and Nicky Wakim
 <p>For independent discrete r.v.’s <span class="math inline">\(X_i\)</span> and constants <span class="math inline">\(a_i\)</span>, <span class="math inline">\(i=1,2,\dots, n\)</span>, <span class="math display">\[Var\Bigg(\sum_{i=1}^n a_iX_i\Bigg) = \sum_{i=1}^n a_i^2Var(X_i).\]</span></p>
 </div>
 </div>
+<p>Simpler version:</p>
+<p><span class="math display">\[Var(a_1 X + a_2 Y) = Var(a_1X) + Var(a_2 Y) = a_1^2 Var(X) + a_2^2 Var(Y)\]</span></p>
 </section>
 <section id="corollaries" class="slide level2">
 <h2>Corollaries</h2>
@@ -529,31 +531,8 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </section>
-<section id="lets-revisit-our-ghost-problems-without-replacement" class="slide level2">
-<h2>Let’s revisit our ghost problems <em>without replacement</em></h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3.1</p>
-</div>
-<div class="ex-cont">
-<p>The ghost is trick-or-treating at a different house now. In this case it is known that the bag of candy has 10 chocolates, 20 lollipops, and 30 laffy taffies. The ghost grabs a handful of five pieces of candy. What is the variance for the number of chocolates the ghost takes? Let’s solve this for the cases <strong><em>without</em></strong> replacement.</p>
-</div>
-</div>
-<div class="example">
-<div class="ex-cont">
-<p><font size="6ex">Recall probability without replacement:</font></p><font size="6ex">
-<p><span class="math display">\[p_X(x) = \dfrac{{K \choose x}{N-K \choose n-x}}{{N \choose n}}
-\]</span></p>
-</font><p><font size="6ex"></font></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="lets-revisit-our-ghost-problems-with-replacement" class="slide level2">
-<h2>Let’s revisit our ghost problems <em>with replacement</em></h2>
+<section id="lets-look-at-a-ghost-problem-with-replacement" class="slide level2">
+<h2>Let’s look at a ghost problem <em>with replacement</em></h2>
 <div class="columns">
 <div class="column" style="width:35%;">
 <div class="example">
@@ -579,13 +558,13 @@ p_X(x) = {n \choose k}p^k(1-p)^{n-k}
 <section id="back-to-our-hotel-example-from-chapter-11" class="slide level2">
 <h2>Back to our hotel example from Chapter 11</h2>
 <div class="columns">
-<div class="column" style="width:40%;">
+<div class="column" style="width:30%;">
 <div class="example">
 <div class="ex-title">
 <p>Example 4</p>
 </div>
 <div class="ex-cont">
-<p>A tour group is planning a visit to the city of Minneapolis and needs to book 30 hotel rooms. The average price of a room is $200 <strong>with standard deviation $10</strong>. In addition, there is a 10% tourism tax for each room. What is the <strong>standard deviation</strong> of the cost for the 30 hotel rooms?</p>
+<p>A tour group is planning a visit to the city of Minneapolis and needs to book 30 hotel rooms. The average price of a room is $200 <strong>with standard deviation $10</strong>. In addition, there is a 10% tourism tax for each room. What is the <strong>standard deviation</strong> of the cost for the 30 hotel rooms? Assume rooms are independent.</p>
 </div>
 </div>
 <p>Problem to do at home if we don’t have enough time.</p>
