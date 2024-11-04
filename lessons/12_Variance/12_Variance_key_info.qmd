@@ -1,6 +1,7 @@
 ---
 title: "Key Info"
-date: "10/30/2024"
+subtitle: "Pre Chapter 24: Calculus Review"
+date: "11/4/2024"
 date-modified: "today"
 format: 
   html:
@@ -11,13 +12,11 @@ editor_options:
 
 ## Announcements
 
-- HW 04 hint posted in answers
-- HW 04 due Sunday 11/3 instead of Thursday 
-- Mid-quarter feedback will be put on HW 05
+- HW 4 assignment due last night!
+- HW 3 solutions also due
+- Time to grade later today: HW 3 solutions or HW 4 assignment?
 
 ## Key Dates
 
-- HW 04 assignment due Thursday
-- HW 03 solutions due Sunday
-  - And we will have a presentation on this one!
+
 

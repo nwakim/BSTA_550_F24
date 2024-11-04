@@ -1,7 +1,7 @@
 ---
-title: "Calculus Review"
+title: "Pre Chapter 24: Calculus Review"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "10/30/2024"
+date: "11/4/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
 format: 
@@ -11,7 +11,8 @@ format:
     show-slide-number: all
     width: 1955
     height: 1100
-    footer: Chapter 24 Slides
+    footer: Pre Chapter 24 Slides
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives
@@ -178,7 +179,7 @@ $\dfrac{d}{dx} ln(x) = \dfrac{1}{x}$
 ## Find the *derivative* of the following function
 
 ::: columns
-::: {.column width="38%"}
+::: {.column width="40%"}
 ::: example
 ::: ex-title
 Example 1.8
@@ -203,13 +204,13 @@ $\dfrac{d}{dx} f(x)g(x) = f'(x)g(x) + f(x)g'(x)$
 ## Find the *derivative* of the following function
 
 ::: columns
-::: {.column width="35%"}
+::: {.column width="37%"}
 ::: example
 ::: ex-title
 Example 1.9
 :::
 ::: ex-cont
-$f(x) = \frac{x^5}{2x+7}$
+$f(x) = \dfrac{x^5}{2x+7}$
 :::
 :::
 
@@ -450,7 +451,7 @@ $\displaystyle\int_2^3 x e^{x^2}dx$
 ## Solve the following integral
 
 ::: columns
-::: {.column width="30%"}
+::: {.column width="31%"}
 ::: example
 ::: ex-title
 Example 3.4
@@ -465,7 +466,8 @@ $\displaystyle\int_0^{\infty} x e^{-x}dx$
 Integrating by Parts
 :::
 ::: thm-cont
-$\displaystyle\int f(x) g'(x) dx = f(x)g(x) - \\ \displaystyle\int f'(x) g(x) dx$
+$\displaystyle\int f(x) g'(x) dx = f(x)g(x) -$\
+$\displaystyle\int f'(x) g(x) dx$
 
 OR
 

@@ -4,7 +4,11 @@ format:
   html:
     page-layout: full
     link-external-newwindow: true
+    toc: true
+    toc-location: body
 ---
+
+## Files and timing information
 
 +---------------+-------------------------+--------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Homework      | Assignment due (\@11pm) | Assignment                                                                                             | Answers                                                                                      | Problem for Solns     | Solutions                                                                                                                                                                                                                                                                            | Sol'n Videos                                                                                                                                                                                                                                         |
@@ -61,6 +65,8 @@ A total of 12 points is given to the whole group, 3 points per question. For eac
 
 ## Presentations
 
+Imagine that a fellow student is coming to you and does not know how to do a problem. Your presentation should serve as a guide for that student. They should be able to link key phrases or theorems that you mention to class and follow your clear and correct work from beginning to end. Finally, your final answer is contextualized given the original problem.
+
 Presentations will be graded out of 9 points with the following rubric:
 
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
@@ -77,6 +83,26 @@ Presentations will be graded out of 9 points with the following rubric:
 |                             |                                                                                                                                                                             | Presentation deserves 3 points but it exceeds 10 minutes.                                                                                              | Presentation deserves 2 points but it exceeds 10 minutes.                                                                                | Presentation deserves 1 points but it exceeds 10 minutes.                                                             |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
 :::
+
+## How to create a video
+
+I think the best way to make your video will be to record a meeting in Zoom or Webex. In either app, you can enter your personal room, then share your screen with your work (or an iPad screen).
+
+::: callout-caution
+## Practice short recordings
+
+I highly recommend that you try out your recording process to make sure everything works! You can make a short video to playback.
+:::
+
+You can follow Zoom or Webex's guide for recording:
+
+-   Webex: <https://help.webex.com/en-us/article/xl9d60/Webex-%7C-Record-a-meeting-in-the-cloud>
+
+    -   Login with OHSU credentials
+
+-   Zoom: <https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062627>
+
+    -   Login with PSU credentials
 
 ## Structure, Details, and Grading
 
