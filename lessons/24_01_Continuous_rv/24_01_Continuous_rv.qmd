@@ -1,23 +1,18 @@
 ---
 title: "Chapter 24: Continuous RVs and PDFs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "11/8/2023"
+date: "11/6/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 7"]
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 24 Slides
-editor: 
-  markdown: 
-    wrap: 72
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives
@@ -46,11 +41,51 @@ editor:
 
 ::: {.column width="39%"}
 ![Figure from Introduction to Probability TB (pg.
-301)](Cont_RV_Disc_RV.png){fig-align="center"}
+301)](../img_slides/Cont_RV_Disc_RV.png){fig-align="center"}
 :::
 :::
 
 ## How to define probabilities for continuous RVs?
+
+::: columns
+::: column
+Discrete RV $X$:
+
+```{r}
+#| fig-height: 6
+#| fig-width: 7
+#| fig-align: center
+
+library(ggplot2)
+data = data.frame(x = seq(0, 10, 1), y = seq(0, 0.5, 0.05))
+ggplot(data, aes(x = x, y = y)) +
+  labs(x = "x", y = "Probability") +
+  theme_minimal() +
+  theme(text = element_text(size=28))
+```
+
+- pmf: $p_X(x) = P(X=x)$
+:::
+::: column
+Continuous RV $X$:
+
+```{r}
+#| fig-height: 6
+#| fig-width: 7
+#| fig-align: center
+
+library(ggplot2)
+data = data.frame(x = seq(0, 10, 1), y = seq(0, 1, 0.1))
+ggplot(data, aes(x = x, y = y)) +
+  labs(x = "x", y = "Density") +
+  theme_minimal() +
+  theme(text = element_text(size=28))
+```
+
+- density: $f_X(x)$
+- probability: $P(a \leq X \leq b) = \int_a^b f_X(x)dx$
+:::
+:::
 
 ## What is a probability density function?
 
@@ -189,6 +224,10 @@ $x$, $$F_X(x)= \mathbb{P}(X \leq x) = \int_{-\infty}^x f_X(s)ds$$
 
 -   $\lim_{x\rightarrow \infty} F_X(x)= 1$
 
+-   $P(X > a) = 1 - P(X \leq a) = 1 - F_X(a)$
+
+-   $P(a \leq X \leq b) = F_X(b) - F_X(a)$
+
 ## Let's demonstrate the CDF with an example
 
 ::: columns
@@ -222,7 +261,7 @@ $$\frac{d}{dx} F_X(x)= F'_X(x) = f_X(x)$$
 ## Finding the PDF from a CDF
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="38%"}
 ::: example
 ::: ex-title
 Example 3
@@ -290,8 +329,7 @@ Let $X$ be a RV with pdf $f_X(x)= 2e^{-2x}$, for $x>0$.
 ## Let's go through another example (3/7)
 
 ::: {.callout-important appearance="simple" icon="false"}
-Do this problem at home for extra practice. The solution is available in
-Meike's video!
+Do this problem at home for extra practice.
 :::
 
 ::: columns
@@ -331,8 +369,7 @@ Let $X$ be a RV with pdf $f_X(x)= 2e^{-2x}$, for $x>0$.
 ## Let's go through another example (5/7)
 
 ::: {.callout-important appearance="simple" icon="false"}
-Do this problem at home for extra practice. The solution is available in
-Meike's video!
+Do this problem at home for extra practice.
 :::
 
 ::: columns
