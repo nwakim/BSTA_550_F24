@@ -1,25 +1,23 @@
 ---
 title: "Chapter 28: Expected Values of Continuous Random Variables"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "11/20/2023"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 9"]
+date: "11/11/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 28 Slides
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives
 
-1. Calculated mean (expected value) of a continuous RV
+1. Calculate the mean (expected value) of a continuous RV
 
 ## Expected value of a function of a continuous RV
 

@@ -1,0 +1,65 @@
+---
+title: "Chapter 28 and 19: Revisiting Expected Values and Variance for Joint Distributions"
+author: "Meike Niederhausen and Nicky Wakim"
+title-slide-attributes:
+    data-background-color: "#006a4e"
+date: "11/20/2024"
+format: 
+  revealjs:
+    theme: "../simple_NW.scss"
+    slide-number: true
+    show-slide-number: all
+    width: 1955
+    height: 1100
+    footer: Chapter 28-29 Revisited Slides
+    html-math-method: mathjax
+---
+
+## Learning Objectives
+
+1. Calculate the mean (expected value) of a joint distribution of continuous RV
+1. Calculate the variance of a joint distribution of continuous RV
+
+## Expected value from a joint distribution
+
+::: columns
+::: {.column width="30%"}
+::: example
+::: ex-title
+Example 3
+:::
+::: ex-cont
+Let $f_{X,Y}(x,y)= 2e^{-(x+y)}$, for
+$0 \leq x \leq y$. Find $\mathbb{E}[X]$.
+:::
+:::
+
+:::
+:::
+
+## Expected value from a joint pdf
+
+::: columns
+::: {.column width="30%"}
+::: example
+::: ex-title
+Example 1
+:::
+
+::: ex-cont
+Let $f_{X,Y}(x,y)= 2e^{-(x+y)}$, for $0 \leq x \leq y$. Find
+$\mathbb{E}[X]$.
+:::
+:::
+:::
+:::
+
+## Remark on expected value of one RV from joint pdf
+
+If you are given $f_{X,Y}(x,y)$ and want to calculate $\mathbb{E}[X]$,
+you have two options:
+
+1.  Find $f_X(x)$ and use it to calculate $\mathbb{E}[X]$.
+
+2.  Or, calculate $\mathbb{E}[X]$ using the joint density:
+    $$\mathbb{E}[X] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x f_{X,Y}(x,y)dydx.$$

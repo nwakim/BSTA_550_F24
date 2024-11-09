@@ -1,23 +1,18 @@
 ---
 title: "Chapter 29: Variance of Continuous Random Variables"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "11/20/2023"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 9"]
+date: "11/11/2024"
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 29 Slides
-editor: 
-  markdown: 
-    wrap: 72
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives
@@ -53,33 +48,6 @@ RV or joint RVs?**
 For continuous RVs:
 :::
 :::
-
-## Expected value from a joint pdf
-
-::: columns
-::: {.column width="30%"}
-::: example
-::: ex-title
-Example 1
-:::
-
-::: ex-cont
-Let $f_{X,Y}(x,y)= 2e^{-(x+y)}$, for $0 \leq x \leq y$. Find
-$\mathbb{E}[X]$.
-:::
-:::
-:::
-:::
-
-## Remark on expected value of one RV from joint pdf
-
-If you are given $f_{X,Y}(x,y)$ and want to calculate $\mathbb{E}[X]$,
-you have two options:
-
-1.  Find $f_X(x)$ and use it to calculate $\mathbb{E}[X]$.
-
-2.  Or, calculate $\mathbb{E}[X]$ using the joint density:
-    $$\mathbb{E}[X] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x f_{X,Y}(x,y)dydx.$$
 
 ## Important properties of expected values of functions of continuous RVs
 
@@ -213,7 +181,7 @@ $Var[X]$.
 ::: {.column width="50%"}
 ::: proposition
 ::: prop-title
-function of RV with two constants
+Function of RV with two constants
 :::
 
 ::: prop-cont
