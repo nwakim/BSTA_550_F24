@@ -44,6 +44,30 @@ There are answers at the back of the book!! Selected answers (or hints) not prov
 -   Chapter 24
 
     -   \# 2: (a) Discrete     (b) Discrete     (c) Continuous
+    
+    -   \# 19: 
+    
+        - (a) $$F_X(x) = \left\{
+                \begin{array}{ll}
+                    0 & \quad x \leq 16 \\
+                    \frac{1}{64}x^2 - \frac{1}{2}x + 4 & \quad 16 < x\leq 24 \\
+                    1 & \quad x > 24 \\
+                \end{array}
+            \right.$$
+            
+        - (b) $a=20$
+        
+    - \# 20:
+    
+      - (a) $k=660$
+      
+      - (b) $$F_X(x) = \left\{
+                \begin{array}{ll}
+                    0 & \quad x < 0 \\
+                    55x^{12} - 120x^{11} + 55x^{10} & \quad 0 \leq x\leq 1 \\
+                    1 & \quad x > 24 \\
+                \end{array}
+            \right.$$
 
     -   \# 22: $$f_X(x) = \left\{
                 \begin{array}{ll}

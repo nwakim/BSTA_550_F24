@@ -21,28 +21,49 @@ editor_options:
 *You must show all of your work to receive credit.*
 
 ::: center
-+--------------+-----------------------+----------------------------------+
-| Chapter      | Turn In               | Extra Problems                   |
-+:============:+:=====================:+:================================:+
-| 27           | TB \# 12\*\*\*        | \# 6, 8, 13, 17                  |
-|              |                       |                                  |
-|              |                       | Slide examples: 1.2              |
-+--------------+-----------------------+----------------------------------+
-| 28           | TB \# 18              | TB \# 1, 10                      |
-+--------------+-----------------------+----------------------------------+
-| 29[^1]       | NTB \# 4-6            | TB \# 10, 14, 23, 26, 11, 13, 32 |
-+--------------+-----------------------+----------------------------------+
-| 30           |                       | TB \# 4, 7-12                    |
-+--------------+-----------------------+----------------------------------+
++--------------+---------------------------+---------------------------+
+| Chapter      | Turn In                   | Extra Problems            |
++:============:+:=========================:+:=========================:+
+| 25           | TB \# 18, NTB \# 1        | \# 1, 4, 8, 17, 23, 24    |
+|              |                           |                           |
+|              |                           | Slide examples: 2, 3.3, 4 |
++--------------+---------------------------+---------------------------+
+| 26\*         | TB \# 12\*\*, NTB \# 2, 3 | \# 7, 9, 19, 20           |
+|              |                           |                           |
+|              |                           | Slide examples: 3         |
++--------------+---------------------------+---------------------------+
+| 27           | TB \# 12\*\*\*            | \# 6, 8, 13, 17           |
+|              |                           |                           |
+|              |                           | Slide examples: 1.2       |
++--------------+---------------------------+---------------------------+
+| 28           | TB \# 18                  | TB \# 1, 10               |
++--------------+---------------------------+---------------------------+
+| 30           |                           | TB \# 4, 7-12             |
++--------------+---------------------------+---------------------------+
 :::
-
-[^1]: I recommend doing the Chapter 29 Extra Problems in the order listed.
 
 \* Although within Chapter 26, these exercises are primarily practicing the material from Chapter 25.
 
-\*\* For Ch 27 \# 12, in order to find the conditional densities in parts (a) and (b), you will need to calculate $f_Y(y)$ for the specific regions of $y$ specified. After finding the conditional densities in parts (a) and (b), also calculate the conditional probabilities below. Please submit these together with your other work in parts (a) and (b): Find $\mathbb{P}[0.5 < X < 3 | Y = 4]$. Find $\mathbb{P}[0.5 < X < 3 | Y = 7]$.
+\*\* For this problem, you only need to set up the integrals!!
+
+\*\*\* For Ch 27 \# 12, in order to find the conditional densities in parts (a) and (b), you will need to calculate $f_Y(y)$ for the specific regions of $y$ specified. After finding the conditional densities in parts (a) and (b), also calculate the conditional probabilities below. Please submit these together with your other work in parts (a) and (b): Find $\mathbb{P}[0.5 < X < 3 | Y = 4]$. Find $\mathbb{P}[0.5 < X < 3 | Y = 7]$.
 
 ## Non-textbook problems (NTB)
+
+1.  Let $X_1, X_2, \ldots, X_n$ be i.i.d. random variables with common pdf $f_X(x)$ and cdf $F_X(x)$. Find the pdf for the random variable $Z$, where $Z = max(X_1, X_2, \ldots, X_n)$.
+
+2.  Let $X$ and $Y$ be independent random variables with respective pdf's $f_X(x)=\frac{1}{5}$, for $0\leq x\leq 5$, and $f_Y(y)=2e^{-2y}$, for $y>0$.
+
+    a.  Find the joint distribution $f_{X,Y}(x,y)$.
+    b.  Find the probability that $X$ is less than $Y$.
+    c.  Let $Z$ be the random variable that is the smaller of $X$ and $Y$. Find the cumulative distribution function for $Z$.
+    d.  Find the pdf for Z.
+
+3.  Suppose that the random variables $X$ and $Y$ have joint density $f_{X,Y}(x,y)$, for $0<x<1$, and $\frac{1}{2}<y<1$. Set up the equation for the cdf of $Z$, where $Z=X/Y$.
+
+    *Hint: First determine what the possible values for* $Z$ are. Then make a sketch of the domain of the joint pdf and shade in the region representing the cdf of Z for different values of $z$. Make sure to pay close attention to how the region we need to integrate over changes as $z$ changes. The cdf has two different cases depending on the value of $z$. Plug in specific values of $z$ and shade in the region representing the cdf to see why two different cases are needed.
+
+<!-- -->
 
 1.  Suppose that voters arrive at a polling station at the rate of 120 per hour.For each of the following parts, [give the name and parameter(s) of the distribution]{.underline} to be used to model the event and [set up the expression]{.underline} to find the specified probability.*You do not need to compute the probability.*
 

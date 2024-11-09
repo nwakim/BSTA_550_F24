@@ -21,31 +21,9 @@ editor_options:
 *You must show all of your work to receive credit.*
 
 ::: center
-| Chapter |      Turn In       |     Extra Problems      |
-|:-------:|:------------------:|:-----------------------:|
-|   31    |      TB \# 18      |    TB \# 13, 14, 17     |
-|   32    |      TB \# 8       | TB \# 3, 5, 10[^1], 15  |
-|   33    |      NTB \# 1      |     TB \# 3, 9, 10      |
-|   35    | TB \# 10, NTB \# 2 |     TB \# 6, 9, 24      |
-|   36    |  TB \# 12[^2], 14  | TB \# 4, 11, 13, 15, 16 |
+| Chapter |     Turn In      |     Extra Problems      |
+|:-------:|:----------------:|:-----------------------:|
+|   36    | TB \# 12[^1], 14 | TB \# 4, 11, 13, 15, 16 |
 :::
 
-[^1]: Assume $X$ and $Y$ are independent.
-
-[^2]: Assume the distances between the cars are independent.
-
-\* Although within Chapter 26, these exercises are primarily practicing the material from Chapter 25.
-
-\*\* For Ch 27 \# 12, in order to find the conditional densities in parts (a) and (b), you will need to calculate $f_Y(y)$ for the specific regions of $y$ specified. After finding the conditional densities in parts (a) and (b), also calculate the conditional probabilities below. Please submit these together with your other work in parts (a) and (b): Find $\mathbb{P}[0.5 < X < 3 | Y = 4]$. Find $\mathbb{P}[0.5 < X < 3 | Y = 7]$.
-
-## Non-textbook problems (NTB)
-
-1.  Suppose that voters arrive at a polling station at the rate of 120 per hour.For each of the following parts, [give the name and parameter(s) of the distribution]{.underline} to be used to model the event and [set up the expression]{.underline} to find the specified probability.*You do not need to compute the probability.*
-
-    a.  The probability that the next voter will arrive in less than 30 seconds.
-
-    b.  The probability that 200 voters will arrive within two hours of each other.
-
-    c.  The probability that the $50^{th}$ voter will arrive in between 15 and 30 minutes.
-
-2.  The automatic opening device of a military cargo parachute has been designed to open when the parachute is 200 m above the ground. Suppose opening altitude actually has a normal distribution with mean value 200 m and standard deviation 30 m. Equipment damage will occur if the parachute opens at an altitude of less than 100 m. What is the probability that there is equipment damage to the payload of at least one of the five independently dropped parachutes?
+[^1]: Assume the distances between the cars are independent.
