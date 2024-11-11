@@ -2265,7 +2265,7 @@
     "href": "lessons/29_Variance_and_Sums_of_rv/29_Variance_and_Sums_of_rv.html#variance-of-exponential-distribution",
     "title": "Chapter 29: Variance of Continuous Random Variables",
     "section": "Variance of exponential distribution",
-    "text": "Variance of exponential distribution\n\n\n\n\nExample 3\n\n\nLet \\(f_X(x)= \\lambda e^{-\\lambda x}\\), for \\(x &gt; 0\\) and \\(\\lambda&gt; 0\\). Find \\(Var[X]\\)."
+    "text": "Variance of exponential distribution\n\n\nIn the homework:\n\n\nExample 3\n\n\nLet \\(f_X(x)= \\lambda e^{-\\lambda x}\\), for \\(x &gt; 0\\) and \\(\\lambda&gt; 0\\). Find \\(Var[X]\\)."
   },
   {
     "objectID": "lessons/29_Variance_and_Sums_of_rv/29_Variance_and_Sums_of_rv.html#important-properties-of-variances-of-continuous-rvs",
@@ -2356,7 +2356,7 @@
     "href": "lessons/28_Expected_Values/28_Expected_Values.html#expected-value-of-the-exponential-distribution",
     "title": "Chapter 28: Expected Values of Continuous Random Variables",
     "section": "Expected Value of the Exponential Distribution",
-    "text": "Expected Value of the Exponential Distribution\n\n\n\n\nExample 2\n\n\nLet \\(f_X(x)= \\lambda e^{-\\lambda x}\\), for \\(x &gt; 0\\) and \\(\\lambda&gt; 0\\). Find \\(\\mathbb{E}[X]\\)."
+    "text": "Expected Value of the Exponential Distribution\n\n\n\n\nExample 2\n\n\nLet \\(f_X(x)= \\lambda e^{-\\lambda x}\\), for \\(x &gt; 0\\) and \\(\\lambda&gt; 0\\). Find \\(\\mathbb{E}[X]\\).\n\n\n\n\nIntegrating by Parts\n\n\n\\(\\displaystyle\\int_a^b u dv = uv\\bigg|^b_a - \\displaystyle\\int_a^b vdu\\)\n\n\n\n\n\n\nChapter 28 Slides"
   },
   {
     "objectID": "lessons/28_Expected_Values/28_Expected_Values.html#expected-value-from-a-joint-distribution",
@@ -4771,7 +4771,7 @@
     "href": "lessons/28_29_Joint_expected_value_Variance/28_29_Joint_expected_value_Variance.html#remark-on-expected-value-of-one-rv-from-joint-pdf",
     "title": "Chapter 28 and 19: Revisiting Expected Values and Variance for Joint Distributions",
     "section": "Remark on expected value of one RV from joint pdf",
-    "text": "Remark on expected value of one RV from joint pdf\nIf you are given \\(f_{X,Y}(x,y)\\) and want to calculate \\(\\mathbb{E}[X]\\), you have two options:\n\nFind \\(f_X(x)\\) and use it to calculate \\(\\mathbb{E}[X]\\).\nOr, calculate \\(\\mathbb{E}[X]\\) using the joint density: \\[\\mathbb{E}[X] = \\int_{-\\infty}^{\\infty}\\int_{-\\infty}^{\\infty}x f_{X,Y}(x,y)dydx.\\]\n\n\n\nChapter 28-29 Revisited Slides"
+    "text": "Remark on expected value of one RV from joint pdf\nIf you are given \\(f_{X,Y}(x,y)\\) and want to calculate \\(\\mathbb{E}[X]\\), you have two options:\n\nFind \\(f_X(x)\\) and use it to calculate \\(\\mathbb{E}[X]\\).\nOr, calculate \\(\\mathbb{E}[X]\\) using the joint density: \\[\\mathbb{E}[X] = \\int_{-\\infty}^{\\infty}\\int_{-\\infty}^{\\infty}x f_{X,Y}(x,y)dydx.\\]"
   },
   {
     "objectID": "lessons/28_Expected_Values/28_Expected_Values_key_info.html",
@@ -4793,5 +4793,82 @@
     "title": "Key Info",
     "section": "Key Dates",
     "text": "Key Dates\n\nThursday: HW 6 due\nSunday: HW 5 solutions due"
+  },
+  {
+    "objectID": "lessons/28_29_Joint_expected_value_Variance/28_29_Joint_expected_value_Variance.html#option-1-expected-value-from-a-joint-distribution",
+    "href": "lessons/28_29_Joint_expected_value_Variance/28_29_Joint_expected_value_Variance.html#option-1-expected-value-from-a-joint-distribution",
+    "title": "Chapter 28 and 19: Revisiting Expected Values and Variance for Joint Distributions",
+    "section": "Option 1: Expected value from a joint distribution",
+    "text": "Option 1: Expected value from a joint distribution\n\n\n\n\nExample 3\n\n\nLet \\(f_{X,Y}(x,y)= 2e^{-(x+y)}\\), for \\(0 \\leq x \\leq y\\). Find \\(\\mathbb{E}[X]\\)."
+  },
+  {
+    "objectID": "lessons/28_29_Joint_expected_value_Variance/28_29_Joint_expected_value_Variance.html#option-2-expected-value-from-a-joint-distribution",
+    "href": "lessons/28_29_Joint_expected_value_Variance/28_29_Joint_expected_value_Variance.html#option-2-expected-value-from-a-joint-distribution",
+    "title": "Chapter 28 and 19: Revisiting Expected Values and Variance for Joint Distributions",
+    "section": "Option 2: Expected value from a joint distribution",
+    "text": "Option 2: Expected value from a joint distribution\n\n\n\n\nExample 1\n\n\nLet \\(f_{X,Y}(x,y)= 2e^{-(x+y)}\\), for \\(0 \\leq x \\leq y\\). Find \\(\\mathbb{E}[X]\\).\n\n\n\n\n\n\nChapter 28-29 Revisited Slides"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "",
+    "text": "Calculate the conditional probability density from a joint pdf"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#learning-objectives",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#learning-objectives",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "",
+    "text": "Calculate the conditional probability density from a joint pdf"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#conditional-probabilities-weve-seen-before",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#conditional-probabilities-weve-seen-before",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Conditional probabilities we’ve seen before",
+    "text": "Conditional probabilities we’ve seen before\n\n\nWhat do we know about conditional probabilities for events and discrete RVs?    \nFor events:\n\\[P(A | B) = \\dfrac{P(A \\cap B)}{P(B)}\\]    \nFor discrete RVs: \\[p_{X|Y}(x|y) = P(X=x|Y=y) = \\dfrac{p_{X,Y}(x,y)}{p_Y(y)}\\]\n\n\n\nWhat does it mean for conditional densities of continuous RVs?\nFor continuous RVs:"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-first-try",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-first-try",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Example starting from a joint pdf: first try!",
+    "text": "Example starting from a joint pdf: first try!\n\n\n\n\nExample 1.1\n\n\nLet \\(f_{X,Y}(x,y)= 5 e^{-x-3y}\\), for \\(0 &lt; y &lt; \\frac{x}{2}\\).\n\nFind \\(\\mathbb{P}(2&lt;X&lt;10|Y=4)\\)"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#what-is-a-conditional-density",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#what-is-a-conditional-density",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "What is a conditional density?",
+    "text": "What is a conditional density?\n\n\n\n\nDefinition: Conditional density\n\n\nThe conditional density of a r.v. \\(X\\) given \\(Y=y\\), is \\[f_{X|Y}(x|y)= \\frac{f_{X,Y}(x,y)}{f_Y(y)},\\] for \\(f_Y(y)&gt; 0\\)\n\n\n\n\n\nRemarks\n\nIt follows from the definition for the conditional density \\(f_{X|Y}(x|y)\\), that \\[f_{X,Y}(x,y)= f_{X|Y}(x|y)f_Y(y).\\]\n\n     \n\nFor a fixed value of \\(Y=y\\), the conditional density \\(f_{X|Y}(x|y)\\) is an actual pdf, meaning\n\n\\(f_{X|Y}(x|y)\\geq 0\\) for all \\(x\\) and \\(y\\), and\n\\(\\displaystyle\\int_{-\\infty}^{\\infty} f_{X|Y}(x|y)dx =1\\)."
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-second-try",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-second-try",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Example starting from a joint pdf: second try!",
+    "text": "Example starting from a joint pdf: second try!\n\n\n\n\nExample 1.1\n\n\nLet \\(f_{X,Y}(x,y)= 5 e^{-x-3y}\\), for \\(0 &lt; y &lt; \\frac{x}{2}\\).\n\nFind \\(\\mathbb{P}(2&lt;X&lt;10|Y=4)\\)"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Example starting from a joint pdf",
+    "text": "Example starting from a joint pdf\n\n\n\n\nExample 1.2\n\n\nLet \\(f_{X,Y}(x,y)= 5 e^{-x-3y}\\), for \\(0 &lt; y &lt; \\frac{x}{2}\\).\n\nFind \\(\\mathbb{P}(X&gt;20 |Y=5)\\)"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#finding-probability-with-conditional-domain-and-pdf",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#finding-probability-with-conditional-domain-and-pdf",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Finding probability with conditional domain and pdf",
+    "text": "Finding probability with conditional domain and pdf\n\n\n\n\nExample 2\n\n\nRandomly choose a point \\(X\\) from the interval \\([0,1]\\), and given \\(X=x\\), randomly choose a point \\(Y\\) from \\([0,x]\\). Find \\(\\mathbb{P}(0 &lt; Y &lt; \\frac14)\\)."
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#independence-and-conditional-distributions",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#independence-and-conditional-distributions",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Independence and conditional distributions",
+    "text": "Independence and conditional distributions\n    Question What is \\(f_{X|Y}(x|y)\\) if \\(X\\) and \\(Y\\) are independent?\n\\[f_{X|Y}(x|y) = \\dfrac{f_{X,Y}(x,y)}{f_y(y)} = \\dfrac{f_{X}(x)f_y(y)}{f_y(y)} = f_{X}(x)\\]\n       \n\nIf \\(f_{X|Y}(x|y)\\) does not depend on \\(y\\) (including the bounds/domain), then \\(X\\) and \\(Y\\) are independent."
   }
 ]

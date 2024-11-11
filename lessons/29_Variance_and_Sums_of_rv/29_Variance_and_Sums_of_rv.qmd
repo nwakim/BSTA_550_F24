@@ -162,6 +162,9 @@ Let $f_X(x)= \frac{1}{b-a}$, for $a \leq x \leq b$. Find $Var[X]$.
 
 ::: columns
 ::: {.column width="30%"}
+
+In the homework:
+
 ::: example
 ::: ex-title
 Example 3

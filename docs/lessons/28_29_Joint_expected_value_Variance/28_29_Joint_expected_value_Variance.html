@@ -345,8 +345,16 @@ Meike Niederhausen and Nicky Wakim
 <li>Calculate the variance of a joint distribution of continuous RV</li>
 </ol>
 </section>
-<section id="expected-value-from-a-joint-distribution" class="slide level2">
-<h2>Expected value from a joint distribution</h2>
+<section id="remark-on-expected-value-of-one-rv-from-joint-pdf" class="slide level2">
+<h2>Remark on expected value of one RV from joint pdf</h2>
+<p>If you are given <span class="math inline">\(f_{X,Y}(x,y)\)</span> and want to calculate <span class="math inline">\(\mathbb{E}[X]\)</span>, you have two options:</p>
+<ol type="1">
+<li><p>Find <span class="math inline">\(f_X(x)\)</span> and use it to calculate <span class="math inline">\(\mathbb{E}[X]\)</span>.</p></li>
+<li><p>Or, calculate <span class="math inline">\(\mathbb{E}[X]\)</span> using the joint density: <span class="math display">\[\mathbb{E}[X] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x f_{X,Y}(x,y)dydx.\]</span></p></li>
+</ol>
+</section>
+<section id="option-1-expected-value-from-a-joint-distribution" class="slide level2">
+<h2>Option 1: Expected value from a joint distribution</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <div class="example">
@@ -360,8 +368,8 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </section>
-<section id="expected-value-from-a-joint-pdf" class="slide level2">
-<h2>Expected value from a joint pdf</h2>
+<section id="option-2-expected-value-from-a-joint-distribution" class="slide level2">
+<h2>Option 2: Expected value from a joint distribution</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <div class="example">
@@ -374,14 +382,6 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </div>
-</section>
-<section id="remark-on-expected-value-of-one-rv-from-joint-pdf" class="slide level2">
-<h2>Remark on expected value of one RV from joint pdf</h2>
-<p>If you are given <span class="math inline">\(f_{X,Y}(x,y)\)</span> and want to calculate <span class="math inline">\(\mathbb{E}[X]\)</span>, you have two options:</p>
-<ol type="1">
-<li><p>Find <span class="math inline">\(f_X(x)\)</span> and use it to calculate <span class="math inline">\(\mathbb{E}[X]\)</span>.</p></li>
-<li><p>Or, calculate <span class="math inline">\(\mathbb{E}[X]\)</span> using the joint density: <span class="math display">\[\mathbb{E}[X] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x f_{X,Y}(x,y)dydx.\]</span></p></li>
-</ol>
 
 <div class="footer footer-default">
 <p>Chapter 28-29 Revisited Slides</p>

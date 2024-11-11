@@ -20,7 +20,17 @@ format:
 1. Calculate the mean (expected value) of a joint distribution of continuous RV
 1. Calculate the variance of a joint distribution of continuous RV
 
-## Expected value from a joint distribution
+## Remark on expected value of one RV from joint pdf
+
+If you are given $f_{X,Y}(x,y)$ and want to calculate $\mathbb{E}[X]$,
+you have two options:
+
+1.  Find $f_X(x)$ and use it to calculate $\mathbb{E}[X]$.
+
+2.  Or, calculate $\mathbb{E}[X]$ using the joint density:
+    $$\mathbb{E}[X] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x f_{X,Y}(x,y)dydx.$$
+
+## Option 1: Expected value from a joint distribution
 
 ::: columns
 ::: {.column width="30%"}
@@ -37,7 +47,7 @@ $0 \leq x \leq y$. Find $\mathbb{E}[X]$.
 :::
 :::
 
-## Expected value from a joint pdf
+## Option 2: Expected value from a joint distribution
 
 ::: columns
 ::: {.column width="30%"}
@@ -53,13 +63,3 @@ $\mathbb{E}[X]$.
 :::
 :::
 :::
-
-## Remark on expected value of one RV from joint pdf
-
-If you are given $f_{X,Y}(x,y)$ and want to calculate $\mathbb{E}[X]$,
-you have two options:
-
-1.  Find $f_X(x)$ and use it to calculate $\mathbb{E}[X]$.
-
-2.  Or, calculate $\mathbb{E}[X]$ using the joint density:
-    $$\mathbb{E}[X] = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x f_{X,Y}(x,y)dydx.$$
