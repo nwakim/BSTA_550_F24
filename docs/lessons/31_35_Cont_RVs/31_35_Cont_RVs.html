@@ -11,8 +11,8 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Meike Niederhausen and Nicky Wakim">
-  <meta name="dcterms.date" content="2024-10-16">
-  <title>Introduction to Probability - Chapter 14-20: Some Important Discrete RVs</title>
+  <meta name="dcterms.date" content="2024-11-13">
+  <title>Introduction to Probability - Chapter 31-35: Some Important Continuous RVs</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -326,7 +391,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#006a4e" class="quarto-title-block center">
-  <h1 class="title">Chapter 14-20: Some Important Discrete RVs</h1>
+  <h1 class="title">Chapter 31-35: Some Important Continuous RVs</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -336,538 +401,456 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 
-  <p class="date">2024-10-16</p>
+  <p class="date">2024-11-13</p>
 </section>
-<section id="learning-objectives" class="slide level2">
-<h2>Learning Objectives</h2>
+<section>
+<section id="learning-objectives" class="title-slide slide level1 center">
+<h1>Learning Objectives</h1>
 <ol type="1">
-<li>Distinguish between Bernoulli, Binomial, Geometric, Hypergeometric, Discrete Uniform, Negative Binomial, and Poisson distributions when reading a story.</li>
+<li>Distinguish between Uniform, Exponential, Gamma, and Normal distributions when reading a story.</li>
 <li>Identify the variable and the parameters in a story, and state what the variable and parameters mean.</li>
-<li>Use the formulas for the pmf/CDF, expected value, and variance to answer questions and find probabilities.</li>
+<li>Use the formulas for the pdf/CDF, expected value, and variance to answer questions and find probabilities.</li>
 </ol>
 </section>
 <section id="where-are-we" class="slide level2">
 <h2>Where are we?</h2>
 
-<img data-src="../img_slides/course_map.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="../img_slides/course_map.png" class="r-stretch quarto-figure-center"></section></section>
 <section>
-<section id="chapter-14-bernoulli-rvs" class="title-slide slide level1 center">
-<h1>Chapter 14: Bernoulli RVs</h1>
+<section id="chapter-31-uniform-rvs" class="title-slide slide level1 center">
+<h1>Chapter 31: Uniform RVs</h1>
 
 </section>
-<section id="properties-of-bernoulli-rvs" class="slide level2">
-<h2>Properties of Bernoulli RVs</h2>
+<section id="properties-of-continuous-uniform-rvs" class="slide level2">
+<h2>Properties of continuous uniform RVs</h2>
 <ul>
-<li><strong>Scenario:</strong> One trial, with outcome success or failure</li>
-<li>Shorthand: <span class="math inline">\(X \sim \text{Bernoulli}(p)\)</span></li>
+<li><p><strong>Scenario:</strong> Events are equally likely to happen anywhere or anytime in an interval of values</p></li>
+<li><p>Shorthand: <span class="math inline">\(X \sim \text{U}[a,b]\)</span></p></li>
 </ul>
 <p><span class="math display">\[
-X = \left\{
+f_X(x) = \dfrac{1}{b-a}, \text{ for }a \leq x \leq b
+\]</span></p>
+<p><span class="math display">\[
+F_X(x) = \left\{
         \begin{array}{ll}
-            1 &amp; \quad \mathrm{with\ probability}\ p \quad \\
-            0 &amp; \quad \mathrm{with\ probability}\ 1-p \quad
+            0 &amp; \quad x&lt;a \quad \\
+            \dfrac{x-a}{b-a} &amp; \quad a \leq x \leq b\quad \\
+            1 &amp; \quad x&gt;b \quad
         \end{array}
     \right.
 \]</span></p>
-<p><span class="math display">\[
-p_X(x) = P(X=x) = p^x(1-p)^{1-x} \text{ for } x=0,1
-\]</span></p>
-<p><span class="math display">\[\text{E}(X) = p\]</span></p>
-<p><span class="math display">\[\text{Var}(X) = pq = p(1-p)\]</span></p>
+<p><span class="math display">\[\text{E}(X) = \dfrac{a+b}{2} \text{, } \text{ Var}(X) = \dfrac{(b-a)^2}{12}\]</span></p>
 </section>
-<section id="bernoulli-example-1" class="slide level2">
-<h2>Bernoulli Example 1</h2>
+<section id="identifying-continuous-uniform-rv-from-word-problems" class="slide level2">
+<h2>Identifying continuous uniform RV from word problems</h2>
+<ul>
+<li><p>Look for some indication that all events are <strong>equally likely</strong></p>
+<ul>
+<li>Could also say “uniformly distributed”</li>
+</ul></li>
+<li><p>Look for an interval</p>
+<ul>
+<li><p><strong>Time example:</strong> Costumer in your store will approach the cash register in next 30 minutes. Approaching the register throughout the 30 minutes is equally likely.</p></li>
+<li><p><strong>Length example:</strong> You have a 12 inch string that you need to cut. You are equally likely to cut anywhere on the string.</p></li>
+</ul></li>
+<li><p>Different than the discrete uniform</p>
+<ul>
+<li><p>Discrete usually includes a <em>countable</em> number of events that are equally likely</p></li>
+<li><p>Continuous is not countable</p>
+<ul>
+<li>Exact time and length can be measured with infinite decimal places</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="helpful-r-code" class="slide level2">
+<h2>Helpful R code</h2>
+<p>Let’s say we’re looking at equally likely arrival times between 10 am and 11 am.</p>
+<ul>
+<li><p>If we want to know the probability that someone arrives at 10:30am or earlier:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">punif</span>(<span class="at">q =</span> <span class="dv">30</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">60</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.5</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the time, say <span class="math inline">\(t\)</span>, where the probability of arriving at <span class="math inline">\(t\)</span> or earlier is 0.35:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">qunif</span>(<span class="at">p =</span> <span class="fl">0.35</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">60</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 21</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the probability that someone arrives between 10:14 and 10:16 am:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">punif</span>(<span class="at">q =</span> <span class="dv">16</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">60</span>) <span class="sc">-</span> <span class="fu">punif</span>(<span class="at">q =</span> <span class="dv">14</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">60</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.03333333</code></pre>
+</div>
+</div></li>
+<li><p>If we want to sample 20 arrival times from the distribution:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">20</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">60</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 14.678120 51.978743 20.053322 30.961489 18.560075 23.306970  6.055852
+ [8] 58.759085 28.970863 42.766885 37.308040 47.688816  4.226385 46.083334
+[15]  6.912673 31.533889 26.919587 35.281129  2.206351 46.045267</code></pre>
+</div>
+</div></li>
+</ul>
+</section>
+<section id="bird-on-a-wire-tb-31.5" class="slide level2">
+<h2>Bird on a wire (TB 31.5)</h2>
 <div class="columns">
-<div class="column" style="width:35%;">
+<div class="column" style="width:30%;">
 <div class="example">
 <div class="ex-title">
 <p>Example 1</p>
 </div>
 <div class="ex-cont">
-<ul>
-<li><p>We roll a fair 6-sided die.</p></li>
-<li><p>We get $1 if we roll a 5, and nothing otherwise.</p></li>
-<li><p>Let <span class="math inline">\(X\)</span> be how much money we get.</p></li>
-<li><p>Find the mean and variance of <span class="math inline">\(X\)</span>.</p></li>
-</ul>
+<p>A bird lands at a location that is Uniformly distributed along an electrical wire of length 150 feet. The wire is stretched tightly between two poles. What is the probability that the bird is 20 feet or less from one or the other of the poles?</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="chapter-15-binomial-r.v.s" class="title-slide slide level1 unnumbered center">
-<h1>Chapter 15: Binomial RVs</h1>
+<section id="chapter-32-exponential-rvs" class="title-slide slide level1 center">
+<h1>Chapter 32: Exponential RVs</h1>
 
 </section>
-<section id="properties-of-binomial-rvs" class="slide level2">
-<h2>Properties of Binomial RVs</h2>
+<section id="properties-of-exponential-rvs" class="slide level2">
+<h2>Properties of exponential RVs</h2>
 <ul>
-<li><p><strong>Scenario:</strong> There are <span class="math inline">\(n\)</span> independent trials, each resulting in a success or failure, with constant probability, <span class="math inline">\(p\)</span>, in each trial. We are counting the number of successes (or failures).</p></li>
-<li><p>Shorthand: <span class="math inline">\(X \sim \text{Binomial}(n, p)\)</span></p></li>
+<li><p><strong>Scenario:</strong> Modeling the time until the next (first) event</p></li>
+<li><p>Continuous analog to the geometric distribution!</p></li>
+<li><p>Shorthand: <span class="math inline">\(X \sim \text{Exp}(\lambda)\)</span></p></li>
 </ul>
 <p><span class="math display">\[
-X = \text{Number of successes of } n \text{ independent trials}
+f_X(x) = \lambda e^{-\lambda x}\text{ for } x&gt;0, \lambda&gt;0
 \]</span></p>
 <p><span class="math display">\[
-p_X(x) = P(X=x) = {n \choose x}p^x(1-p)^{n-x} \text{ for } x=0,1,2,  ..., n
+F_X(x) = \left\{
+        \begin{array}{ll}
+            0 &amp; \quad x&lt;0 \quad \\
+            1 - e^{-\lambda x} &amp; \quad x\geq0 \\
+        \end{array}
+    \right.
 \]</span></p>
-<p><span class="math display">\[\text{E}(X) = np\]</span> <span class="math display">\[\text{Var}(X) = npq = np(1-p)\]</span></p>
+<p><span class="math display">\[\text{E}(X) = \dfrac{1}{\lambda}\]</span> <span class="math display">\[\text{Var}(X) = \dfrac{1}{\lambda^2}\]</span></p>
 </section>
-<section id="our-beloved-fair-sided-die" class="slide level2">
-<h2>Our beloved fair-sided die</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 2</p>
-</div>
-<div class="ex-cont">
+<section id="memoryless-property" class="slide level2">
+<h2>Memoryless Property</h2>
+<p>&nbsp; &nbsp;</p>
+<p>If <span class="math inline">\(b&gt;0\)</span>,</p>
+<p><span class="math display">\[P(X &gt; a +b | X&gt; a) = P(X &gt; b)\]</span></p>
+<p>&nbsp; &nbsp; &nbsp;</p>
 <ul>
-<li><p>Suppose we roll a fair 6-sided die 50 times.</p></li>
-<li><p>We get $1 every time we roll a 5, and nothing otherwise.</p></li>
-<li><p>Let <span class="math inline">\(X\)</span> be how much money we get on the 50 rolls.</p></li>
-<li><p>Find the mean and variance of <span class="math inline">\(X\)</span>.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="chapter-16-geometric-r.v.s" class="title-slide slide level1 unnumbered center">
-<h1>Chapter 16: Geometric RVs</h1>
-
-</section>
-<section id="geometric-rvs" class="slide level2">
-<h2>Geometric RVs</h2>
+<li><p><strong>This can be interpreted as:</strong></p>
 <ul>
-<li><p><strong>Scenario:</strong> There are repeated independent trials, each resulting in a success or failure, with constant probability of success for each trial. We are counting the number of trials until the first success.</p></li>
-<li><p>Shorthand: <span class="math inline">\(X \sim \text{Geo}(p)\)</span> or <span class="math inline">\(X \sim \text{Geometric}(p)\)</span> or <span class="math inline">\(X \sim \text{G}(p)\)</span></p></li>
-</ul>
-<table style="width:97%;">
-<colgroup>
-<col style="width: 48%">
-<col style="width: 48%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><span class="math inline">\(X =\)</span> Number of trials needed for first success (count <span class="math inline">\(x\)</span> <em>includes</em> the success)</th>
-<th style="text-align: center;"><span class="math inline">\(X =\)</span> Number of failures before first success (count <span class="math inline">\(x\)</span> <em>does not include</em> the success)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p><span class="math inline">\(p _  X( x ) = P(X=x) = (1-p)^{x-1}p\)</span></p>
-<p>for <span class="math inline">\(x=1,2, 3,...\)</span></p>
-<p><span class="math display">\[F_
-X(x ) = P(X\leq x) = 1-(1-p)^x\]</span></p>
-<p>for <span class="math inline">\(x=1,2, 3,...\)</span></p></td>
-<td style="text-align: center;"><p><span class="math inline">\(p _X (x)= P(X=x) = (1-p)^{x}p\)</span></p>
-<p>for <span class="math inline">\(x=0, 1,2,...\)</span></p>
-<p><span class="math display">\[F_X ( x
-)
-= P(X\leq x) = 1-(1-p)^{x+1}\]</span></p>
-<p>for <span class="math inline">\(x=0, 1,2,...\)</span></p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p><span class="math inline">\(E(X)=\dfrac{1}{p}\)</span></p>
-<p><span class="math inline">\(Var(X)= \dfrac{1-p}{p^2}\)</span></p></td>
-<td style="text-align: center;"><p><span class="math inline">\(E(X)=\dfrac{1-p}{p}\)</span></p>
-<p><span class="math inline">\(Var(X) = \dfrac{1-p}{p^2}\)</span></p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="bullseye-14" class="slide level2">
-<h2>Bullseye (1/4)</h2>
-<div class="columns">
-<div class="column" style="width:100%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3</p>
-</div>
-<div class="ex-cont">
-<p>We throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol type="1">
-<li><p>What is the pmf for the number of throws needed to hit the bullseye?</p></li>
-<li><p>What are the mean and variance for the number of throws needed to hit the bullseye?</p></li>
-<li><p>Find the probability that our first bullseye:</p>
-<ul>
-<li><p>is on one of the first fifty tries</p></li>
-<li><p>is after the <span class="math inline">\(50^{th}\)</span> try, given that it did not happen on the first 20 tries</p></li>
+<li><p>If you have waited <span class="math inline">\(a\)</span> seconds (or any other measure of time) without a success</p></li>
+<li><p>Then the probability that you have to wait <span class="math inline">\(b\)</span> more seconds is the same as as the probability of waiting <span class="math inline">\(b\)</span> seconds initially.</p></li>
 </ul></li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="bullseye-24" class="slide level2">
-<h2>Bullseye (2/4)</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3</p>
-</div>
-<div class="ex-cont">
-<p>We throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol type="1">
-<li>What is the pmf for the number of throws needed to hit the bullseye?</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="bullseye-34" class="slide level2">
-<h2>Bullseye (3/4)</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3</p>
-</div>
-<div class="ex-cont">
-<p>We throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol start="2" type="1">
-<li>What are the mean and variance for the number of throws needed to hit the bullseye?</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="bullseye-44" class="slide level2">
-<h2>Bullseye (4/4)</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3</p>
-</div>
-<div class="ex-cont">
-<p>We throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol start="3" type="1">
-<li><p>Find the probability that our first bullseye:</p>
-<ul>
-<li><p>is on one of the first fifty tries</p></li>
-<li><p>is after the <span class="math inline">\(50^{th}\)</span> try, given that it did not happen on the first 20 tries</p></li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="memoryless-property-for-geometric-rvs" class="slide level2">
-<h2>Memoryless property for Geometric RVs</h2>
-<p>If we know <span class="math inline">\(X\)</span> is greater than some number (aka given <span class="math inline">\(X &gt;j\)</span>), then the probability of <span class="math inline">\(X &gt; k+j\)</span> is just the probability that <span class="math inline">\(X&gt;k\)</span>.</p>
-<p>&nbsp;</p>
-<p><span class="math inline">\(P(X &gt; k+j |X &gt; j) = P(X &gt; k)\)</span> <span class="math display">\[ P(X &gt; k+j |X &gt; j) = \dfrac{P(X&gt;k+j \text{ and } X&gt;j)}{P(X&gt;j)} = \dfrac{P(X&gt;k+j)}{P(X&gt;j)} = \dfrac{(1-p)^{k+j}}{(1-p)^{j}} = (1-p)^{k} \]</span></p>
-</section></section>
-<section>
-<section id="chapter-17-negative-binomial-rvs" class="title-slide slide level1 center">
-<h1>Chapter 17: Negative Binomial RVs</h1>
-
-</section>
-<section id="properties-of-negative-binomial-rvs" class="slide level2">
-<h2>Properties of Negative Binomial RVs</h2>
-<ul>
-<li><strong>Scenario:</strong> There are repeated independent trials, each resulting in a success or failure, with constant probability of success for each trial. We are counting the number of trials until the <span class="math inline">\(r^{th}\)</span> success.</li>
-<li>Shorthand: <span class="math inline">\(X \sim \text{NegBin}(p, r)\)</span> or <span class="math inline">\(X \sim \text{NB}(p, r)\)</span></li>
-<li>Negative binomial is sum of <span class="math inline">\(r\)</span> geometric distributions</li>
 </ul>
-<p><span class="math display">\[
-X = \text{Number of independent trials until } r^{th} \text{ success}
-\]</span></p>
-<p><span class="math display">\[ p_X(x) = P(X=x) = {x-1 \choose r-1}(1-p)^{x-r}p^r \text{ for } x = r, r+1, r+2, ...\]</span></p>
-<p><span class="math display">\[ E(X) = \dfrac{r}{p}\]</span></p>
-<p><span class="math display">\[Var(X) = \dfrac{rq}{p^2} = \dfrac{r(1-p)}{p^2}\]</span></p>
 </section>
-<section id="hitting-more-than-1-bullseye" class="slide level2">
-<h2>Hitting more than 1 bullseye</h2>
+<section id="identifying-exponential-rv-from-word-problems" class="slide level2">
+<h2>Identifying exponential RV from word problems</h2>
+<ul>
+<li><p>Look for time between events/successes</p></li>
+<li><p>Look for a rate of the events over time period</p></li>
+<li><p>How does it differ from the geometric distribution?</p>
+<ul>
+<li><p>Geometric is <em>number of trials</em> until first success</p></li>
+<li><p>Exponential is <em>time</em> until first success</p></li>
+</ul></li>
+<li><p>Relation to the Poisson distribution?</p>
+<ul>
+<li>When the time between arrivals is exponential, the number of arrivals in a fixed time interval is Poisson with the mean <span class="math inline">\(\lambda\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="helpful-r-code-1" class="slide level2">
+<h2>Helpful R code</h2>
+<p>Let’s say we’re sitting at the bus stop, measuring the time until our bus arrives. We know the bus comes every 10 minutes on average.</p>
+<ul>
+<li><p>If we want to know the probability that the bus arrives in the next 5 minutes:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">pexp</span>(<span class="at">q =</span> <span class="dv">5</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3934693</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the time, say <span class="math inline">\(t\)</span>, where the probability of the bus arriving at <span class="math inline">\(t\)</span> or earlier is 0.35:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">qexp</span>(<span class="at">p =</span> <span class="fl">0.35</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4.307829</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the probability that the bus arrives between 3 and 5 minutes:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="fu">pexp</span>(<span class="at">q =</span> <span class="dv">5</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>) <span class="sc">-</span> <span class="fu">pexp</span>(<span class="at">q =</span> <span class="dv">3</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1342876</code></pre>
+</div>
+</div></li>
+<li><p>If we want to sample 20 bus arrival times from the distribution:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="fu">rexp</span>(<span class="at">n =</span> <span class="dv">20</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  2.6536492  9.9241230  9.8590037 16.7313808  1.7358231  9.5964185
+ [7]  1.3491135  2.2182230  9.6290820  0.6212311 53.4122497  4.6816007
+[13] 14.0487481  7.0381356  7.5556238  6.3182355  3.5183107 27.6916935
+[19]  0.4412962 28.0393721</code></pre>
+</div>
+</div></li>
+</ul>
+</section>
+<section id="transformation-of-independent-exponential-rvs" class="slide level2">
+<h2>Transformation of independent exponential RVs</h2>
 <div class="columns">
-<div class="column" style="width:35%;">
+<div class="column" style="width:30%;">
+<p>Revisit after joint notes:</p>
 <div class="example">
 <div class="ex-title">
 <p>Example 1</p>
 </div>
 <div class="ex-cont">
-<p>Consider again the bullseye example, where we throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol type="1">
-<li>What is the expected value and variance of the number of throws needed to hit 5 bullseyes?</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="hitting-more-than-1-bullseye-1" class="slide level2">
-<h2>Hitting more than 1 bullseye</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 1</p>
-</div>
-<div class="ex-cont">
-<p>Consider again the bullseye example, where we throw darts at a dartboard until we hit the bullseye. Assume throws are independent and the probability of hitting the bullseye is 0.01 for each throw.</p>
-<ol start="2" type="1">
-<li>What is the probability that the <span class="math inline">\(5^{th}\)</span> bullseye is on the <span class="math inline">\(20^{th}\)</span> throw?</li>
-</ol>
+<p>Let <span class="math inline">\(X_i \sim \textrm{Exp}(\lambda_i)\)</span> be independent RVs, for <span class="math inline">\(i=1 \ldots n\)</span>. Find the pdf for the first of the arrival times.</p>
 </div>
 </div>
 </div>
 </div>
 </section></section>
-<section id="minute-break" class="title-slide slide level1 center">
-<h1>5 minute break</h1>
-
-</section>
-
 <section>
-<section id="chapter-18-poisson-rvs" class="title-slide slide level1 center">
-<h1>Chapter 18: Poisson RVs</h1>
+<section id="chapter-33-gamma-rvs" class="title-slide slide level1 center">
+<h1>Chapter 33: Gamma RVs</h1>
 
 </section>
-<section id="properties-of-poisson-rvs" class="slide level2">
-<h2>Properties of Poisson RVs</h2>
+<section id="properties-of-gamma-rvs" class="slide level2">
+<h2>Properties of gamma RVs</h2>
 <ul>
-<li><strong>Scenario:</strong> We are counting the number of successes in a fixed time period, which has a constant rate of successes</li>
-<li>Shorthand: <span class="math inline">\(X \sim \text{Poisson}(\lambda)\)</span> or <span class="math inline">\(X \sim \text{Pois}(\lambda)\)</span></li>
+<li><strong>Scenario:</strong> Modeling the time until the <span class="math inline">\(r^{th}\)</span> event.</li>
+<li>Continuous analog to the Negative Binomial distribution</li>
+<li>Shorthand: <span class="math inline">\(X \sim \text{Gamma}(r, \lambda)\)</span></li>
 </ul>
 <p><span class="math display">\[
-X = \text{Number of successes in a given period}
+f_X(x) = \dfrac{\lambda^r}{\Gamma(r)}x^{r-1} e^{-\lambda x}\text{ for } x&gt;0, \lambda&gt;0, \Gamma(r) = (r-1)!
 \]</span></p>
-<p><span class="math display">\[ p_X(x) = P(X=x) = \dfrac{e^{-\lambda}\lambda^x}{x!} \text{ for } x = 0, 1, 2,3, ...\]</span></p>
-<p><span class="math display">\[ \text{E}(X) = \lambda\]</span></p>
-<p><span class="math display">\[\text{Var}(X) = \lambda\]</span></p>
+<p><span class="math display">\[
+F_X(x) = \left\{
+        \begin{array}{ll}
+            0 &amp; \quad x&lt;0 \quad \\
+            1 - e^{-\lambda x}\displaystyle\sum_{j=0}^{r-1}\dfrac{(\lambda x)^j}{j!}  &amp; \quad x\geq0 \\
+        \end{array}
+    \right.
+\]</span></p>
+<p><span class="math display">\[\text{E}(X) = \dfrac{r}{\lambda}\text{, }\text{ Var}(X) = \dfrac{r}{\lambda^2}\]</span></p>
+<p>Common to see <span class="math inline">\(\alpha = r\)</span> and <span class="math inline">\(\beta = \lambda\)</span></p>
 </section>
-<section id="distinguishing-between-binomial-and-poisson-rvs" class="slide level2">
-<h2>Distinguishing between Binomial and Poisson RVs</h2>
+<section id="identifying-gamma-rv-from-word-problems" class="slide level2">
+<h2>Identifying gamma RV from word problems</h2>
 <ul>
-<li><p>Recall that if <span class="math inline">\(X\sim \text{Binomial}(n,p)\)</span>, then</p>
+<li><p>Gamma distribution with <span class="math inline">\(r=1\)</span> is same as exponential</p>
 <ul>
-<li><p><span class="math inline">\(X\)</span> models the number of successes …</p></li>
-<li><p>in <span class="math inline">\(n\)</span> independent (Bernoulli) trials …</p></li>
-<li><p>that each have the same probability of success <span class="math inline">\(p\)</span>.</p></li>
+<li>Just like Negative Binomial with <span class="math inline">\(r=1\)</span> is same as the geometric distribution</li>
 </ul></li>
-<li><p>Poisson r.v.’s are similar,</p>
+<li><p>Similar to exponential</p>
 <ul>
-<li><p>except that instead of having <span class="math inline">\(n\)</span> discrete independent trials,</p></li>
-<li><p>there is a <strong>fixed time period</strong> (or space) during which the successes happen</p></li>
+<li>Look for time between or until events/successes
+<ul>
+<li>BUT now we are measuring time until more than 1 success</li>
+</ul></li>
+<li>Look for a rate of the events over time period</li>
 </ul></li>
 </ul>
 </section>
-<section id="examples-of-poisson-rvs" class="slide level2">
-<h2>Examples of Poisson RVs</h2>
+<section id="helpful-r-code-2" class="slide level2">
+<h2>Helpful R code</h2>
+<p>Let’s say we’re sitting at the bus stop, measuring the time until 4 buses arrive. We know the bus comes every 10 minutes on average.</p>
 <ul>
-<li><p>Number of visitors to an emergency room in an hour during a weekend night</p></li>
-<li><p>Number of study participants enrolled in a study per week</p></li>
-<li><p>Number of pedestrians walking through a square mile</p></li>
-<li><p>Any more?</p></li>
-</ul>
-</section>
-<section id="emergency-room-visitors" class="slide level2">
-<h2>Emergency Room Visitors</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 1</p>
-</div>
-<div class="ex-cont">
-<p>Suppose an emergency room has an average of 50 visitors per day. Find the following probabilities.</p>
-<ol type="1">
-<li><p>Probability of 30 visitors in a day.</p></li>
-<li><p>Probability of 8 visitors in an hour.</p></li>
-<li><p>Probability of at least 8 visitors in an hour.</p></li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="combining-independent-poisson-distributions" class="slide level2">
-<h2>Combining independent Poisson distributions</h2>
-<div class="theorem">
-<div class="thm-title">
-<p>Theorem 1</p>
-</div>
-<div class="thm-cont">
-<p>If <span class="math inline">\(X\sim Pois(\lambda_1)\)</span> and <span class="math inline">\(Y\sim Pois(\lambda_2)\)</span> are independent of each other, then <span class="math inline">\(Z=X+Y\sim Pois(\lambda_1 + \lambda_2)\)</span>.</p>
-</div>
-</div>
-</section>
-<section id="two-emergency-rooms" class="slide level2">
-<h2>Two emergency rooms</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 2</p>
-</div>
-<div class="ex-cont">
-<p>Suppose emergency room 1 has an average of 50 visitors per day, and emergency room 2 has an average of 70 visitors per day, independently of each other. What is the probability distribution to model of the total number of visitors to both?</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="poisson-approximation-of-the-binomial" class="slide level2">
-<h2>Poisson Approximation of the Binomial</h2>
-<p>Both Poisson and Binomial r.v.’s are counting the number of successes</p>
-<ul>
-<li><p>If for a Binomial r.v.</p>
-<ul>
-<li><p>the number of trials <span class="math inline">\(n\)</span> is very large, and</p></li>
-<li><p>the probability of success <span class="math inline">\(p\)</span> is close to 0 or 1,</p></li>
-</ul></li>
-<li><p>Then the Poisson distribution can be used to approximate Binomial probabilities</p>
-<ul>
-<li>and we use <span class="math inline">\(\lambda = np\)</span></li>
-</ul></li>
-<li><p><strong>Rule of thumb:</strong> We can use the Poisson approximation when <span class="math inline">\(\dfrac{1}{10} \leq np(1-p) \leq 10\)</span></p></li>
-</ul>
-</section>
-<section id="medical-lab-errors" class="slide level2">
-<h2>Medical lab errors</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 3</p>
-</div>
-<div class="ex-cont">
-<p>Suppose that in the long run, errors in a medical testing lab are made 0.1% of the time. Find the probability that fewer than 4 mistakes are made in the next 2,000 tests.</p>
-<ol type="1">
-<li><p>Find the probability using the Binomial distribution.</p></li>
-<li><p>Approximate the probability in part (1) using the Poisson distribution.</p></li>
-</ol>
-</div>
-</div>
-</div><div class="column" style="width:60%;">
-<p>To do for extra practice - will also see a similar problem in BSTA 511</p>
-</div>
-</div>
-</section></section>
-<section>
-<section id="chapter-19-hypergeometric-r.v.s" class="title-slide slide level1 unnumbered center">
-<h1>Chapter 19: Hypergeometric RVs</h1>
-
-</section>
-<section id="hypergeometric-rvs" class="slide level2">
-<h2>Hypergeometric RVs</h2>
-<ul>
-<li><strong>Scenario:</strong> There are a fixed number of successes and failures (which are known in advance), from which we make <span class="math inline">\(n\)</span> draws without replacement. We are counting the number of successes from the <span class="math inline">\(n\)</span> trials.
-<ul>
-<li>There is a finite population of <span class="math inline">\(N\)</span> items</li>
-<li>Each item in the population is either a success or a failure, and there are <span class="math inline">\(M\)</span> successes total.</li>
-<li>We randomly select (sample) <span class="math inline">\(n\)</span> items from the population without replacement</li>
-</ul></li>
-<li>Shorthand: <span class="math inline">\(X \sim \text{Hypergeo}(M, N, n)\)</span></li>
+<li>If we want to know the probability that the 4 buses arrive in the next 50 minutes:</li>
 </ul>
 <div class="columns">
 <div class="column">
-<p><span class="math display">\[
-X = \text{Number of successes in } n \text{ draws}
-\]</span></p>
-<p><span class="math display">\[
-p_X(x) = P(X=x) = \dfrac{{M \choose x}{N-M \choose n-x}}{{N \choose n}}
-\]</span> <span class="math display">\[\text{ for } x \text{ integer-valued } \\ \max(0, n-(N-M)) \leq x \leq \min(n, M)\]</span></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="fu">pgamma</span>(<span class="at">q =</span> <span class="dv">50</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>, <span class="at">shape =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.7349741</code></pre>
+</div>
+</div>
 </div><div class="column">
-<p><span class="math display">\[\text{E}(X) =\dfrac{nM}{N}\]</span></p>
-<p><span class="math display">\[\text{Var}(X) = n \dfrac{M}{N} \bigg(1- \dfrac{M}{N} \bigg)\bigg(\dfrac{N-n}{N-1} \bigg)\]</span></p>
-</div>
-</div>
-</section>
-<section id="wolf-population" class="slide level2">
-<h2>Wolf population</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 4</p>
-</div>
-<div class="ex-cont">
-<p>A wildlife biologist is using mark-recapture to research a wolf population. Suppose a specific study region is known to have 24 wolves, of which 11 have already been tagged. If 5 wolves are randomly captured, what is the probability that 3 of them have already been tagged?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="fu">pgamma</span>(<span class="at">q =</span> <span class="dv">50</span>, <span class="at">scale =</span> <span class="dv">10</span>, <span class="at">shape =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.7349741</code></pre>
 </div>
 </div>
 </div>
 </div>
-</section>
-<section id="binomial-approximation-of-the-hypergeometric-rv" class="slide level2">
-<h2>Binomial approximation of the hypergeometric RV</h2>
-<p>Suppose a hypergeometric RV <span class="math inline">\(X\)</span> has the following properties:</p>
 <ul>
-<li><p>the population size <span class="math inline">\(N\)</span> is really big,</p></li>
-<li><p>the number of successes <span class="math inline">\(M\)</span> in the population is relatively large,</p>
-<ul>
-<li><span class="math inline">\(\frac{M}{N}\)</span> shouldn’t be close to 0 or 1</li>
-</ul></li>
-<li><p>and the number of items <span class="math inline">\(n\)</span> selected is small</p></li>
-<li><p><strong>Rule of thumb:</strong> <span class="math inline">\(\dfrac{n}{N}&lt;0.05\)</span> or <span class="math inline">\(N&gt;20n\)</span></p></li>
+<li><p>If we want to know the time, say <span class="math inline">\(t\)</span>, where the probability of the 4 buses arriving at <span class="math inline">\(t\)</span> or earlier is 0.35:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="fu">qgamma</span>(<span class="at">p =</span> <span class="fl">0.35</span>, <span class="at">rate =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">10</span>, <span class="at">shape =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 29.87645</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the probability that the 4 buses arrives between 30 and 50 minutes:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="fu">pgamma</span>(<span class="at">q =</span> <span class="dv">50</span>, <span class="at">scale =</span> <span class="dv">10</span>, <span class="at">shape =</span> <span class="dv">4</span>) <span class="sc">-</span> <span class="fu">pgamma</span>(<span class="at">q =</span> <span class="dv">30</span>, <span class="at">scale =</span> <span class="dv">10</span>, <span class="at">shape =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.382206</code></pre>
+</div>
+</div></li>
+<li><p>If we want to sample 20 arrival times for the 4 buses:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="fu">rgamma</span>(<span class="at">n =</span> <span class="dv">20</span>, <span class="at">scale =</span> <span class="dv">10</span>, <span class="at">shape =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  43.334506  11.669883 107.085600  68.256312   6.594443  40.773304
+ [7]  20.604468  39.343215  22.625283  44.203254  30.295759  42.049533
+[13]  28.457668  47.731174  46.818598  60.548348  45.123801  36.140067
+[19]  37.573537  31.463989</code></pre>
+</div>
+</div></li>
 </ul>
-<p>Then, in this case, making <span class="math inline">\(n\)</span> draws from the population doesn’t change the probability of success much, and the <strong>hypergeometric RV. can be approximated by a binomial RV</strong></p>
 </section>
-<section id="wolf-population-revisited" class="slide level2">
-<h2>Wolf population revisited</h2>
+<section id="remarks" class="slide level2">
+<h2>Remarks</h2>
+<ul>
+<li><p>The parameter <span class="math inline">\(r\)</span> in a Gamma(<span class="math inline">\(r\)</span>,<span class="math inline">\(\lambda\)</span>) distribution does NOT need to be a positive integer</p>
+<ul>
+<li><span class="math inline">\(r\)</span> is usually a positive integer</li>
+</ul></li>
+<li><p>When <span class="math inline">\(r\)</span> is a positive integer, the distribution is sometimes called an Erlang(<span class="math inline">\(r\)</span>,<span class="math inline">\(\lambda\)</span>) distribution</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></li>
+<li><p>When <span class="math inline">\(r\)</span> is any positive real number, we have a general gamma distribution that is usually instead parameterized by <span class="math inline">\(\alpha&gt;0\)</span> and <span class="math inline">\(\beta&gt;0\)</span>, where:</p>
+<ul>
+<li><p><span class="math inline">\(\alpha = \text{shape parameter}\)</span> : same as <span class="math inline">\(k\)</span>, the total number of events we must witness</p>
+<ul>
+<li>In R code example: 4 buses to wait for</li>
+</ul></li>
+<li><p><span class="math inline">\(\beta = \text{scale parameter}\)</span> : same as <span class="math inline">\(\lambda\)</span>, the rate parameter</p>
+<ul>
+<li>In R code example: 1 bus per 10 minutes (1/10)</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="sending-money-orders" class="slide level2">
+<h2>Sending money orders</h2>
 <div class="columns">
-<div class="column" style="width:28%;">
+<div class="column" style="width:30%;">
 <div class="example">
 <div class="ex-title">
-<p>Example 5</p>
+<p>Example 1</p>
 </div>
 <div class="ex-cont">
-<p>Suppose a specific study region is known to have 2400 wolves, of which 1100 have already been tagged.</p>
-<ol type="1">
-<li><p>If 50 wolves are randomly captured, what is the probability that 20 of them have already been tagged?</p></li>
-<li><p>Approximate the probability in part (1) using the binomial distribution.</p></li>
+<p>On average, someone sends a money order once per 15 minutes. What is the probability someone sends 10 money orders in less than 3 hours?</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="additional-resource" class="slide level2">
+<h2>Additional Resource</h2>
+<ul>
+<li>Another helpful site with R code: <a href="https://rpubs.com/mpfoley73/459051" class="uri">https://rpubs.com/mpfoley73/459051</a></li>
+</ul>
+</section></section>
+<section>
+<section id="chapter-35-normal-rvs" class="title-slide slide level1 center">
+<h1>Chapter 35: Normal RVs</h1>
+
+</section>
+<section id="properties-of-normal-rvs" class="slide level2">
+<h2>Properties of Normal RVs</h2>
+<ul>
+<li><p>No scenario description here because the Normal distribution is so universal</p>
+<ul>
+<li>Central Limit Theorem (next class) makes it applicable to many types of events</li>
+</ul></li>
+<li><p>Shorthand: <span class="math inline">\(X \sim \text{Normal}(\mu, \sigma^2)\)</span></p></li>
+</ul>
+<p><span class="math display">\[
+f_X(x) = \dfrac{1}{\sqrt{2\pi \sigma^2}}e^{-(x-\mu)^2/(2\sigma^2)} \text{, for} -inf &lt; x &lt; inf
+\]</span></p>
+<p><span class="math display">\[\text{E}(X) = \mu \]</span> <span class="math display">\[\text{Var}(X) = \sigma^2\]</span></p>
+</section>
+<section id="helpful-r-code-3" class="slide level2">
+<h2>Helpful R code</h2>
+<p>Let’s say we’re measuring the high temperature today. The average high temperature on this day across many, many years is 50 degrees with a standard deviation of 4 degrees.</p>
+<ul>
+<li><p>If we want to know the probability that the high temperature is below 45 degrees:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a><span class="fu">pnorm</span>(<span class="at">q =</span> <span class="dv">45</span>, <span class="at">mean =</span> <span class="dv">50</span>, <span class="at">sd =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1056498</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the temoerature, say <span class="math inline">\(t\)</span>, where the probability of that the temperature is at <span class="math inline">\(t\)</span> or lower is 0.35:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a><span class="fu">qnorm</span>(<span class="at">p =</span> <span class="fl">0.35</span>, <span class="at">mean =</span> <span class="dv">50</span>, <span class="at">sd =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 48.45872</code></pre>
+</div>
+</div></li>
+<li><p>If we want to know the probability that the temperature is between 45 and 50 degrees:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a><span class="fu">pnorm</span>(<span class="at">q =</span> <span class="dv">50</span>, <span class="at">mean =</span> <span class="dv">50</span>, <span class="at">sd =</span> <span class="dv">4</span>) <span class="sc">-</span> <span class="fu">pnorm</span>(<span class="at">q =</span> <span class="dv">45</span>, <span class="at">mean =</span> <span class="dv">50</span>, <span class="at">sd =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3943502</code></pre>
+</div>
+</div></li>
+<li><p>If we want to sample 20 days’ temperature (over the years) from the distribution:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a><span class="fu">rnorm</span>(<span class="at">n =</span> <span class="dv">20</span>, <span class="at">mean =</span> <span class="dv">50</span>, <span class="at">sd =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 58.19334 48.69453 48.01503 46.60855 42.96407 50.10835 49.07470 50.74432
+ [9] 43.80155 47.44748 50.30352 53.64828 47.59478 50.79763 52.01850 52.46709
+[17] 51.06833 46.64400 60.99100 55.08259</code></pre>
+</div>
+</div></li>
+</ul>
+</section>
+<section id="movie-night-while-studying" class="slide level2">
+<h2>Movie night while studying</h2>
+<div class="columns">
+<div class="column" style="width:37%;">
+<div class="example">
+<div class="ex-title">
+<p>Example 1</p>
+</div>
+<div class="ex-cont">
+<p>Children’s movies run an average of 98 minutes with a standard deviation of 10 minutes. You check out a random movie from the library to entertain your kids so you can study for your test. Assume that your kids will be occupied for the entire length of the movie.</p>
+<ol type="a">
+<li><p>What is the probability that your kids will be occupied for at least the 2 hours you would like to study?</p></li>
+<li><p>What is range for the bottom quartile (lowest 25%) of time they will be occupied?</p></li>
 </ol>
 </div>
 </div>
 </div>
 </div>
-</section></section>
-<section>
-<section id="chapter-20-discrete-uniform-r.v.s" class="title-slide slide level1 unnumbered center">
-<h1>Chapter 20: Discrete Uniform RVs</h1>
-
 </section>
-<section id="discrete-uniform-rvs" class="slide level2">
-<h2>Discrete Uniform RVs</h2>
+<section id="standard-normal-distribution" class="slide level2">
+<h2>Standard Normal Distribution</h2>
+<p><span class="math display">\[ Z \sim \text{Normal}(\mu = 0, \sigma^2 = 1)\]</span></p>
 <ul>
-<li><strong>Scenario:</strong> There are <span class="math inline">\(N\)</span> possible outcomes, which are all equally likely.</li>
-<li>Shorthand: <span class="math inline">\(X \sim \text{Uniform}(N)\)</span></li>
+<li><p>Used to be more helpful when computing was not as advanced</p>
+<ul>
+<li><p>Use tables of the standard normal</p></li>
+<li><p>You can convert any normal distribution to a standard normal through transformation</p></li>
+</ul></li>
+<li><p><span class="math inline">\(Z = \dfrac{X - \mu_X}{\sigma_X}\)</span></p>
+<ul>
+<li><p>Comes from <span class="math inline">\(X = \sigma_X Z + \mu_X\)</span></p></li>
+<li><p>Since <span class="math inline">\(\sigma_X\)</span> and <span class="math inline">\(\mu_X\)</span> are constants, then <span class="math inline">\(E(X) = \mu_X\)</span> and <span class="math inline">\(SD(X) = \sigma_X SD(Z) = \sigma_X\)</span></p></li>
+</ul></li>
 </ul>
-<p><span class="math display">\[
-X = \text{Outcome of interest, with } x=1, 2, ..., N
-\]</span></p>
-<p><span class="math display">\[
-p_X(x) = P(X=x) = \dfrac{1}{N} \text{ for } x=1, 2, 3, ..., N
-\]</span></p>
-<p><span class="math display">\[\text{E}(X) =\dfrac{N+1}{2}\]</span></p>
-<p><span class="math display">\[\text{Var}(X) = \dfrac{N^2 -1}{12}\]</span></p>
-</section>
-<section id="what-discrete-uniform-rvs-have-we-seen-already" class="slide level2">
-<h2>What discrete uniform RVs have we seen already?</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="example">
-<div class="ex-title">
-<p>Example 6</p>
-</div>
-<div class="ex-cont">
-<p>Examples of discrete uniform RVs</p>
-</div>
-</div>
-</div>
-</div>
 
 <div class="footer footer-default">
-<p>Chapter 14-20 Slides</p>
+<p>Chapter 31-35 Slides</p>
 </div>
 </section></section>
     </div>
@@ -1081,6 +1064,44 @@ p_X(x) = P(X=x) = \dfrac{1}{N} \text{ for } x=1, 2, 3, ..., N
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

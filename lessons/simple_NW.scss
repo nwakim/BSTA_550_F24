@@ -33,7 +33,15 @@ $selection-bg: rgba(0, 0, 0, 0.99);
 $presentation-heading-font: Signika, sans-serif !default;
 $presentation-heading-color: #006a4e !default;
 
+code.sourceCode {
+  font-size: 1.7em;
+  // or try font-size: xx-large; 
+}
 
+
+div.cell-output-stdout {
+  font-size: 1.5em;
+}
 
 
 // My added divs
