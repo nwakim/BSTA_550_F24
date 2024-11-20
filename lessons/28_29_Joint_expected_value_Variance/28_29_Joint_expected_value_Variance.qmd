@@ -1,5 +1,5 @@
 ---
-title: "Chapter 28 and 19: Revisiting Expected Values and Variance for Joint Distributions"
+title: "Chapter 28: Revisiting Expected Values for Joint Distributions"
 author: "Meike Niederhausen and Nicky Wakim"
 title-slide-attributes:
     data-background-color: "#006a4e"
@@ -18,7 +18,6 @@ format:
 ## Learning Objectives
 
 1. Calculate the mean (expected value) of a joint distribution of continuous RV
-1. Calculate the variance of a joint distribution of continuous RV
 
 ## Remark on expected value of one RV from joint pdf
 
