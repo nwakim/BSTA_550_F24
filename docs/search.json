@@ -5129,5 +5129,82 @@
     "title": "Key Info",
     "section": "Key Dates",
     "text": "Key Dates\n\nThursday: HW 7 due\nSunday: HW 7 solutions due (feel free to take an additional 3 days)"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs_key_info.html",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs_key_info.html",
+    "title": "Key Info",
+    "section": "",
+    "text": "HW 3 presentations are graded! You did great!\nHW 7 assignment: I’ll grade tonight!\nAnything else?"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs_key_info.html#announcements",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs_key_info.html#announcements",
+    "title": "Key Info",
+    "section": "",
+    "text": "HW 3 presentations are graded! You did great!\nHW 7 assignment: I’ll grade tonight!\nAnything else?"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs_key_info.html#key-dates",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs_key_info.html#key-dates",
+    "title": "Key Info",
+    "section": "Key Dates",
+    "text": "Key Dates\n\nThursday: HW 7 due\nSunday: HW 7 solutions due (feel free to take an additional 3 days)"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#learning-objectives",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#learning-objectives",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nShow that a joint pdf consists of two independent, continuous RVs.\nCombine two independent RVs into one joint pdf or CDF."
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#how-do-we-represent-independent-continuous-rvs-in-a-joint-pdf",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#how-do-we-represent-independent-continuous-rvs-in-a-joint-pdf",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "How do we represent independent continuous RVs in a joint pdf?",
+    "text": "How do we represent independent continuous RVs in a joint pdf?\n\n\nWhat do we know about independence for events and discrete RVs?\nFor events: If \\(A \\perp B\\)\n\\[P(A \\cap B) = P(A)P(B)\\] \\[P(A|B) = P(A)\\]\nFor discrete RVs: If \\(X \\perp Y\\) \\[p_{X,Y}(x,y) = p_{X}(x)p_{Y}(y)\\] \\[F_{X,Y}(x,y) = F_{X}(x)F_{Y}(y)\\] \\[p_{X|Y}(x|y) = p_{X}(x)\\] \\[p_{Y|X}(y|x) = p_{Y}(y)\\]\n\n\n\nWhat does it mean for continuous r.v.’s to be independent?\nFor continuous RVs: If \\(X \\perp Y\\)"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#constructing-a-joint-pdf-from-two-independent-continuous-rvs",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#constructing-a-joint-pdf-from-two-independent-continuous-rvs",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Constructing a joint pdf from two independent, continuous RVs",
+    "text": "Constructing a joint pdf from two independent, continuous RVs\n\n\n\n\nExample 1.1\n\n\nLet \\(X\\) and \\(Y\\) be independent r.v.’s with \\(f_X(x)= \\frac12\\), for \\(0 \\leq x \\leq 2\\) and \\(f_Y(y)= 3y^2\\), for \\(0 \\leq y \\leq 1\\).\n\nFind \\(f_{X,Y}(x,y)\\)."
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#constructing-a-joint-pdf-from-two-independent-continuous-rvs-1",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#constructing-a-joint-pdf-from-two-independent-continuous-rvs-1",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Constructing a joint pdf from two independent, continuous RVs",
+    "text": "Constructing a joint pdf from two independent, continuous RVs\n\n\n\n\nExample 1.2\n\n\nLet \\(X\\) and \\(Y\\) be independent r.v.’s with \\(f_X(x)= \\frac12\\), for \\(0 \\leq x \\leq 2\\) and \\(f_Y(y)= 3y^2\\), for \\(0 \\leq y \\leq 1\\).\n\nFind \\(\\mathbb{P}(0 \\leq X \\leq 1, 0 \\leq Y \\leq \\frac12)\\)."
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#showing-independence-from-joint-pdf",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#showing-independence-from-joint-pdf",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Showing independence from joint pdf",
+    "text": "Showing independence from joint pdf\n\n\n\n\nExample 2.1\n\n\nLet \\(f_{X,Y}(x,y)= 18 x^2 y^5\\), for \\(0 \\leq x \\leq 1, \\ 0 \\leq y \\leq 1\\).\n\nAre \\(X\\) and \\(Y\\) independent?"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#finding-cdf-from-two-independent-rvs",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#finding-cdf-from-two-independent-rvs",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Finding CDF from two independent RVs",
+    "text": "Finding CDF from two independent RVs\n\n\n\n\nExample 2.2\n\n\nLet \\(f_{X,Y}(x,y)= 18 x^2 y^5\\), for \\(0 \\leq x \\leq 1, \\ 0 \\leq y \\leq 1\\).\n\nFind \\(F_{X,Y}(x,y)\\)."
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#showing-independence-from-joint-pdf-1",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#showing-independence-from-joint-pdf-1",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Showing independence from joint pdf",
+    "text": "Showing independence from joint pdf\n\n\n\nDo this problem at home for extra practice. The solution is available in Meike’s video!\n\n\n\n\n\n\n\nExample 3\n\n\nLet \\(f_{X,Y}(x,y)= 2 e^{-(x+y)}\\), for \\(0 \\leq x \\leq y\\). Are \\(X\\) and \\(Y\\) independent?"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rvs.html#final-statement-on-independence",
+    "href": "lessons/26_Independent_rvs/26_Independent_rvs.html#final-statement-on-independence",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Final statement on independence",
+    "text": "Final statement on independence\n\nIf \\(f_{X,Y}(x,y)= g(x)h(y)\\), where \\(g(x)\\) and \\(h(y)\\) are pdf’s, then \\(X\\) and \\(Y\\) are independent.\n\nThe domain of the joint pdf needs to be independent as well!!\n\n\n       \n\nIf \\(F_{X,Y}(x,y)= G(x)H(y)\\), where \\(G(x)\\) and \\(H(y)\\) are cdf’s, then \\(X\\) and \\(Y\\) are independent.\n\nThe domain of the joint CDF needs to be independent as well!!\n\n\n\n\nChapter 26 Slides"
   }
 ]
