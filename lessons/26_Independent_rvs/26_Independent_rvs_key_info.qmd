@@ -19,7 +19,7 @@ editor_options:
 
 ## Key Dates
 
-- Thursday: HW 7 due
+- Thursday: NONE due
 - Sunday: HW 7 solutions due (feel free to take an additional 3 days)
 
 
