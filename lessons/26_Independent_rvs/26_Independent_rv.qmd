@@ -1,23 +1,19 @@
 ---
 title: "Chapter 26: Independent Continuous RVs"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "11/15/2023"
+date: "11/25/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
 categories: ["Week 8"]
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 26 Slides
-editor: 
-  markdown: 
-    wrap: 72
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives
@@ -111,7 +107,7 @@ $0 \leq x \leq 1, \ 0 \leq y \leq 1$.
 :::
 :::
 
-## Showing independence from joint pdf
+## Finding CDF from two independent RVs
 
 ::: columns 
 ::: {.column width="30%"}
@@ -130,7 +126,7 @@ $0 \leq x \leq 1, \ 0 \leq y \leq 1$.
 :::
 :::
 
-## Example
+## Showing independence from joint pdf
 
 ::: {.callout-important appearance="simple" icon="false"}
 Do this problem at home for extra practice. The solution is available in

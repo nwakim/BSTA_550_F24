@@ -2439,8 +2439,8 @@
     "objectID": "lessons/26_Independent_rvs/26_Independent_rv.html#learning-objectives",
     "href": "lessons/26_Independent_rvs/26_Independent_rv.html#learning-objectives",
     "title": "Chapter 26: Independent Continuous RVs",
-    "section": "",
-    "text": "Show that a joint pdf consists of two independent, continuous RVs.\nCombine two independent RVs into one joint pdf or CDF."
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nShow that a joint pdf consists of two independent, continuous RVs.\nCombine two independent RVs into one joint pdf or CDF."
   },
   {
     "objectID": "lessons/26_Independent_rvs/26_Independent_rv.html#how-do-we-represent-independent-continuous-rvs-in-a-joint-pdf",
@@ -2475,21 +2475,21 @@
     "href": "lessons/26_Independent_rvs/26_Independent_rv.html#showing-independence-from-joint-pdf-1",
     "title": "Chapter 26: Independent Continuous RVs",
     "section": "Showing independence from joint pdf",
-    "text": "Showing independence from joint pdf\n\n\n\n\nExample 2.2\n\n\nLet \\(f_{X,Y}(x,y)= 18 x^2 y^5\\), for \\(0 \\leq x \\leq 1, \\ 0 \\leq y \\leq 1\\).\n\nFind \\(F_{X,Y}(x,y)\\)."
+    "text": "Showing independence from joint pdf\n\n\n\nDo this problem at home for extra practice. The solution is available in Meike’s video!\n\n\n\n\n\n\n\nExample 3\n\n\nLet \\(f_{X,Y}(x,y)= 2 e^{-(x+y)}\\), for \\(0 \\leq x \\leq y\\). Are \\(X\\) and \\(Y\\) independent?"
   },
   {
     "objectID": "lessons/26_Independent_rvs/26_Independent_rv.html#example",
     "href": "lessons/26_Independent_rvs/26_Independent_rv.html#example",
     "title": "Chapter 26: Independent Continuous RVs",
     "section": "Example",
-    "text": "Example\n\n\n\n\n\n\nDo this problem at home for extra practice. The solution is available in Meike’s video!\n\n\n\n\n\n\n\nExample 3\n\n\nLet \\(f_{X,Y}(x,y)= 2 e^{-(x+y)}\\), for \\(0 \\leq x \\leq y\\). Are \\(X\\) and \\(Y\\) independent?"
+    "text": "Example\n\n\n\nDo this problem at home for extra practice. The solution is available in Meike’s video!\n\n\n\n\n\n\n\nExample 3\n\n\nLet \\(f_{X,Y}(x,y)= 2 e^{-(x+y)}\\), for \\(0 \\leq x \\leq y\\). Are \\(X\\) and \\(Y\\) independent?"
   },
   {
     "objectID": "lessons/26_Independent_rvs/26_Independent_rv.html#final-statement-on-independence",
     "href": "lessons/26_Independent_rvs/26_Independent_rv.html#final-statement-on-independence",
     "title": "Chapter 26: Independent Continuous RVs",
     "section": "Final statement on independence",
-    "text": "Final statement on independence\n\nIf \\(f_{X,Y}(x,y)= g(x)h(y)\\), where \\(g(x)\\) and \\(h(y)\\) are pdf’s, then \\(X\\) and \\(Y\\) are independent.\n\nThe domain of the joint pdf needs to be independent as well!!\n\n\n       \n\nIf \\(F_{X,Y}(x,y)= G(x)H(y)\\), where \\(G(x)\\) and \\(H(y)\\) are cdf’s, then \\(X\\) and \\(Y\\) are independent.\n\nThe domain of the joint CDF needs to be independent as well!!"
+    "text": "Final statement on independence\n\nIf \\(f_{X,Y}(x,y)= g(x)h(y)\\), where \\(g(x)\\) and \\(h(y)\\) are pdf’s, then \\(X\\) and \\(Y\\) are independent.\n\nThe domain of the joint pdf needs to be independent as well!!\n\n\n       \n\nIf \\(F_{X,Y}(x,y)= G(x)H(y)\\), where \\(G(x)\\) and \\(H(y)\\) are cdf’s, then \\(X\\) and \\(Y\\) are independent.\n\nThe domain of the joint CDF needs to be independent as well!!\n\n\n\n\nChapter 26 Slides"
   },
   {
     "objectID": "lessons/01_Outcomes_Events_Sample/01_Outcomes_Events_Sample_muddy_points.html",
@@ -4855,14 +4855,14 @@
     "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf",
     "title": "Chapter 27: Conditional Distributions",
     "section": "Example starting from a joint pdf",
-    "text": "Example starting from a joint pdf\n\n\n\n\nExample 1.2\n\n\nLet \\(f_{X,Y}(x,y)= 5 e^{-x-3y}\\), for \\(0 &lt; y &lt; \\frac{x}{2}\\).\n\nFind \\(\\mathbb{P}(X&gt;20 |Y=5)\\)"
+    "text": "Example starting from a joint pdf\n\n\n\nDo this problem at home for extra practice. The solution is available in Meike’s video!\n\n\n\n\n\n\n\nExample 1.2\n\n\nLet \\(f_{X,Y}(x,y)= 5 e^{-x-3y}\\), for \\(0 &lt; y &lt; \\frac{x}{2}\\).\n\nFind \\(\\mathbb{P}(X&gt;20 |Y=5)\\)"
   },
   {
     "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#finding-probability-with-conditional-domain-and-pdf",
     "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#finding-probability-with-conditional-domain-and-pdf",
     "title": "Chapter 27: Conditional Distributions",
     "section": "Finding probability with conditional domain and pdf",
-    "text": "Finding probability with conditional domain and pdf\n\n\n\n\nExample 2\n\n\nRandomly choose a point \\(X\\) from the interval \\([0,1]\\), and given \\(X=x\\), randomly choose a point \\(Y\\) from \\([0,x]\\). Find \\(\\mathbb{P}(0 &lt; Y &lt; \\frac14)\\)."
+    "text": "Finding probability with conditional domain and pdf\n\n\n\nDo this problem at home for extra practice. The solution is available in Meike’s video!\n\n\n\n\n\n\n\nExample 2\n\n\nRandomly choose a point \\(X\\) from the interval \\([0,1]\\), and given \\(X=x\\), randomly choose a point \\(Y\\) from \\([0,x]\\). Find \\(\\mathbb{P}(0 &lt; Y &lt; \\frac14)\\)."
   },
   {
     "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#independence-and-conditional-distributions",
@@ -5087,5 +5087,47 @@
     "title": "Muddy Points",
     "section": "",
     "text": "Muddy points from Fall 2023:\n\n1. How do pdf, CDF, and probability interact with each other?\nLet’s say we have a pdf, \\(f_X(x) = \\dfrac{1}{9}x^2\\) for \\(0 \\leq x \\leq 3\\). This is just a function. The pdf is not used on its own to report any probability. We must integrate over the pdf to find a probability.\n\nlibrary(\"ggplot2\")\neq = function(x){(1/9)*x^2}\nggplot(data.frame(x=c(1, 50)), aes(x=x)) + \n  stat_function(fun=eq) +\n  xlab(\"x\") + ylab(\"pdf\") +\n  xlim(0,3)\n\n\n\n\nThe total area under the pdf is 1. This makes our pdf valid.\n\neq = function(x){(1/9)*x^2}\nggplot(data.frame(x=c(1, 50)), aes(x=x)) + \n  stat_function(fun=eq) +\n  xlab(\"x\") + ylab(\"pdf\") +\n  xlim(0,3) +\n  stat_function(fun=eq, \n                xlim = c(0, 3),\n                geom = \"area\", \n                aes(fill = \"red\")) +\n  theme(legend.position = \"none\") +\n  annotate(\"text\", x = 0.5, y = 0.7, label = \"AUC = 1\", color = \"black\")\n\n\n\n\nIf we only look at a proportion of the area under the pdf, then we start constructing our probabilities. For example, we can look at probability that we have a value between 0 and 1.5.\n\nggplot(data.frame(x=c(1, 50)), aes(x=x)) + \n  stat_function(fun=eq) +\n  xlab(\"x\") + ylab(\"pdf\") +\n  xlim(0,3) +\n  stat_function(fun=eq, \n                xlim = c(0, 1.5),\n                geom = \"area\", \n                aes(fill = \"blue\")) +\n  theme(legend.position = \"none\") +\n  annotate(\"text\", x = 0.5, y = 0.7, label = \"AUC = 0.125\", color = \"black\")\n\n\n\n\nInstead of calculating the EXACT probability for each value between 0 and 3, we can find the CDF of the pdf.\nThe CDF is: \\[\nF_X(x) = \\left\\{\n        \\begin{array}{ll}\n            0 & \\quad x&lt;3 \\quad \\\\\n            \\dfrac{1}{27}x^3 & \\quad 0 \\leq x \\leq 3\\quad \\\\\n            1 & \\quad x&gt;3 \\quad\n        \\end{array}\n    \\right.\n\\]\n\ncdf = function(x){(1/27)*x^3}\nggplot(data.frame(x=c(1, 50)), aes(x=x)) + \n  stat_function(fun=cdf) +\n  xlab(\"x\") + ylab(\"CDF\") +\n  xlim(0,3) +\n  theme(legend.position = \"none\")\n\n\n\n\nWhen \\(x=1.5\\), we can calculate the probability using the CDF. Remember that \\(F_X(x) = P(X \\leq x)\\). So we can say \\(P(X \\leq 1.5) = F_X(1.5) = \\dfrac{1}{27}(1.5)^3\\), which equals 0.125.\n\ncdf = function(x){(1/27)*x^3}\nggplot(data.frame(x=c(1, 50)), aes(x=x)) + \n  stat_function(fun=cdf) +\n  xlab(\"x\") + ylab(\"CDF\") +\n  xlim(0,3) +\n  theme(legend.position = \"none\") +\n  geom_point(aes(x=1.5, y=.125), colour=\"blue\", size=3) +\n  annotate(\"text\", x = 0.5, y = 0.7, label = \"CDF = 0.125\", color = \"black\")\n\nWarning in geom_point(aes(x = 1.5, y = 0.125), colour = \"blue\", size = 3): All aesthetics have length 1, but the data has 2 rows.\nℹ Please consider using `annotate()` or provide this layer with data containing\n  a single row.\n\n\n\n\n\nWe can also calculate the probability with an integral: \\(P(X \\leq 1.5) = \\displaystyle\\int_0^{1.5} \\dfrac{1}{9}x^2 dx\\).\nWe can also find the probability that X is between two numbers. \\(P(1\\leq X \\leq 1.5) = F_X(1.5) - F_X(1)\\) or \\(P(1\\leq X \\leq 1.5) = \\displaystyle\\int_1^{1.5} \\dfrac{1}{9}x^2 dx\\).\n\n\n2. Joint vs marginal vs conditional: How are we calculating the probability?\nIf we start at a joint probability \\(f_{X,Y}(x,y)\\)…. we can look at a few probabilities:\n\nJoint probability: \\(P(a \\leq X \\leq b, c \\leq Y \\leq d)\\)\n\\[P(a \\leq X \\leq b, c \\leq Y \\leq d) = \\displaystyle\\int_{x=a}^{x=b}\\displaystyle\\int_{y=c}^{y=d} f_{X,Y}(x,y) dydx\\]\nMarginal probability: \\(P(a \\leq X \\leq b)\\)\n\\[P(a \\leq X \\leq b) = \\displaystyle\\int_{x=a}^{x=b} f_{X}(x) dx\\]\nOR\n\\[P(a \\leq X \\leq b) = \\displaystyle\\int_{x=a}^{x=b}\\displaystyle\\int_{y=-\\inf}^{y=\\inf} f_{X,Y}(x,y) dydx\\]\nConditional probability: \\(P(a \\leq X \\leq b | Y = c)\\)\n\\[P(a \\leq X \\leq b | Y=c) = \\displaystyle\\int_{x=a}^{x=b} f_{X|Y}(x|y=c) dx\\]\nYou cannot calculate \\(P(a \\leq X \\leq b | Y = c)\\) by \\(\\dfrac{P(a \\leq X \\leq b, Y=c)}{P(Y = c)}\\) because \\(P(Y = c)\\) is 0. Instead, we need to find \\(f_{X|Y}(x|y=c)\\) by \\(\\dfrac{f_{X,Y}(x,y=c)}{f_{Y}(y=c)}\\) and THEN integrate over X.\n\n\n\n3. What are we actually finding by solving the double integral. In the first example, we found the probability was 1/16 after integrating but what does 1/16 mean in relation to the random variables X and Y?\nIt means that the volume contained by \\(0\\leq X \\leq 1\\), \\(0\\leq Y \\leq 1/2\\), and their joint pdf is 1/16 of the total volume contained by \\(0\\leq X \\leq 2\\), \\(0\\leq Y \\leq 1\\), and their joint pdf. The probability for a joint pdf is now a measure of the proportion of the volume.\nThis is not be confused with a probability from marginal pdf or pdf from one RV. The probability for marginal/single RV pdfs is the proportion of the area under the pdf for a specific range of values.\n\n\n4. Here’s a 3D plot of one of our joint pdf’s\n\\[\nf_{X,Y}(x,y) = 5e^{-x-3y} \\text{ for } 0 \\leq y \\leq x/2\n\\]\n\nlibrary(plotly)\n\nx = seq(0, 5, 0.1)\ny = seq(0, max(x)/2, 0.1/2)\nfn = expand.grid(x=x,y=y)\nfn$z = ifelse(fn$y&lt;fn$x/2, 5*exp( (-1)*fn$x - 3*fn$y), NA)\n\nz = matrix(fn$z, ncol = 51, nrow = 51, byrow = T)\n\nfig &lt;- plot_ly(x = x, y=y, z=z) %&gt;% add_surface()\n\nfig"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-second-try-12",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-second-try-12",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Example starting from a joint pdf: second try! (1/2)",
+    "text": "Example starting from a joint pdf: second try! (1/2)\n\n\n\n\nExample 1.1\n\n\nLet \\(f_{X,Y}(x,y)= 5 e^{-x-3y}\\), for \\(0 &lt; y &lt; \\frac{x}{2}\\).\n\nFind \\(\\mathbb{P}(2&lt;X&lt;10|Y=4)\\)"
+  },
+  {
+    "objectID": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-second-try-22",
+    "href": "lessons/27_Conditional_distributions/27_Conditional_distributions.html#example-starting-from-a-joint-pdf-second-try-22",
+    "title": "Chapter 27: Conditional Distributions",
+    "section": "Example starting from a joint pdf: second try! (2/2)",
+    "text": "Example starting from a joint pdf: second try! (2/2)"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rv.html#finding-cdf-from-two-independent-rvs",
+    "href": "lessons/26_Independent_rvs/26_Independent_rv.html#finding-cdf-from-two-independent-rvs",
+    "title": "Chapter 26: Independent Continuous RVs",
+    "section": "Finding CDF from two independent RVs",
+    "text": "Finding CDF from two independent RVs\n\n\n\n\nExample 2.2\n\n\nLet \\(f_{X,Y}(x,y)= 18 x^2 y^5\\), for \\(0 \\leq x \\leq 1, \\ 0 \\leq y \\leq 1\\).\n\nFind \\(F_{X,Y}(x,y)\\)."
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rv_key_info.html",
+    "href": "lessons/26_Independent_rvs/26_Independent_rv_key_info.html",
+    "title": "Key Info",
+    "section": "",
+    "text": "HW 3 presentations are graded! You did great!\nHW 7 assignment: I’ll grade tonight!\nAnything else?"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rv_key_info.html#announcements",
+    "href": "lessons/26_Independent_rvs/26_Independent_rv_key_info.html#announcements",
+    "title": "Key Info",
+    "section": "",
+    "text": "HW 3 presentations are graded! You did great!\nHW 7 assignment: I’ll grade tonight!\nAnything else?"
+  },
+  {
+    "objectID": "lessons/26_Independent_rvs/26_Independent_rv_key_info.html#key-dates",
+    "href": "lessons/26_Independent_rvs/26_Independent_rv_key_info.html#key-dates",
+    "title": "Key Info",
+    "section": "Key Dates",
+    "text": "Key Dates\n\nThursday: HW 7 due\nSunday: HW 7 solutions due (feel free to take an additional 3 days)"
   }
 ]

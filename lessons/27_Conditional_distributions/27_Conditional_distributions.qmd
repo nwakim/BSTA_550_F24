@@ -111,8 +111,8 @@ for $f_Y(y)> 0$
 :::
 :::
 
-## Example starting from a joint pdf: second try!
-
+## Example starting from a joint pdf: second try! (1/2)
+ 
 ::: columns 
 ::: {.column width="30%"}
 ::: example
@@ -131,7 +131,14 @@ $0 < y < \frac{x}{2}$.
 :::
 :::
 
+## Example starting from a joint pdf: second try! (2/2)
+
 ## Example starting from a joint pdf
+
+::: {.callout-important appearance="simple" icon="false"}
+Do this problem at home for extra practice. The solution is available in
+Meike's video!
+:::
 
 ::: columns 
 ::: {.column width="30%"}
@@ -152,6 +159,11 @@ $0 < y < \frac{x}{2}$.
 :::
 
 ## Finding probability with conditional domain and pdf
+
+::: {.callout-important appearance="simple" icon="false"}
+Do this problem at home for extra practice. The solution is available in
+Meike's video!
+:::
 
 ::: columns 
 ::: {.column width="30%"}
