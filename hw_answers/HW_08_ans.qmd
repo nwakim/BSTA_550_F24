@@ -43,7 +43,14 @@ editor_options:
 
 ## Non-textbook problems
 
--   #1: 
+-   #1: $f_Z(z) = nF_X(z)^{n-1}f_X(z)$
+
+-   #2: (b) $P(X<Y) = 0.099995$
+        (d) $f_Z(z) = \dfrac{11-2z}{5}e^{-2z}$ for $0 \leq z \leq 5$
+        
+-   #3: 2 cases: when $0< z < 1$ and $1 \leq z \leq 2$
+
+-   #4: (a) 63 minutes, (b) $Var(T) = \dfrac{287}{3}$, (c) $Var(D) = \dfrac{41}{3}$, (d) expected diff is 7 minutes, variance is 283/3
 
 ## Textbook problems
 
