@@ -1,23 +1,18 @@
 ---
 title: "Chapter 37: Central Limit Theorem"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "11/29/2023"
+date: "12/1/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 10"]
 format: 
   revealjs:
-    theme: [default, simple_NW.scss]
-    toc: true
-    chalkboard: true
+    theme: "../simple_NW.scss"
     slide-number: true
     show-slide-number: all
     width: 1955
     height: 1100
     footer: Chapter 37 Slides
-editor: 
-  markdown: 
-    wrap: 72
+    html-math-method: mathjax
 ---
 
 ## Learning Objectives

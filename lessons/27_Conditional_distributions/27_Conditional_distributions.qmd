@@ -4,7 +4,6 @@ author: "Meike Niederhausen and Nicky Wakim"
 date: "11/25/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
-categories: ["Week 8"]
 format: 
   revealjs:
     theme: "../simple_NW.scss"
