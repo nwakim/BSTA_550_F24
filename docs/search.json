@@ -2398,7 +2398,7 @@
     "href": "lessons/37_Central_Limit_Theorem/37_Central_Limit_Theorem.html#extension-of-the-clt",
     "title": "Chapter 37: Central Limit Theorem",
     "section": "Extension of the CLT",
-    "text": "Extension of the CLT\n\n\nCorollary 1\n\n\nLet \\(X_i\\) be iid rv’s with common mean \\(\\mu\\) and variance \\(\\sigma^2\\), for \\(i=1,2,\\ldots,n\\). Then \\[\\bar{X}=\\frac{\\sum_{i=1}^n X_i}{n}  \\rightarrow \\text{N}\\Bigg(\\mu, \\dfrac{\\sigma^2}{n}\\Bigg)\\]"
+    "text": "Extension of the CLT\n\n\nCorollary 1\n\n\nLet \\(X_i\\) be iid rv’s with common mean \\(\\mu\\) and variance \\(\\sigma^2\\), for \\(i=1,2,\\ldots,n\\). Then \\[\\overline{X}=\\frac{\\sum_{i=1}^n X_i}{n}  \\rightarrow \\text{N}\\Bigg(\\mu, \\dfrac{\\sigma^2}{n}\\Bigg)\\]"
   },
   {
     "objectID": "lessons/37_Central_Limit_Theorem/37_Central_Limit_Theorem.html#example-of-corollary-in-use",
@@ -2419,7 +2419,7 @@
     "href": "lessons/37_Central_Limit_Theorem/37_Central_Limit_Theorem.html#clt-for-discrete-rvs",
     "title": "Chapter 37: Central Limit Theorem",
     "section": "CLT for Discrete RVs",
-    "text": "CLT for Discrete RVs\n\n\n\nBinomial rv’s: Let \\(X \\sim Bin(n,p)\\)\n\n\\(X = \\displaystyle\\sum_{i=1}^n X_i\\), where \\(X_i\\) are iid \\(\\text{Bernoulli}(p)\\)\n\n\n\n\nPoisson rv’s: Let \\(X \\sim Poisson(\\lambda)\\)\n\n\\(X = \\displaystyle\\sum_{i=1}^n X_i\\), where \\(X_i\\) are iid \\(\\text{Poiss}(1)\\)\nRecall from Chapter 18 that if \\(X_i \\sim Poiss(\\lambda_i)\\) and \\(X_i\\) independent, then \\(\\sum_{i=1}^n X_i \\sim Poiss(\\sum_{i=1}^n \\lambda_i)\\)"
+    "text": "CLT for Discrete RVs\n\n\n\nBinomial rv’s: Let \\(X \\sim Bin(n,p)\\)\n\n\\(X = \\displaystyle\\sum_{i=1}^n X_i\\), where \\(X_i\\) are iid \\(\\text{Bernoulli}(p)\\)\nRule of thumb: \\(np\\geq10\\) and \\(n(1-p)\\geq 10\\) to use Normal approximation\n\n\n\n\n\n\nPoisson rv’s: Let \\(X \\sim Poisson(\\lambda)\\)\n\n\\(X = \\displaystyle\\sum_{i=1}^n X_i\\), where \\(X_i\\) are iid \\(\\text{Poiss}(1)\\)\nRecall from Chapter 18 that if \\(X_i \\sim Poiss(\\lambda_i)\\) and \\(X_i\\) independent, then \\(\\sum_{i=1}^n X_i \\sim Poiss(\\sum_{i=1}^n \\lambda_i)\\)\nRule of thumb: \\(\\lambda \\geq10\\) to use Normal approximation"
   },
   {
     "objectID": "lessons/37_Central_Limit_Theorem/37_Central_Limit_Theorem.html#at-home-example",
@@ -5311,5 +5311,26 @@
     "title": "Chapter 43: Moment Generating Functions Part 1",
     "section": "What is an moment generating function (mgf)??",
     "text": "What is an moment generating function (mgf)??\n\n\nDefinition 3\n\n\nIf \\(X\\) is a r.v., then the moment generating function (mgf) associated with \\(X\\) is: \\[M_X(t)= \\mathbb{E}[e^{tX}]\\]\n\n\nRemarks\n\n\n\nFor a discrete r.v., the mgf of \\(X\\) is \\[M_X(t)= \\mathbb{E}[e^{tX}]=\\sum_{all \\ x}e^{tx}p_X(x)\\]\nFor a continuous r.v., the mgf of \\(X\\) is \\[M_X(t)= \\mathbb{E}[e^{tX}]=\\int_{-\\infty}^{\\infty}e^{tx}f_X(x)dx\\]\n\n\n\nThe mgf \\(M_X(t)\\) is a function of \\(t\\), not of \\(X\\), and it might not be defined (i.e. finite) for all values of \\(t\\). We just need it to be defined for \\(t=0\\)."
+  },
+  {
+    "objectID": "lessons/36_Sums_of_Independent_Normal_rv/36_Sums_of_Independent_Normal_rv_key_info.html",
+    "href": "lessons/36_Sums_of_Independent_Normal_rv/36_Sums_of_Independent_Normal_rv_key_info.html",
+    "title": "Key Info",
+    "section": "",
+    "text": "Homework 7 presentations due soon!\n\nI will check your HW 7 solutions ASAP!\n\nDepending on how far we get today and Wednesday, I might cancel the 12/9 class\nAnything else?"
+  },
+  {
+    "objectID": "lessons/36_Sums_of_Independent_Normal_rv/36_Sums_of_Independent_Normal_rv_key_info.html#announcements",
+    "href": "lessons/36_Sums_of_Independent_Normal_rv/36_Sums_of_Independent_Normal_rv_key_info.html#announcements",
+    "title": "Key Info",
+    "section": "",
+    "text": "Homework 7 presentations due soon!\n\nI will check your HW 7 solutions ASAP!\n\nDepending on how far we get today and Wednesday, I might cancel the 12/9 class\nAnything else?"
+  },
+  {
+    "objectID": "lessons/36_Sums_of_Independent_Normal_rv/36_Sums_of_Independent_Normal_rv_key_info.html#key-dates",
+    "href": "lessons/36_Sums_of_Independent_Normal_rv/36_Sums_of_Independent_Normal_rv_key_info.html#key-dates",
+    "title": "Key Info",
+    "section": "Key Dates",
+    "text": "Key Dates\n\nThursday: HW 8 assignment due\nSunday: HW 7 presentations due at 11pm"
   }
 ]

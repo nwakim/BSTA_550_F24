@@ -1,7 +1,7 @@
 ---
 title: "Chapter 37: Central Limit Theorem"
 author: "Meike Niederhausen and Nicky Wakim"
-date: "12/1/2024"
+date: "12/2/2024"
 title-slide-attributes:
     data-background-color: "#006a4e"
 format: 
@@ -46,7 +46,7 @@ Corollary 1
 ::: prop-cont
 Let $X_i$ be iid rv's with common mean $\mu$ and variance $\sigma^2$,
 for $i=1,2,\ldots,n$. Then
-$$\bar{X}=\frac{\sum_{i=1}^n X_i}{n}  \rightarrow \text{N}\Bigg(\mu, \dfrac{\sigma^2}{n}\Bigg)$$
+$$\overline{X}=\frac{\sum_{i=1}^n X_i}{n}  \rightarrow \text{N}\Bigg(\mu, \dfrac{\sigma^2}{n}\Bigg)$$
 :::
 :::
 
@@ -94,21 +94,27 @@ $$\sum_{i=1}^n X_i \rightarrow$$
 ## CLT for Discrete RVs
 
 ::: columns
-::: {.column width="50%"}
-1.  **Binomial rv's**: Let $X \sim Bin(n,p)$
+::: {.column width="49.5%"}
+1.  [**Binomial rv's**]{style="color:#F08897"}: Let $X \sim Bin(n,p)$
 
     -   $X = \displaystyle\sum_{i=1}^n X_i$, where $X_i$ are iid
         $\text{Bernoulli}(p)$
+    -   Rule of thumb: $np\geq10$ and $n(1-p)\geq 10$ to use Normal approximation
 :::
 
-::: {.column width="50%"}
-2.  **Poisson rv's**: Let $X \sim Poisson(\lambda)$
+::: {.column width="1%"}
+:::
+
+::: {.column width="49.5%"}
+2.  [**Poisson rv's**]{style="color:#6B8CC4"}: Let $X \sim Poisson(\lambda)$
 
     -   $X = \displaystyle\sum_{i=1}^n X_i$, where $X_i$ are iid
         $\text{Poiss}(1)$
     -   Recall from [Chapter 18](/slides/18_Poisson_rv.qmd) that if
         $X_i \sim Poiss(\lambda_i)$ and $X_i$ independent, then
         $\sum_{i=1}^n X_i \sim Poiss(\sum_{i=1}^n \lambda_i)$
+    -   Rule of thumb: $\lambda \geq10$ to use Normal approximation
+
 :::
 :::
 
