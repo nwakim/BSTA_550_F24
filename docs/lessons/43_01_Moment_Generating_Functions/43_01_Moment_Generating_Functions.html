@@ -11,8 +11,8 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Meike Niederhausen and Nicky Wakim">
-  <meta name="dcterms.date" content="2024-12-03">
-  <title>Introduction to Probability - Chapter 43: Moment Generating Functions Part 1</title>
+  <meta name="dcterms.date" content="2024-12-04">
+  <title>Introduction to Probability - Chapter 43: Moment Generating Functions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,7 +326,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#006a4e" class="quarto-title-block center">
-  <h1 class="title">Chapter 43: Moment Generating Functions Part 1</h1>
+  <h1 class="title">Chapter 43: Moment Generating Functions</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -336,10 +336,15 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 
-  <p class="date">2024-12-03</p>
+  <p class="date">2024-12-04</p>
 </section>
 <section id="learning-objectives" class="slide level2">
 <h2>Learning Objectives</h2>
+<ol type="1">
+<li>Learn the definition of a moment-generating function.</li>
+<li>Find the moment-generating function of a binomial random variable.</li>
+<li>Use a moment-generating function to find the mean and variance of a random variable.</li>
+</ol>
 </section>
 <section id="what-are-moments" class="slide level2">
 <h2>What are moments?</h2>
@@ -351,20 +356,17 @@ Meike Niederhausen and Nicky Wakim
 <p>The <span class="math inline">\(j^{th}\)</span> moment of a r.v. <span class="math inline">\(X\)</span> is <span class="math inline">\(\mathbb{E}[X^j]\)</span></p>
 </div>
 </div>
-</section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
 <div class="example">
 <div class="ex-title">
-<p>Example 2</p>
+<p>Example 1</p>
 </div>
 <div class="ex-cont">
 <p><span class="math inline">\(1^{st}-4^{th}\)</span> moments</p>
 </div>
 </div>
 </section>
-<section id="what-is-an-moment-generating-function-mgf" class="slide level2">
-<h2>What is an <em>moment generating function</em> (mgf)??</h2>
+<section id="what-is-a-moment-generating-function-mgf" class="slide level2">
+<h2>What is a <em>moment generating function</em> (mgf)??</h2>
 <div class="definition">
 <div class="def-title">
 <p>Definition 3</p>
@@ -387,7 +389,7 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </section>
-<section id="example-1" class="slide level2">
+<section id="example" class="slide level2">
 <h2>Example</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
@@ -418,14 +420,16 @@ Meike Niederhausen and Nicky Wakim
 </div>
 <div class="thm-cont">
 <p><span class="math display">\[\mathbb{E}[X^r] = M_X^{(r)}(0)\]</span></p>
+<p><span class="math inline">\((r)\)</span> in this equation is the <span class="math inline">\(r\)</span>th derivative with respect to <span class="math inline">\(t\)</span></p>
 </div>
 </div>
-<div class="proof">
-<p><span class="proof-title"><em>Proof</em>. </span><em>Proof.</em>&nbsp;◻</p>
-</div>
+<ul>
+<li>When <span class="math inline">\(r=1\)</span>, we are taking the first derivative</li>
+<li>When <span class="math inline">\(r=4\)</span>, we are taking the fourth derivative</li>
+</ul>
 </section>
-<section id="example-2" class="slide level2">
-<h2>Example</h2>
+<section id="using-the-mgf-to-uniquely-describe-a-probability-distribution" class="slide level2">
+<h2>Using the mgf to uniquely describe a probability distribution</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <div class="example">
@@ -441,27 +445,27 @@ Meike Niederhausen and Nicky Wakim
 </ol>
 </div>
 </div>
-<p><strong>Remark:</strong> Finding the mean and variance is sometimes easier with the following trick</p>
 </div>
 </div>
 </section>
 <section id="theorem-1" class="slide level2">
 <h2>Theorem</h2>
+<p><strong>Remark:</strong> Finding the mean and variance is sometimes easier with the following trick</p>
 <div class="theorem">
 <div class="thm-title">
 <p>Theorem 8</p>
 </div>
 <div class="thm-cont">
 <p>Let <span class="math inline">\(R_X(t) = \ln[M_X(t)]\)</span>. Then,</p>
-<p><span class="math inline">\(\mu = \mathbb{E}[X] = R_X'(0)\)</span> and <span class="math inline">\(\sigma^2 = Var(X) = R_X''(0)\)</span></p>
+<p><span class="math display">\[\mu = \mathbb{E}[X] = R_X'(0) \text{, and}\]</span> <span class="math display">\[\sigma^2 = Var(X) = R_X''(0)\]</span></p>
 </div>
 </div>
 <div class="proof">
-<p><span class="proof-title"><em>Proof</em>. </span><em>Proof.</em>&nbsp;◻</p>
+<p><span class="proof-title"><em>Proof</em>. </span></p>
 </div>
 </section>
-<section id="example-3" class="slide level2">
-<h2>Example</h2>
+<section id="using-r_xt-to-uniquely-describe-a-probability-distribution" class="slide level2">
+<h2>Using <span class="math inline">\(R_X(t)\)</span> to uniquely describe a probability distribution</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <div class="example">
@@ -479,8 +483,8 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </section>
-<section id="example-4" class="slide level2">
-<h2>Example</h2>
+<section id="using-the-mgf-to-uniquely-describe-the-standard-normal-distribution" class="slide level2">
+<h2>Using the mgf to uniquely describe the standard normal distribution</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <div class="example">
@@ -498,6 +502,49 @@ Meike Niederhausen and Nicky Wakim
 </div>
 </div>
 </div>
+</section>
+<section id="mgfs-of-sums-of-independent-rvs" class="slide level2">
+<h2>Mgf’s of sums of independent RV’s</h2>
+<div class="theorem">
+<div class="thm-title">
+<p>Theorem 9</p>
+</div>
+<div class="thm-cont">
+<p>If <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are independent RV’s with respective mgf’s <span class="math inline">\(M_X(t)\)</span> and <span class="math inline">\(M_Y(t)\)</span>, then</p>
+<p><span class="math display">\[M_{X+Y}(t) = E[e^{t(X+Y)}] = E[e^{tX} e^{tY}] = E[e^{tX}]E[e^{tY}]=M_{X}(t)M_{Y}(t)\]</span></p>
+</div>
+</div>
+</section>
+<section id="main-takeaways" class="slide level2">
+<h2>Main takeaways</h2>
+<ul>
+<li><p>Mgf’s are a purely mathematically definition</p>
+<ul>
+<li>We can’t really relate it to our real world analysis</li>
+</ul></li>
+<li><p>They are helpful mathematically because they are unique to a probability distribution</p>
+<ul>
+<li>We can find the unique mgf from for a probability distribution</li>
+<li>And we can find a distribution from an mgf</li>
+</ul></li>
+<li><p>Mgf’s can <em>sometimes</em> make it easier to find the mean and variance of an RV</p></li>
+<li><p>Mgf’s are most helpful when we are finding a joint distribution that is a sum or transformation of two RV’s</p>
+<ul>
+<li>Make the calculation easier!</li>
+</ul></li>
+<li><p>Mgf’s are often used to prove certain distribution are sums of other ones!</p></li>
+</ul>
+</section>
+<section id="more-resources" class="slide level2">
+<h2>More resources</h2>
+<ul>
+<li><a href="https://online.stat.psu.edu/stat414/book/export/html/676" class="uri">https://online.stat.psu.edu/stat414/book/export/html/676</a></li>
+<li><a href="https://www.youtube.com/watch/ez_vq23xWrQ" class="uri">https://www.youtube.com/watch/ez_vq23xWrQ</a></li>
+<li><a href="https://www.youtube.com/watch/2p9J9ChTeFI" class="uri">https://www.youtube.com/watch/2p9J9ChTeFI</a></li>
+<li><a href="https://www.youtube.com/watch/A5bWU8xcQkE" class="uri">https://www.youtube.com/watch/A5bWU8xcQkE</a></li>
+<li><a href="https://www.youtube.com/watch/QeUrTGFTFm4" class="uri">https://www.youtube.com/watch/QeUrTGFTFm4</a></li>
+<li><a href="https://www.youtube.com/watch/HhrkwyyRtgI" class="uri">https://www.youtube.com/watch/HhrkwyyRtgI</a></li>
+</ul>
 
 <div class="footer footer-default">
 <p>Chapter 43 Slides</p>
