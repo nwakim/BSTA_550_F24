@@ -21,6 +21,10 @@ format:
 2. Find the moment-generating function of a binomial random variable.
 3. Use a moment-generating function to find the mean and variance of a random variable.
 
+## Where are we?
+
+![](../img_slides/course_map.png){fig-align="center"}
+
 
 ## What are moments?
 
