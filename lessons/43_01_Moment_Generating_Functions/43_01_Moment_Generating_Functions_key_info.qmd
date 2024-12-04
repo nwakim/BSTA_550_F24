@@ -22,6 +22,7 @@ editor_options:
 
 - Thursday: HW 8 assignment due
 - Sunday: HW 7 presentations due at 11pm
+  - I can be pretty flexible until 12/13 
 
 
   
